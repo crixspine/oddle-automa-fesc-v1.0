@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>002_login_email_wrongpw</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d75d98ea-68bf-400f-b176-41f5b6a998b2</testCaseGuid>
+</TestCaseEntity>
