@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login_logout" time="116" tests="9" failures="0" errors="0">
+   <testsuite name="login_logout" tests="9" failures="0" errors="0" time="116" timestamp="2017-12-26 18:51:29" hostname="Ang - DESKTOP-JMN7MR3" id="Test Suites/login_logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ang\\Katalon Studio\\FESC v3.1\\Reports\\login_logout\\20171226_185122"/>
+         <property name="logFiles" value="C:\\Users\\Ang\\Katalon Studio\\FESC v3.1\\Reports\\login_logout\\20171226_185122\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ang - DESKTOP-JMN7MR3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.1.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.84"/>
+         <property name="hostAddress" value="192.168.126.1"/>
+         <property name="sessionId" value="85f62e82a099501d092f568d2244cd82"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1_login_email_successful" classname="Test Cases/1_login_email_successful" status="PASSED">
+         <system-out><![CDATA[2017-12-26 18:51:30 - [TEST_CASE][PASSED] - Test Cases/1_login_email_successful: Test Cases/1_login_email_successful
+
+2017-12-26 18:51:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 18:51:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 18:51:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 18:51:36 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 18:51:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 18:51:37 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 18:51:37 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email'
+
+2017-12-26 18:51:38 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email'
+
+2017-12-26 18:51:38 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/input_password'
+
+2017-12-26 18:51:38 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/input_password'
+
+2017-12-26 18:51:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 18:51:38 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 18:51:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 18:51:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 18:51:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/div_Hi John' are matched.
+
+2017-12-26 18:51:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/div_Hi John' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2_login_email_wrongpw" classname="Test Cases/2_login_email_wrongpw" status="PASSED">
+         <system-out><![CDATA[2017-12-26 18:51:42 - [TEST_CASE][PASSED] - Test Cases/2_login_email_wrongpw: Test Cases/2_login_email_wrongpw
+
+2017-12-26 18:51:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 18:51:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 18:51:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 18:51:46 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 18:51:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 18:51:47 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 18:51:47 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email'
+
+2017-12-26 18:51:48 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email'
+
+2017-12-26 18:51:48 - [TEST_STEP][PASSED] - setText: Text 'wrongpassword' is set on object 'Object Repository/input_password'
+
+2017-12-26 18:51:49 - [MESSAGE][PASSED] - Text 'wrongpassword' is set on object 'Object Repository/input_password'
+
+2017-12-26 18:51:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 18:51:49 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 18:51:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 18:51:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 18:51:52 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/div_login_credentials_invalid' are matched.
+
+2017-12-26 18:51:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/div_login_credentials_invalid' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3_login_email_wrongpwformat" classname="Test Cases/3_login_email_wrongpwformat" status="PASSED">
+         <system-out><![CDATA[2017-12-26 18:51:53 - [TEST_CASE][PASSED] - Test Cases/3_login_email_wrongpwformat: Test Cases/3_login_email_wrongpwformat
+
+2017-12-26 18:51:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 18:51:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 18:51:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 18:51:56 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 18:51:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 18:51:57 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 18:51:57 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email'
+
+2017-12-26 18:51:58 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email'
+
+2017-12-26 18:51:58 - [TEST_STEP][PASSED] - setText: Text 'wrongft' is set on object 'Object Repository/input_password'
+
+2017-12-26 18:51:59 - [MESSAGE][PASSED] - Text 'wrongft' is set on object 'Object Repository/input_password'
+
+2017-12-26 18:51:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 18:51:59 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 18:51:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 18:52:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 18:52:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/span_Password should be at lea' are matched.
+
+2017-12-26 18:52:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/span_Password should be at lea' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4_login_email_wrongemail" classname="Test Cases/4_login_email_wrongemail" status="PASSED">
+         <system-out><![CDATA[2017-12-26 18:52:03 - [TEST_CASE][PASSED] - Test Cases/4_login_email_wrongemail: Test Cases/4_login_email_wrongemail
+
+2017-12-26 18:52:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 18:52:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 18:52:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 18:52:07 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 18:52:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 18:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 18:52:07 - [TEST_STEP][PASSED] - setText: Text 'unusedemail@changethis.ifused' is set on object 'Object Repository/input_email'
+
+2017-12-26 18:52:09 - [MESSAGE][PASSED] - Text 'unusedemail@changethis.ifused' is set on object 'Object Repository/input_email'
+
+2017-12-26 18:52:09 - [TEST_STEP][PASSED] - setText: Text 'notimportant' is set on object 'Object Repository/input_password'
+
+2017-12-26 18:52:09 - [MESSAGE][PASSED] - Text 'notimportant' is set on object 'Object Repository/input_password'
+
+2017-12-26 18:52:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 18:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 18:52:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 18:52:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 18:52:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/div_login_credentials_invalid' are matched.
+
+2017-12-26 18:52:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/div_login_credentials_invalid' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/8_login_fb_wrongpw" classname="Test Cases/8_login_fb_wrongpw" status="PASSED">
+         <system-out><![CDATA[2017-12-26 18:52:13 - [TEST_CASE][PASSED] - Test Cases/8_login_fb_wrongpw: Test Cases/8_login_fb_wrongpw
+
+2017-12-26 18:52:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 18:52:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 18:52:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 18:52:17 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 18:52:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 18:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 18:52:18 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/span_Login with Facebook' successfully
+
+2017-12-26 18:52:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-26 18:52:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/span_Login with Facebook' successfully
+
+2017-12-26 18:52:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/span_Login with Facebook' is clicked on
+
+2017-12-26 18:52:19 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Login with Facebook' is clicked on
+
+2017-12-26 18:52:19 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 18:52:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 18:52:22 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Facebook'
+
+2017-12-26 18:52:23 - [MESSAGE][PASSED] - Switched to window with title: 'Facebook'
+
+2017-12-26 18:52:23 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email_fb'
+
+2017-12-26 18:52:23 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email_fb'
+
+2017-12-26 18:52:23 - [TEST_STEP][PASSED] - setText: Text 'wrongpassword' is set on object 'Object Repository/input_pass_fb'
+
+2017-12-26 18:52:23 - [MESSAGE][PASSED] - Text 'wrongpassword' is set on object 'Object Repository/input_pass_fb'
+
+2017-12-26 18:52:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/label_loginbutton' is clicked on
+
+2017-12-26 18:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/label_loginbutton' is clicked on
+
+2017-12-26 18:52:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-26 18:52:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-26 18:52:26 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_error_box' is present
+
+2017-12-26 18:52:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-26 18:52:26 - [MESSAGE][PASSED] - Object 'Object Repository/div_error_box' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/7_login_fb_notloggedin" classname="Test Cases/7_login_fb_notloggedin" status="PASSED">
+         <system-out><![CDATA[2017-12-26 18:52:27 - [TEST_CASE][PASSED] - Test Cases/7_login_fb_notloggedin: Test Cases/7_login_fb_notloggedin
+
+2017-12-26 18:52:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 18:52:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 18:52:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 18:52:31 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 18:52:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 18:52:31 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 18:52:31 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/span_Login with Facebook' successfully
+
+2017-12-26 18:52:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-26 18:52:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/span_Login with Facebook' successfully
+
+2017-12-26 18:52:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/span_Login with Facebook' is clicked on
+
+2017-12-26 18:52:32 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Login with Facebook' is clicked on
+
+2017-12-26 18:52:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 18:52:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 18:52:35 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Facebook'
+
+2017-12-26 18:52:36 - [MESSAGE][PASSED] - Switched to window with title: 'Facebook'
+
+2017-12-26 18:52:36 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email_fb'
+
+2017-12-26 18:52:37 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email_fb'
+
+2017-12-26 18:52:37 - [TEST_STEP][PASSED] - setText: Text 'puToNtaB_1' is set on object 'Object Repository/input_pass_fb'
+
+2017-12-26 18:52:37 - [MESSAGE][PASSED] - Text 'puToNtaB_1' is set on object 'Object Repository/input_pass_fb'
+
+2017-12-26 18:52:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/label_loginbutton' is clicked on
+
+2017-12-26 18:52:38 - [MESSAGE][PASSED] - Object: 'Object Repository/label_loginbutton' is clicked on
+
+2017-12-26 18:52:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 18:52:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 18:52:41 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2017-12-26 18:52:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/div_Hi Kevin' are matched.
+
+2017-12-26 18:52:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/div_Hi Kevin' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/6_login_fb_loggedin" classname="Test Cases/6_login_fb_loggedin" status="PASSED">
+         <system-out><![CDATA[2017-12-26 18:52:43 - [TEST_CASE][PASSED] - Test Cases/6_login_fb_loggedin: Test Cases/6_login_fb_loggedin
+
+2017-12-26 18:52:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 18:52:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 18:52:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.facebook.com/' successfully
+
+2017-12-26 18:52:47 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2017-12-26 18:52:47 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email_fbpage'
+
+2017-12-26 18:52:47 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email_fbpage'
+
+2017-12-26 18:52:47 - [TEST_STEP][PASSED] - setText: Text 'puToNtaB_1' is set on object 'Object Repository/input_pass_fbpage'
+
+2017-12-26 18:52:47 - [MESSAGE][PASSED] - Text 'puToNtaB_1' is set on object 'Object Repository/input_pass_fbpage'
+
+2017-12-26 18:52:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_login_fbpage' is clicked on
+
+2017-12-26 18:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/input_login_fbpage' is clicked on
+
+2017-12-26 18:52:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 18:52:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 18:52:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 18:52:54 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 18:52:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 18:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 18:52:55 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/span_Login with Facebook' successfully
+
+2017-12-26 18:52:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-26 18:52:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/span_Login with Facebook' successfully
+
+2017-12-26 18:52:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/span_Login with Facebook' is clicked on
+
+2017-12-26 18:52:57 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Login with Facebook' is clicked on
+
+2017-12-26 18:52:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 18:53:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 18:53:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/div_Hi Kevin' are matched.
+
+2017-12-26 18:53:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/div_Hi Kevin' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/5_login_email_wrongemailformat" classname="Test Cases/5_login_email_wrongemailformat" status="PASSED">
+         <system-out><![CDATA[2017-12-26 18:53:01 - [TEST_CASE][PASSED] - Test Cases/5_login_email_wrongemailformat: Test Cases/5_login_email_wrongemailformat
+
+2017-12-26 18:53:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 18:53:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 18:53:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 18:53:05 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 18:53:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 18:53:06 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 18:53:06 - [TEST_STEP][PASSED] - setText: Text 'wrongemailformat' is set on object 'Object Repository/input_email'
+
+2017-12-26 18:53:07 - [MESSAGE][PASSED] - Text 'wrongemailformat' is set on object 'Object Repository/input_email'
+
+2017-12-26 18:53:07 - [TEST_STEP][PASSED] - setText: Text 'notimportant' is set on object 'Object Repository/input_password'
+
+2017-12-26 18:53:07 - [MESSAGE][PASSED] - Text 'notimportant' is set on object 'Object Repository/input_password'
+
+2017-12-26 18:53:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 18:53:07 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 18:53:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 18:53:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 18:53:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/span_Please enter correct emai' are matched.
+
+2017-12-26 18:53:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/span_Please enter correct emai' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/9_logout" classname="Test Cases/9_logout" status="PASSED">
+         <system-out><![CDATA[2017-12-26 18:53:11 - [TEST_CASE][PASSED] - Test Cases/9_logout: Test Cases/9_logout
+
+2017-12-26 18:53:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/1_login_email_successful' successfully
+
+2017-12-26 18:53:11 - [TEST_CASE][PASSED] - Test Cases/1_login_email_successful: Test Cases/1_login_email_successful
+
+2017-12-26 18:53:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 18:53:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 18:53:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 18:53:15 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 18:53:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 18:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 18:53:16 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email'
+
+2017-12-26 18:53:17 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email'
+
+2017-12-26 18:53:17 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/input_password'
+
+2017-12-26 18:53:17 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/input_password'
+
+2017-12-26 18:53:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 18:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 18:53:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 18:53:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 18:53:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/div_Hi John' are matched.
+
+2017-12-26 18:53:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/div_Hi John' are matched.
+
+2017-12-26 18:53:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1_login_email_successful' successfully
+
+2017-12-26 18:53:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-26 18:53:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-26 18:53:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Hi John' is clicked on
+
+2017-12-26 18:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Hi John' is clicked on
+
+2017-12-26 18:53:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-26 18:53:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-26 18:53:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Sign out' is clicked on
+
+2017-12-26 18:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Sign out' is clicked on
+
+2017-12-26 18:53:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-26 18:53:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-26 18:53:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Sign Out' is clicked on
+
+2017-12-26 18:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Sign Out' is clicked on
+
+2017-12-26 18:53:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-26 18:53:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-26 18:53:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/div_Log in' are matched.
+
+2017-12-26 18:53:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/div_Log in' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-26 18:51:29 - [TEST_SUITE][PASSED] - login_logout: Test Cases/9_logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

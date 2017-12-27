@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login_logout" time="137" tests="6" failures="3" errors="0">
+   <testsuite name="login_logout" tests="6" failures="3" errors="0" time="137" timestamp="2017-12-26 19:00:38" hostname="Ang - DESKTOP-JMN7MR3" id="Test Suites/login_logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ang\\Katalon Studio\\FESC v3.1\\Reports\\login_logout\\20171226_190031"/>
+         <property name="logFiles" value="C:\\Users\\Ang\\Katalon Studio\\FESC v3.1\\Reports\\login_logout\\20171226_190031\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Ang\\Katalon Studio\\FESC v3.1\\Reports\\login_logout\\20171226_190031\\1514286128603.png, C:\\Users\\Ang\\Katalon Studio\\FESC v3.1\\Reports\\login_logout\\20171226_190031\\1514286128737.png, C:\\Users\\Ang\\Katalon Studio\\FESC v3.1\\Reports\\login_logout\\20171226_190031\\1514286141085.png, C:\\Users\\Ang\\Katalon Studio\\FESC v3.1\\Reports\\login_logout\\20171226_190031\\1514286158713.png, C:\\Users\\Ang\\Katalon Studio\\FESC v3.1\\Reports\\login_logout\\20171226_190031\\1514286158864.png"/>
+         <property name="hostName" value="Ang - DESKTOP-JMN7MR3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.1.0.1"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="192.168.126.1"/>
+         <property name="sessionId" value="19a3eece-e8ce-4e91-99d6-ee39f80615cf"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1_login_email_successful" classname="Test Cases/1_login_email_successful" status="PASSED">
+         <system-out><![CDATA[2017-12-26 19:00:39 - [TEST_CASE][PASSED] - Test Cases/1_login_email_successful: Test Cases/1_login_email_successful
+
+2017-12-26 19:00:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 19:00:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 19:00:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 19:00:48 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 19:00:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 19:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 19:00:48 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email'
+
+2017-12-26 19:00:49 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email'
+
+2017-12-26 19:00:49 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/input_password'
+
+2017-12-26 19:00:50 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/input_password'
+
+2017-12-26 19:00:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 19:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 19:00:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 19:00:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 19:00:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/div_Hi John' are matched.
+
+2017-12-26 19:00:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/div_Hi John' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2_login_email_wrongpw" classname="Test Cases/2_login_email_wrongpw" status="PASSED">
+         <system-out><![CDATA[2017-12-26 19:00:54 - [TEST_CASE][PASSED] - Test Cases/2_login_email_wrongpw: Test Cases/2_login_email_wrongpw
+
+2017-12-26 19:00:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 19:00:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 19:00:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 19:01:00 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 19:01:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 19:01:01 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 19:01:01 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email'
+
+2017-12-26 19:01:02 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email'
+
+2017-12-26 19:01:02 - [TEST_STEP][PASSED] - setText: Text 'wrongpassword' is set on object 'Object Repository/input_password'
+
+2017-12-26 19:01:03 - [MESSAGE][PASSED] - Text 'wrongpassword' is set on object 'Object Repository/input_password'
+
+2017-12-26 19:01:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 19:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 19:01:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 19:01:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 19:01:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/div_login_credentials_invalid' are matched.
+
+2017-12-26 19:01:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/div_login_credentials_invalid' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3_login_email_wrongpwformat" classname="Test Cases/3_login_email_wrongpwformat" status="PASSED">
+         <system-out><![CDATA[2017-12-26 19:01:06 - [TEST_CASE][PASSED] - Test Cases/3_login_email_wrongpwformat: Test Cases/3_login_email_wrongpwformat
+
+2017-12-26 19:01:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 19:01:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 19:01:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 19:01:12 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 19:01:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 19:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 19:01:13 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email'
+
+2017-12-26 19:01:14 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email'
+
+2017-12-26 19:01:14 - [TEST_STEP][PASSED] - setText: Text 'wrongft' is set on object 'Object Repository/input_password'
+
+2017-12-26 19:01:15 - [MESSAGE][PASSED] - Text 'wrongft' is set on object 'Object Repository/input_password'
+
+2017-12-26 19:01:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 19:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 19:01:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 19:01:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 19:01:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/span_Password should be at lea' are matched.
+
+2017-12-26 19:01:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/span_Password should be at lea' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4_login_email_wrongemail" classname="Test Cases/4_login_email_wrongemail" status="PASSED">
+         <system-out><![CDATA[2017-12-26 19:01:19 - [TEST_CASE][PASSED] - Test Cases/4_login_email_wrongemail: Test Cases/4_login_email_wrongemail
+
+2017-12-26 19:01:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 19:01:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 19:01:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 19:01:25 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 19:01:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 19:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 19:01:26 - [TEST_STEP][PASSED] - setText: Text 'unusedemail@changethis.ifused' is set on object 'Object Repository/input_email'
+
+2017-12-26 19:01:27 - [MESSAGE][PASSED] - Text 'unusedemail@changethis.ifused' is set on object 'Object Repository/input_email'
+
+2017-12-26 19:01:27 - [TEST_STEP][PASSED] - setText: Text 'notimportant' is set on object 'Object Repository/input_password'
+
+2017-12-26 19:01:28 - [MESSAGE][PASSED] - Text 'notimportant' is set on object 'Object Repository/input_password'
+
+2017-12-26 19:01:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 19:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 19:01:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 19:01:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 19:01:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/div_login_credentials_invalid' are matched.
+
+2017-12-26 19:01:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/div_login_credentials_invalid' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/5_login_email_wrongemailformat" classname="Test Cases/5_login_email_wrongemailformat" status="PASSED">
+         <system-out><![CDATA[2017-12-26 19:01:31 - [TEST_CASE][PASSED] - Test Cases/5_login_email_wrongemailformat: Test Cases/5_login_email_wrongemailformat
+
+2017-12-26 19:01:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 19:01:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 19:01:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 19:01:38 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 19:01:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 19:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 19:01:38 - [TEST_STEP][PASSED] - setText: Text 'wrongemailformat' is set on object 'Object Repository/input_email'
+
+2017-12-26 19:01:39 - [MESSAGE][PASSED] - Text 'wrongemailformat' is set on object 'Object Repository/input_email'
+
+2017-12-26 19:01:39 - [TEST_STEP][PASSED] - setText: Text 'notimportant' is set on object 'Object Repository/input_password'
+
+2017-12-26 19:01:40 - [MESSAGE][PASSED] - Text 'notimportant' is set on object 'Object Repository/input_password'
+
+2017-12-26 19:01:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 19:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 19:01:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 19:01:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 19:01:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/span_Please enter correct emai' are matched.
+
+2017-12-26 19:01:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/span_Please enter correct emai' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/6_login_fb_loggedin" classname="Test Cases/6_login_fb_loggedin" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/div_Hi Kevin' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/div_Hi Kevin' located by 'By.xpath: //*[@id=&quot;__next&quot;]/div/div/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div[2]/div/div/div/div' not found)"/>
+         <system-out><![CDATA[2017-12-26 19:01:44 - [TEST_CASE][FAILED] - Test Cases/6_login_fb_loggedin: Test Cases/6_login_fb_loggedin FAILED because (of) Verify element text of test object 'Object Repository/div_Hi Kevin' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/div_Hi Kevin' located by 'By.xpath: //*[@id="__next"]/div/div/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div[2]/div/div/div/div' not found)
+
+2017-12-26 19:01:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 19:01:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 19:01:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.facebook.com/' successfully
+
+2017-12-26 19:01:49 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2017-12-26 19:01:49 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email_fbpage'
+
+2017-12-26 19:01:49 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email_fbpage'
+
+2017-12-26 19:01:49 - [TEST_STEP][PASSED] - setText: Text 'puToNtaB_1' is set on object 'Object Repository/input_pass_fbpage'
+
+2017-12-26 19:01:49 - [MESSAGE][PASSED] - Text 'puToNtaB_1' is set on object 'Object Repository/input_pass_fbpage'
+
+2017-12-26 19:01:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_login_fbpage' is clicked on
+
+2017-12-26 19:01:52 - [MESSAGE][PASSED] - Object: 'Object Repository/input_login_fbpage' is clicked on
+
+2017-12-26 19:01:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 19:01:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 19:01:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 19:01:58 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 19:01:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 19:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 19:01:58 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/span_Login with Facebook' successfully
+
+2017-12-26 19:01:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-26 19:02:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/span_Login with Facebook' successfully
+
+2017-12-26 19:02:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/span_Login with Facebook' is clicked on
+
+2017-12-26 19:02:00 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Login with Facebook' is clicked on
+
+2017-12-26 19:02:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 19:02:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 19:02:03 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/div_Hi Kevin' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/div_Hi Kevin' located by 'By.xpath: //*[@id="__next"]/div/div/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div[2]/div/div/div/div' not found)
+
+2017-12-26 19:02:08 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/div_Hi Kevin' located by 'By.xpath: //*[@id="__next"]/div/div/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div[2]/div/div/div/div' not found
+[[ATTACHMENT|C:\\Users\\Ang\\Katalon Studio\\FESC v3.1\\Reports\\login_logout\\20171226_190031\\1514286128603.png]]
+
+2017-12-26 19:02:08 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/div_Hi Kevin' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/div_Hi Kevin' located by 'By.xpath: //*[@id="__next"]/div/div/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div[2]/div/div/div/div' not found)
+[[ATTACHMENT|C:\\Users\\Ang\\Katalon Studio\\FESC v3.1\\Reports\\login_logout\\20171226_190031\\1514286128737.png]]]]></system-out>
+         <system-err><![CDATA[2017-12-26 19:01:44 - [TEST_CASE][FAILED] - Test Cases/6_login_fb_loggedin: Test Cases/6_login_fb_loggedin FAILED because (of) Verify element text of test object 'Object Repository/div_Hi Kevin' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/div_Hi Kevin' located by 'By.xpath: //*[@id="__next"]/div/div/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div[2]/div/div/div/div' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/7_login_fb_notloggedin" classname="Test Cases/7_login_fb_notloggedin" status="FAILED">
+         <failure type="FAILED" message="Unable to scroll to object 'Object Repository/span_Login with Facebook' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/iframe' located by 'By.xpath: //iframe[count(. | //*[@frameborder = '0']) = count(//*[@frameborder = '0'])][count(. | //*[@src = 'http://oddlefacebooklogindomain.staging.oddle.co/en_SG/facebook/149784952181218/login']) = count(//*[@src = 'http://oddlefacebooklogindomain.staging.oddle.co/en_SG/facebook/149784952181218/login'])][count(. | id(&quot;__next&quot;)/div[1]/div[1]/div[@class=&quot;s111nt22-0 isjfum&quot;]/div[3]/div[3]/div[@class=&quot;wuzp1o-0 cCUvkJ&quot;]/div[@class=&quot;wuzp1o-2 gfSaCZ&quot;]/div[@class=&quot;wuzp1o-5 eezkNJ&quot;]/div[@class=&quot;eslncg-2 bKwwBK&quot;]/div[@class=&quot;eslncg-3 kImoTU&quot;]/div[@class=&quot;eslncg-4 gugdEn&quot;]/div[@class=&quot;qxyyek-0 gDhhcJ e9phw6-1-sc-bdVaJa cjHrgj e9phw6-0 jBJmyp&quot;]/div[@class=&quot;sc-bRBYWo cdRCbH e9phw6-0 jBJmyp&quot;]/form[1]/div[@class=&quot;s5csc7v-1 gBEfBY&quot;]/iframe[1]) = count(id(&quot;__next&quot;)/div[1]/div[1]/div[@class=&quot;s111nt22-0 isjfum&quot;]/div[3]/div[3]/div[@class=&quot;wuzp1o-0 cCUvkJ&quot;]/div[@class=&quot;wuzp1o-2 gfSaCZ&quot;]/div[@class=&quot;wuzp1o-5 eezkNJ&quot;]/div[@class=&quot;eslncg-2 bKwwBK&quot;]/div[@class=&quot;eslncg-3 kImoTU&quot;]/div[@class=&quot;eslncg-4 gugdEn&quot;]/div[@class=&quot;qxyyek-0 gDhhcJ e9phw6-1-sc-bdVaJa cjHrgj e9phw6-0 jBJmyp&quot;]/div[@class=&quot;sc-bRBYWo cdRCbH e9phw6-0 jBJmyp&quot;]/form[1]/div[@class=&quot;s5csc7v-1 gBEfBY&quot;]/iframe[1])]' not found)"/>
+         <system-out><![CDATA[2017-12-26 19:02:09 - [TEST_CASE][FAILED] - Test Cases/7_login_fb_notloggedin: Test Cases/7_login_fb_notloggedin FAILED because (of) Unable to scroll to object 'Object Repository/span_Login with Facebook' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/iframe' located by 'By.xpath: //iframe[count(. | //*[@frameborder = '0']) = count(//*[@frameborder = '0'])][count(. | //*[@src = 'http://oddlefacebooklogindomain.staging.oddle.co/en_SG/facebook/149784952181218/login']) = count(//*[@src = 'http://oddlefacebooklogindomain.staging.oddle.co/en_SG/facebook/149784952181218/login'])][count(. | id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[3]/div[3]/div[@class="wuzp1o-0 cCUvkJ"]/div[@class="wuzp1o-2 gfSaCZ"]/div[@class="wuzp1o-5 eezkNJ"]/div[@class="eslncg-2 bKwwBK"]/div[@class="eslncg-3 kImoTU"]/div[@class="eslncg-4 gugdEn"]/div[@class="qxyyek-0 gDhhcJ e9phw6-1-sc-bdVaJa cjHrgj e9phw6-0 jBJmyp"]/div[@class="sc-bRBYWo cdRCbH e9phw6-0 jBJmyp"]/form[1]/div[@class="s5csc7v-1 gBEfBY"]/iframe[1]) = count(id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[3]/div[3]/div[@class="wuzp1o-0 cCUvkJ"]/div[@class="wuzp1o-2 gfSaCZ"]/div[@class="wuzp1o-5 eezkNJ"]/div[@class="eslncg-2 bKwwBK"]/div[@class="eslncg-3 kImoTU"]/div[@class="eslncg-4 gugdEn"]/div[@class="qxyyek-0 gDhhcJ e9phw6-1-sc-bdVaJa cjHrgj e9phw6-0 jBJmyp"]/div[@class="sc-bRBYWo cdRCbH e9phw6-0 jBJmyp"]/form[1]/div[@class="s5csc7v-1 gBEfBY"]/iframe[1])]' not found)
+
+2017-12-26 19:02:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 19:02:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 19:02:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 19:02:15 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 19:02:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 19:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 19:02:15 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/span_Login with Facebook' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/iframe' located by 'By.xpath: //iframe[count(. | //*[@frameborder = '0']) = count(//*[@frameborder = '0'])][count(. | //*[@src = 'http://oddlefacebooklogindomain.staging.oddle.co/en_SG/facebook/149784952181218/login']) = count(//*[@src = 'http://oddlefacebooklogindomain.staging.oddle.co/en_SG/facebook/149784952181218/login'])][count(. | id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[3]/div[3]/div[@class="wuzp1o-0 cCUvkJ"]/div[@class="wuzp1o-2 gfSaCZ"]/div[@class="wuzp1o-5 eezkNJ"]/div[@class="eslncg-2 bKwwBK"]/div[@class="eslncg-3 kImoTU"]/div[@class="eslncg-4 gugdEn"]/div[@class="qxyyek-0 gDhhcJ e9phw6-1-sc-bdVaJa cjHrgj e9phw6-0 jBJmyp"]/div[@class="sc-bRBYWo cdRCbH e9phw6-0 jBJmyp"]/form[1]/div[@class="s5csc7v-1 gBEfBY"]/iframe[1]) = count(id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[3]/div[3]/div[@class="wuzp1o-0 cCUvkJ"]/div[@class="wuzp1o-2 gfSaCZ"]/div[@class="wuzp1o-5 eezkNJ"]/div[@class="eslncg-2 bKwwBK"]/div[@class="eslncg-3 kImoTU"]/div[@class="eslncg-4 gugdEn"]/div[@class="qxyyek-0 gDhhcJ e9phw6-1-sc-bdVaJa cjHrgj e9phw6-0 jBJmyp"]/div[@class="sc-bRBYWo cdRCbH e9phw6-0 jBJmyp"]/form[1]/div[@class="s5csc7v-1 gBEfBY"]/iframe[1])]' not found)
+
+2017-12-26 19:02:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-26 19:02:21 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/span_Login with Facebook' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/iframe' located by 'By.xpath: //iframe[count(. | //*[@frameborder = '0']) = count(//*[@frameborder = '0'])][count(. | //*[@src = 'http://oddlefacebooklogindomain.staging.oddle.co/en_SG/facebook/149784952181218/login']) = count(//*[@src = 'http://oddlefacebooklogindomain.staging.oddle.co/en_SG/facebook/149784952181218/login'])][count(. | id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[3]/div[3]/div[@class="wuzp1o-0 cCUvkJ"]/div[@class="wuzp1o-2 gfSaCZ"]/div[@class="wuzp1o-5 eezkNJ"]/div[@class="eslncg-2 bKwwBK"]/div[@class="eslncg-3 kImoTU"]/div[@class="eslncg-4 gugdEn"]/div[@class="qxyyek-0 gDhhcJ e9phw6-1-sc-bdVaJa cjHrgj e9phw6-0 jBJmyp"]/div[@class="sc-bRBYWo cdRCbH e9phw6-0 jBJmyp"]/form[1]/div[@class="s5csc7v-1 gBEfBY"]/iframe[1]) = count(id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[3]/div[3]/div[@class="wuzp1o-0 cCUvkJ"]/div[@class="wuzp1o-2 gfSaCZ"]/div[@class="wuzp1o-5 eezkNJ"]/div[@class="eslncg-2 bKwwBK"]/div[@class="eslncg-3 kImoTU"]/div[@class="eslncg-4 gugdEn"]/div[@class="qxyyek-0 gDhhcJ e9phw6-1-sc-bdVaJa cjHrgj e9phw6-0 jBJmyp"]/div[@class="sc-bRBYWo cdRCbH e9phw6-0 jBJmyp"]/form[1]/div[@class="s5csc7v-1 gBEfBY"]/iframe[1])]' not found)
+[[ATTACHMENT|C:\\Users\\Ang\\Katalon Studio\\FESC v3.1\\Reports\\login_logout\\20171226_190031\\1514286141085.png]]]]></system-out>
+         <system-err><![CDATA[2017-12-26 19:02:09 - [TEST_CASE][FAILED] - Test Cases/7_login_fb_notloggedin: Test Cases/7_login_fb_notloggedin FAILED because (of) Unable to scroll to object 'Object Repository/span_Login with Facebook' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/iframe' located by 'By.xpath: //iframe[count(. | //*[@frameborder = '0']) = count(//*[@frameborder = '0'])][count(. | //*[@src = 'http://oddlefacebooklogindomain.staging.oddle.co/en_SG/facebook/149784952181218/login']) = count(//*[@src = 'http://oddlefacebooklogindomain.staging.oddle.co/en_SG/facebook/149784952181218/login'])][count(. | id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[3]/div[3]/div[@class="wuzp1o-0 cCUvkJ"]/div[@class="wuzp1o-2 gfSaCZ"]/div[@class="wuzp1o-5 eezkNJ"]/div[@class="eslncg-2 bKwwBK"]/div[@class="eslncg-3 kImoTU"]/div[@class="eslncg-4 gugdEn"]/div[@class="qxyyek-0 gDhhcJ e9phw6-1-sc-bdVaJa cjHrgj e9phw6-0 jBJmyp"]/div[@class="sc-bRBYWo cdRCbH e9phw6-0 jBJmyp"]/form[1]/div[@class="s5csc7v-1 gBEfBY"]/iframe[1]) = count(id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[3]/div[3]/div[@class="wuzp1o-0 cCUvkJ"]/div[@class="wuzp1o-2 gfSaCZ"]/div[@class="wuzp1o-5 eezkNJ"]/div[@class="eslncg-2 bKwwBK"]/div[@class="eslncg-3 kImoTU"]/div[@class="eslncg-4 gugdEn"]/div[@class="qxyyek-0 gDhhcJ e9phw6-1-sc-bdVaJa cjHrgj e9phw6-0 jBJmyp"]/div[@class="sc-bRBYWo cdRCbH e9phw6-0 jBJmyp"]/form[1]/div[@class="s5csc7v-1 gBEfBY"]/iframe[1])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/8_login_fb_wrongpw" classname="Test Cases/8_login_fb_wrongpw" status="FAILED">
+         <failure type="FAILED" message="Unable to switch to window with title: 'Facebook' (Root cause: Cannot find window with title: 'Facebook')"/>
+         <system-out><![CDATA[2017-12-26 19:02:21 - [TEST_CASE][FAILED] - Test Cases/8_login_fb_wrongpw: Test Cases/8_login_fb_wrongpw FAILED because (of) Unable to switch to window with title: 'Facebook' (Root cause: Cannot find window with title: 'Facebook')
+
+2017-12-26 19:02:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 19:02:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 19:02:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 19:02:28 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 19:02:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 19:02:28 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 19:02:28 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/span_Login with Facebook' successfully
+
+2017-12-26 19:02:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-26 19:02:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/span_Login with Facebook' successfully
+
+2017-12-26 19:02:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/span_Login with Facebook' is clicked on
+
+2017-12-26 19:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Login with Facebook' is clicked on
+
+2017-12-26 19:02:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 19:02:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 19:02:33 - [TEST_STEP][FAILED] - switchToWindowTitle: Unable to switch to window with title: 'Facebook' (Root cause: Cannot find window with title: 'Facebook')
+
+2017-12-26 19:02:38 - [MESSAGE][FAILED] - Cannot find window with title: 'Facebook'
+[[ATTACHMENT|C:\\Users\\Ang\\Katalon Studio\\FESC v3.1\\Reports\\login_logout\\20171226_190031\\1514286158713.png]]
+
+2017-12-26 19:02:39 - [MESSAGE][FAILED] - Unable to switch to window with title: 'Facebook' (Root cause: Cannot find window with title: 'Facebook')
+[[ATTACHMENT|C:\\Users\\Ang\\Katalon Studio\\FESC v3.1\\Reports\\login_logout\\20171226_190031\\1514286158864.png]]]]></system-out>
+         <system-err><![CDATA[2017-12-26 19:02:21 - [TEST_CASE][FAILED] - Test Cases/8_login_fb_wrongpw: Test Cases/8_login_fb_wrongpw FAILED because (of) Unable to switch to window with title: 'Facebook' (Root cause: Cannot find window with title: 'Facebook')]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/9_logout" classname="Test Cases/9_logout" status="PASSED">
+         <system-out><![CDATA[2017-12-26 19:02:39 - [TEST_CASE][PASSED] - Test Cases/9_logout: Test Cases/9_logout
+
+2017-12-26 19:02:39 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/1_login_email_successful' successfully
+
+2017-12-26 19:02:39 - [TEST_CASE][PASSED] - Test Cases/1_login_email_successful: Test Cases/1_login_email_successful
+
+2017-12-26 19:02:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-26 19:02:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-26 19:02:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 19:02:45 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-26 19:02:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 19:02:45 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-26 19:02:45 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email'
+
+2017-12-26 19:02:47 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email'
+
+2017-12-26 19:02:47 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/input_password'
+
+2017-12-26 19:02:47 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/input_password'
+
+2017-12-26 19:02:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 19:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-26 19:02:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-26 19:02:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-26 19:02:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/div_Hi John' are matched.
+
+2017-12-26 19:02:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/div_Hi John' are matched.
+
+2017-12-26 19:02:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1_login_email_successful' successfully
+
+2017-12-26 19:02:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-26 19:02:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-26 19:02:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Hi John' is clicked on
+
+2017-12-26 19:02:52 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Hi John' is clicked on
+
+2017-12-26 19:02:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-26 19:02:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-26 19:02:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Sign out' is clicked on
+
+2017-12-26 19:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Sign out' is clicked on
+
+2017-12-26 19:02:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-26 19:02:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-26 19:02:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Sign Out' is clicked on
+
+2017-12-26 19:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Sign Out' is clicked on
+
+2017-12-26 19:02:55 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-26 19:02:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-26 19:02:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/div_Log in' are matched.
+
+2017-12-26 19:02:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/div_Log in' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-26 19:00:38 - [TEST_SUITE][FAILED] - login_logout: Test Cases/6_login_fb_loggedin FAILED because (of) Verify element text of test object 'Object Repository/div_Hi Kevin' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/div_Hi Kevin' located by 'By.xpath: //*[@id="__next"]/div/div/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div[2]/div/div/div/div' not found)]]></system-out>
+      <system-err><![CDATA[2017-12-26 19:00:38 - [TEST_SUITE][FAILED] - login_logout: Test Cases/6_login_fb_loggedin FAILED because (of) Verify element text of test object 'Object Repository/div_Hi Kevin' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/div_Hi Kevin' located by 'By.xpath: //*[@id="__next"]/div/div/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div[2]/div/div/div/div' not found)]]></system-err>
+   </testsuite>
+</testsuites>
