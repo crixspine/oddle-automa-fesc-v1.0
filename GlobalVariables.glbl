@@ -2,4 +2,34 @@
 <GlobalVariableEntities>
    <description></description>
    <tag></tag>
+   <GlobalVariableEntity>
+      <description>v3.1 cart url</description>
+      <initValue>'http://mcdonaldstest.staging.oddle.co'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>email for customer login</description>
+      <initValue>'kevin.ang@oddle.me'</initValue>
+      <name>email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>pass for customer login</description>
+      <initValue>'0ddleatw'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>email for fb login</description>
+      <initValue>'kevin.ang@oddle.me'</initValue>
+      <name>email_fb</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>pass for fb login</description>
+      <initValue>'puToNtaB_1'</initValue>
+      <name>password_fb</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>placeholder email in valid format, not registered as customer</description>
+      <initValue>'unusedemail@changethis.ifused'</initValue>
+      <name>email_placeholder</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -21,9 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://mcdonaldstest.staging.oddle.co/en_SG')
+WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.click(findTestObject('div_Log in'))
+WebUI.click(findTestObject('LogIn/div_Log in'))
 
 WebUI.click(findTestObject('SignUp/a_ Sign up'), FailureHandling.STOP_ON_FAILURE)
 
@@ -41,5 +41,5 @@ WebUI.click(findTestObject('SignUp/button_Sign Up'))
 
 WebUI.delay(1)
 
-WebUI.verifyElementText(findTestObject('SignUp/span_Please enter correct emai'), 'Please enter correct email format e.g. test@example.com')
+WebUI.verifyElementPresent(findTestObject('SignUp/span_Please enter correct emai'), 0)
 

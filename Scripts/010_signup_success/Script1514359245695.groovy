@@ -21,15 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://mcdonaldstest.staging.oddle.co/en_SG')
+WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.click(findTestObject('div_Log in'))
+WebUI.click(findTestObject('LogIn/div_Log in'))
 
 WebUI.click(findTestObject('SignUp/a_ Sign up'), FailureHandling.STOP_ON_FAILURE)
 
-def str1 = CustomKeywords.'autoKeywords.RandomStrGen.randomStr'('abcdefghijklmnopqrstuvwxyz1234567890', 8)
+def str1 = CustomKeywords.'autoKeywords.RandomStrGen.randomStr'('abcdefghijklmnopqrstuvwxyz1234567890', 10)
 
-def str2 = CustomKeywords.'autoKeywords.RandomStrGen.randomStr'('abcdefghijklmnopqrstuvwxyz1234567890', 8)
+def str2 = CustomKeywords.'autoKeywords.RandomStrGen.randomStr'('abcdefghijklmnopqrstuvwxyz1234567890', 10)
 
 WebUI.setText(findTestObject('SignUp/input_email'), ((str1 + '@') + str2) + '.com')
 
@@ -46,5 +46,7 @@ WebUI.click(findTestObject('SignUp/button_Sign Up'))
 'Delay for signup success notification (WIP)'
 WebUI.delay(3)
 
-WebUI.verifyElementText(findTestObject('SignUp/div_Hi Oddle'), 'Hi, Oddle')
+WebUI.verifyElementNotPresent(findTestObject('LogIn/div_Log in'), 0)
+
+WebUI.verifyElementPresent(findTestObject('SignUp/div_Hi Oddle'), 0)
 

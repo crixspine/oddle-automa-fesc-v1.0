@@ -23,25 +23,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.facebook.com/')
 
-WebUI.setText(findTestObject('input_email_fbpage'), 'kevin.ang@oddle.me')
+WebUI.setText(findTestObject('LogIn/input_email_fbpage'), GlobalVariable.email_fb)
 
-WebUI.setText(findTestObject('input_pass_fbpage'), 'puToNtaB_1')
+WebUI.setText(findTestObject('LogIn/input_pass_fbpage'), GlobalVariable.password_fb)
 
-WebUI.click(findTestObject('input_login_fbpage'))
-
-WebUI.delay(3)
-
-WebUI.navigateToUrl('http://mcdonaldstest.staging.oddle.co/en_SG')
-
-WebUI.click(findTestObject('div_Log in'))
+WebUI.click(findTestObject('LogIn/input_login_fbpage'))
 
 WebUI.delay(3)
 
-WebUI.scrollToElement(findTestObject('span_Login with Facebook'), 0)
+WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.click(findTestObject('span_Login with Facebook'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('LogIn/div_Log in'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementText(findTestObject('div_Hi Kevin'), 'Hi, Kevin')
+WebUI.scrollToElement(findTestObject('LogIn/span_Login with Facebook'), 0)
+
+WebUI.click(findTestObject('LogIn/span_Login with Facebook'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.verifyElementNotPresent(findTestObject('LogIn/div_Log in'), 0)
 

@@ -21,17 +21,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://mcdonaldstest.staging.oddle.co/en_SG')
+WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.click(findTestObject('div_Log in'))
+WebUI.click(findTestObject('LogIn/div_Log in'))
 
-WebUI.setText(findTestObject('input_email'), 'unusedemail@changethis.ifused')
+WebUI.setText(findTestObject('LogIn/input_email'), GlobalVariable.email_placeholder)
 
-WebUI.setText(findTestObject('input_password'), 'notimportant')
+WebUI.setText(findTestObject('LogIn/input_password'), GlobalVariable.password)
 
-WebUI.click(findTestObject('button_Login'))
+WebUI.click(findTestObject('LogIn/button_Login'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementText(findTestObject('div_login_credentials_invalid'), 'login_credentials_invalid')
+WebUI.verifyElementPresent(findTestObject('LogIn/div_login_credentials_invalid'), 0)
 

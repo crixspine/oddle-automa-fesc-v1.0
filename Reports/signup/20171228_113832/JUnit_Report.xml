@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="signup" time="133" tests="11" failures="0" errors="0">
+   <testsuite name="signup" tests="11" failures="0" errors="0" time="133" timestamp="2017-12-28 11:38:39" hostname="Ang - DESKTOP-JMN7MR3" id="Test Suites/signup">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ang\\git\\oddle-automa\\Reports\\signup\\20171228_113832"/>
+         <property name="logFiles" value="C:\\Users\\Ang\\git\\oddle-automa\\Reports\\signup\\20171228_113832\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ang - DESKTOP-JMN7MR3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.84"/>
+         <property name="hostAddress" value="192.168.126.1"/>
+         <property name="sessionId" value="3e083792bcf3ca2c89d3b9037d77237f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/010_signup_success" classname="Test Cases/010_signup_success" status="PASSED">
+         <system-out><![CDATA[2017-12-28 11:38:40 - [TEST_CASE][PASSED] - Test Cases/010_signup_success: Test Cases/010_signup_success
+
+2017-12-28 11:38:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-28 11:38:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-28 11:38:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:38:47 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:38:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:38:47 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:38:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:38:49 - [TEST_STEP][PASSED] - Statement - str1 = CustomKeywords.autoKeywords.RandomStrGen.randomStr("abcdefghijklmnopqrstuvwxyz1234567890", 8): autoKeywords.RandomStrGen.randomStr is PASSED
+
+2017-12-28 11:38:49 - [MESSAGE][PASSED] - autoKeywords.RandomStrGen.randomStr is PASSED
+
+2017-12-28 11:38:49 - [TEST_STEP][PASSED] - Statement - str2 = CustomKeywords.autoKeywords.RandomStrGen.randomStr("abcdefghijklmnopqrstuvwxyz1234567890", 8): autoKeywords.RandomStrGen.randomStr is PASSED
+
+2017-12-28 11:38:49 - [MESSAGE][PASSED] - autoKeywords.RandomStrGen.randomStr is PASSED
+
+2017-12-28 11:38:49 - [TEST_STEP][PASSED] - setText: Text '6bjqh2wu@undp6476.com' is set on object 'Object Repository/SignUp/input_email'
+
+2017-12-28 11:38:50 - [MESSAGE][PASSED] - Text '6bjqh2wu@undp6476.com' is set on object 'Object Repository/SignUp/input_email'
+
+2017-12-28 11:38:50 - [TEST_STEP][PASSED] - setText: Text 'Oddle' is set on object 'Object Repository/SignUp/input_firstName'
+
+2017-12-28 11:38:50 - [MESSAGE][PASSED] - Text 'Oddle' is set on object 'Object Repository/SignUp/input_firstName'
+
+2017-12-28 11:38:50 - [TEST_STEP][PASSED] - setText: Text 'Automation' is set on object 'Object Repository/SignUp/input_lastName'
+
+2017-12-28 11:38:50 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/SignUp/input_lastName'
+
+2017-12-28 11:38:50 - [TEST_STEP][PASSED] - setText: Text '91234567' is set on object 'Object Repository/SignUp/input_phone'
+
+2017-12-28 11:38:51 - [MESSAGE][PASSED] - Text '91234567' is set on object 'Object Repository/SignUp/input_phone'
+
+2017-12-28 11:38:51 - [TEST_STEP][PASSED] - setText: Text 'puToNtaB_1' is set on object 'Object Repository/SignUp/input_password'
+
+2017-12-28 11:38:51 - [MESSAGE][PASSED] - Text 'puToNtaB_1' is set on object 'Object Repository/SignUp/input_password'
+
+2017-12-28 11:38:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/button_Sign Up' is clicked on
+
+2017-12-28 11:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/button_Sign Up' is clicked on
+
+2017-12-28 11:38:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-28 11:38:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-28 11:38:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/SignUp/div_Hi Oddle' are matched.
+
+2017-12-28 11:38:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/div_Hi Oddle' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/011_signup_success_newlogin" classname="Test Cases/011_signup_success_newlogin" status="PASSED">
+         <system-out><![CDATA[2017-12-28 11:38:55 - [TEST_CASE][PASSED] - Test Cases/011_signup_success_newlogin: Test Cases/011_signup_success_newlogin
+
+2017-12-28 11:38:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-28 11:38:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-28 11:38:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:39:00 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:39:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:39:00 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:39:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:39:01 - [TEST_STEP][PASSED] - Statement - str1 = CustomKeywords.autoKeywords.RandomStrGen.randomStr("abcdefghijklmnopqrstuvwxyz1234567890", 8): autoKeywords.RandomStrGen.randomStr is PASSED
+
+2017-12-28 11:39:01 - [MESSAGE][PASSED] - autoKeywords.RandomStrGen.randomStr is PASSED
+
+2017-12-28 11:39:01 - [TEST_STEP][PASSED] - Statement - str2 = CustomKeywords.autoKeywords.RandomStrGen.randomStr("abcdefghijklmnopqrstuvwxyz1234567890", 8): autoKeywords.RandomStrGen.randomStr is PASSED
+
+2017-12-28 11:39:01 - [MESSAGE][PASSED] - autoKeywords.RandomStrGen.randomStr is PASSED
+
+2017-12-28 11:39:01 - [TEST_STEP][PASSED] - setText: Text 'zl0w9bhc@gb1ya7ih.com' is set on object 'Object Repository/SignUp/input_email'
+
+2017-12-28 11:39:02 - [MESSAGE][PASSED] - Text 'zl0w9bhc@gb1ya7ih.com' is set on object 'Object Repository/SignUp/input_email'
+
+2017-12-28 11:39:02 - [TEST_STEP][PASSED] - setText: Text 'Oddle' is set on object 'Object Repository/SignUp/input_firstName'
+
+2017-12-28 11:39:02 - [MESSAGE][PASSED] - Text 'Oddle' is set on object 'Object Repository/SignUp/input_firstName'
+
+2017-12-28 11:39:02 - [TEST_STEP][PASSED] - setText: Text 'Automation' is set on object 'Object Repository/SignUp/input_lastName'
+
+2017-12-28 11:39:02 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/SignUp/input_lastName'
+
+2017-12-28 11:39:02 - [TEST_STEP][PASSED] - setText: Text '91234567' is set on object 'Object Repository/SignUp/input_phone'
+
+2017-12-28 11:39:03 - [MESSAGE][PASSED] - Text '91234567' is set on object 'Object Repository/SignUp/input_phone'
+
+2017-12-28 11:39:03 - [TEST_STEP][PASSED] - setText: Text 'puToNtaB_1' is set on object 'Object Repository/SignUp/input_password'
+
+2017-12-28 11:39:03 - [MESSAGE][PASSED] - Text 'puToNtaB_1' is set on object 'Object Repository/SignUp/input_password'
+
+2017-12-28 11:39:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/button_Sign Up' is clicked on
+
+2017-12-28 11:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/button_Sign Up' is clicked on
+
+2017-12-28 11:39:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-28 11:39:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-28 11:39:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/SignUp/div_Hi Oddle' are matched.
+
+2017-12-28 11:39:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/div_Hi Oddle' are matched.
+
+2017-12-28 11:39:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/div_Hi Oddle' is clicked on
+
+2017-12-28 11:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/div_Hi Oddle' is clicked on
+
+2017-12-28 11:39:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-28 11:39:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-28 11:39:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Sign out' is clicked on
+
+2017-12-28 11:39:08 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Sign out' is clicked on
+
+2017-12-28 11:39:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-28 11:39:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-28 11:39:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Sign Out' is clicked on
+
+2017-12-28 11:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Sign Out' is clicked on
+
+2017-12-28 11:39:09 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-28 11:39:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-28 11:39:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/div_Log in' are matched.
+
+2017-12-28 11:39:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/div_Log in' are matched.
+
+2017-12-28 11:39:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:39:11 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:39:11 - [TEST_STEP][PASSED] - setText: Text 'zl0w9bhc@gb1ya7ih.com' is set on object 'Object Repository/input_email'
+
+2017-12-28 11:39:11 - [MESSAGE][PASSED] - Text 'zl0w9bhc@gb1ya7ih.com' is set on object 'Object Repository/input_email'
+
+2017-12-28 11:39:11 - [TEST_STEP][PASSED] - setText: Text 'puToNtaB_1' is set on object 'Object Repository/input_password'
+
+2017-12-28 11:39:12 - [MESSAGE][PASSED] - Text 'puToNtaB_1' is set on object 'Object Repository/input_password'
+
+2017-12-28 11:39:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-28 11:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Login' is clicked on
+
+2017-12-28 11:39:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-28 11:39:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-28 11:39:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/div_Hi John' are matched.
+
+2017-12-28 11:39:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/div_Hi John' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/012_signup_success_fb" classname="Test Cases/012_signup_success_fb" status="PASSED">
+         <system-out><![CDATA[2017-12-28 11:39:16 - [TEST_CASE][PASSED] - Test Cases/012_signup_success_fb: Test Cases/012_signup_success_fb
+
+2017-12-28 11:39:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-28 11:39:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-28 11:39:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:39:19 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:39:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:39:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:39:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/div_id fbSign up' is clicked on
+
+2017-12-28 11:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/div_id fbSign up' is clicked on
+
+2017-12-28 11:39:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-28 11:39:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-28 11:39:24 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Facebook'
+
+2017-12-28 11:39:26 - [MESSAGE][PASSED] - Switched to window with title: 'Facebook'
+
+2017-12-28 11:39:26 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email_fb'
+
+2017-12-28 11:39:26 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/input_email_fb'
+
+2017-12-28 11:39:26 - [TEST_STEP][PASSED] - setText: Text 'puToNtaB_1' is set on object 'Object Repository/input_pass_fb'
+
+2017-12-28 11:39:26 - [MESSAGE][PASSED] - Text 'puToNtaB_1' is set on object 'Object Repository/input_pass_fb'
+
+2017-12-28 11:39:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/label_loginbutton' is clicked on
+
+2017-12-28 11:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/label_loginbutton' is clicked on
+
+2017-12-28 11:39:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-28 11:39:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-28 11:39:30 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2017-12-28 11:39:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/div_Hi Kevin' are matched.
+
+2017-12-28 11:39:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/div_Hi Kevin' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/013_signup_wrongemailformat" classname="Test Cases/013_signup_wrongemailformat" status="PASSED">
+         <system-out><![CDATA[2017-12-28 11:39:32 - [TEST_CASE][PASSED] - Test Cases/013_signup_wrongemailformat: Test Cases/013_signup_wrongemailformat
+
+2017-12-28 11:39:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-28 11:39:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-28 11:39:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:39:36 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:39:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:39:37 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:39:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:39:38 - [TEST_STEP][PASSED] - setText: Text 'wrongemailformat' is set on object 'Object Repository/SignUp/input_email'
+
+2017-12-28 11:39:39 - [MESSAGE][PASSED] - Text 'wrongemailformat' is set on object 'Object Repository/SignUp/input_email'
+
+2017-12-28 11:39:39 - [TEST_STEP][PASSED] - setText: Text 'Oddle' is set on object 'Object Repository/SignUp/input_firstName'
+
+2017-12-28 11:39:39 - [MESSAGE][PASSED] - Text 'Oddle' is set on object 'Object Repository/SignUp/input_firstName'
+
+2017-12-28 11:39:39 - [TEST_STEP][PASSED] - setText: Text 'Automation' is set on object 'Object Repository/SignUp/input_lastName'
+
+2017-12-28 11:39:39 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/SignUp/input_lastName'
+
+2017-12-28 11:39:39 - [TEST_STEP][PASSED] - setText: Text '91234567' is set on object 'Object Repository/SignUp/input_phone'
+
+2017-12-28 11:39:40 - [MESSAGE][PASSED] - Text '91234567' is set on object 'Object Repository/SignUp/input_phone'
+
+2017-12-28 11:39:40 - [TEST_STEP][PASSED] - setText: Text 'puToNtaB_1' is set on object 'Object Repository/SignUp/input_password'
+
+2017-12-28 11:39:40 - [MESSAGE][PASSED] - Text 'puToNtaB_1' is set on object 'Object Repository/SignUp/input_password'
+
+2017-12-28 11:39:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/button_Sign Up' is clicked on
+
+2017-12-28 11:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/button_Sign Up' is clicked on
+
+2017-12-28 11:39:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-28 11:39:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-28 11:39:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/SignUp/span_Please enter correct emai' are matched.
+
+2017-12-28 11:39:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/span_Please enter correct emai' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/014_signup_registeredemail" classname="Test Cases/014_signup_registeredemail" status="PASSED">
+         <system-out><![CDATA[2017-12-28 11:39:42 - [TEST_CASE][PASSED] - Test Cases/014_signup_registeredemail: Test Cases/014_signup_registeredemail
+
+2017-12-28 11:39:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-28 11:39:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-28 11:39:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:39:46 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:39:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:39:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:39:48 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/SignUp/input_email'
+
+2017-12-28 11:39:48 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/SignUp/input_email'
+
+2017-12-28 11:39:48 - [TEST_STEP][PASSED] - setText: Text 'Oddle' is set on object 'Object Repository/SignUp/input_firstName'
+
+2017-12-28 11:39:49 - [MESSAGE][PASSED] - Text 'Oddle' is set on object 'Object Repository/SignUp/input_firstName'
+
+2017-12-28 11:39:49 - [TEST_STEP][PASSED] - setText: Text 'Automation' is set on object 'Object Repository/SignUp/input_lastName'
+
+2017-12-28 11:39:49 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/SignUp/input_lastName'
+
+2017-12-28 11:39:49 - [TEST_STEP][PASSED] - setText: Text '91234567' is set on object 'Object Repository/SignUp/input_phone'
+
+2017-12-28 11:39:49 - [MESSAGE][PASSED] - Text '91234567' is set on object 'Object Repository/SignUp/input_phone'
+
+2017-12-28 11:39:49 - [TEST_STEP][PASSED] - setText: Text 'puToNtaB_1' is set on object 'Object Repository/SignUp/input_password'
+
+2017-12-28 11:39:50 - [MESSAGE][PASSED] - Text 'puToNtaB_1' is set on object 'Object Repository/SignUp/input_password'
+
+2017-12-28 11:39:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/button_Sign Up' is clicked on
+
+2017-12-28 11:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/button_Sign Up' is clicked on
+
+2017-12-28 11:39:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-28 11:39:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-28 11:39:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/SignUp/div_email_in_use' are matched.
+
+2017-12-28 11:39:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/div_email_in_use' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/015_signup_wrongfname" classname="Test Cases/015_signup_wrongfname" status="PASSED">
+         <system-out><![CDATA[2017-12-28 11:39:52 - [TEST_CASE][PASSED] - Test Cases/015_signup_wrongfname: Test Cases/015_signup_wrongfname
+
+2017-12-28 11:39:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-28 11:39:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-28 11:39:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:39:56 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:39:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:39:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:39:57 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:39:57 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/SignUp/input_email'
+
+2017-12-28 11:39:58 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/SignUp/input_email'
+
+2017-12-28 11:39:58 - [TEST_STEP][PASSED] - setText: Text 'invalidfirstname0' is set on object 'Object Repository/SignUp/input_firstName'
+
+2017-12-28 11:39:59 - [MESSAGE][PASSED] - Text 'invalidfirstname0' is set on object 'Object Repository/SignUp/input_firstName'
+
+2017-12-28 11:39:59 - [TEST_STEP][PASSED] - setText: Text 'Automation' is set on object 'Object Repository/SignUp/input_lastName'
+
+2017-12-28 11:39:59 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/SignUp/input_lastName'
+
+2017-12-28 11:39:59 - [TEST_STEP][PASSED] - setText: Text '91234567' is set on object 'Object Repository/SignUp/input_phone'
+
+2017-12-28 11:39:59 - [MESSAGE][PASSED] - Text '91234567' is set on object 'Object Repository/SignUp/input_phone'
+
+2017-12-28 11:39:59 - [TEST_STEP][PASSED] - setText: Text 'puToNtaB_1' is set on object 'Object Repository/SignUp/input_password'
+
+2017-12-28 11:40:00 - [MESSAGE][PASSED] - Text 'puToNtaB_1' is set on object 'Object Repository/SignUp/input_password'
+
+2017-12-28 11:40:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/button_Sign Up' is clicked on
+
+2017-12-28 11:40:00 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/button_Sign Up' is clicked on
+
+2017-12-28 11:40:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-28 11:40:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-28 11:40:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/SignUp/span_Please enter your first n' are matched.
+
+2017-12-28 11:40:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/span_Please enter your first n' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/016_signup_wronglname" classname="Test Cases/016_signup_wronglname" status="PASSED">
+         <system-out><![CDATA[2017-12-28 11:40:02 - [TEST_CASE][PASSED] - Test Cases/016_signup_wronglname: Test Cases/016_signup_wronglname
+
+2017-12-28 11:40:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-28 11:40:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-28 11:40:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:40:06 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:40:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:40:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:40:07 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/SignUp/input_email'
+
+2017-12-28 11:40:08 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/SignUp/input_email'
+
+2017-12-28 11:40:08 - [TEST_STEP][PASSED] - setText: Text 'Oddle' is set on object 'Object Repository/SignUp/input_firstName'
+
+2017-12-28 11:40:08 - [MESSAGE][PASSED] - Text 'Oddle' is set on object 'Object Repository/SignUp/input_firstName'
+
+2017-12-28 11:40:08 - [TEST_STEP][PASSED] - setText: Text 'invalidlastname~' is set on object 'Object Repository/SignUp/input_lastName'
+
+2017-12-28 11:40:09 - [MESSAGE][PASSED] - Text 'invalidlastname~' is set on object 'Object Repository/SignUp/input_lastName'
+
+2017-12-28 11:40:09 - [TEST_STEP][PASSED] - setText: Text '91234567' is set on object 'Object Repository/SignUp/input_phone'
+
+2017-12-28 11:40:09 - [MESSAGE][PASSED] - Text '91234567' is set on object 'Object Repository/SignUp/input_phone'
+
+2017-12-28 11:40:09 - [TEST_STEP][PASSED] - setText: Text 'puToNtaB_1' is set on object 'Object Repository/SignUp/input_password'
+
+2017-12-28 11:40:10 - [MESSAGE][PASSED] - Text 'puToNtaB_1' is set on object 'Object Repository/SignUp/input_password'
+
+2017-12-28 11:40:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/button_Sign Up' is clicked on
+
+2017-12-28 11:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/button_Sign Up' is clicked on
+
+2017-12-28 11:40:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-28 11:40:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-28 11:40:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/SignUp/span_Please enter your last na' are matched.
+
+2017-12-28 11:40:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/span_Please enter your last na' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/017_signup_wrongphone" classname="Test Cases/017_signup_wrongphone" status="PASSED">
+         <system-out><![CDATA[2017-12-28 11:40:12 - [TEST_CASE][PASSED] - Test Cases/017_signup_wrongphone: Test Cases/017_signup_wrongphone
+
+2017-12-28 11:40:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-28 11:40:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-28 11:40:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:40:15 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:40:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:40:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:40:17 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:40:17 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/SignUp/input_email'
+
+2017-12-28 11:40:18 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/SignUp/input_email'
+
+2017-12-28 11:40:18 - [TEST_STEP][PASSED] - setText: Text 'Oddle' is set on object 'Object Repository/SignUp/input_firstName'
+
+2017-12-28 11:40:18 - [MESSAGE][PASSED] - Text 'Oddle' is set on object 'Object Repository/SignUp/input_firstName'
+
+2017-12-28 11:40:18 - [TEST_STEP][PASSED] - setText: Text 'Automation' is set on object 'Object Repository/SignUp/input_lastName'
+
+2017-12-28 11:40:18 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/SignUp/input_lastName'
+
+2017-12-28 11:40:18 - [TEST_STEP][PASSED] - setText: Text '9wrongnumber' is set on object 'Object Repository/SignUp/input_phone'
+
+2017-12-28 11:40:19 - [MESSAGE][PASSED] - Text '9wrongnumber' is set on object 'Object Repository/SignUp/input_phone'
+
+2017-12-28 11:40:19 - [TEST_STEP][PASSED] - setText: Text 'puToNtaB_1' is set on object 'Object Repository/SignUp/input_password'
+
+2017-12-28 11:40:19 - [MESSAGE][PASSED] - Text 'puToNtaB_1' is set on object 'Object Repository/SignUp/input_password'
+
+2017-12-28 11:40:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/button_Sign Up' is clicked on
+
+2017-12-28 11:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/button_Sign Up' is clicked on
+
+2017-12-28 11:40:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-28 11:40:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-28 11:40:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/SignUp/span_Please enter your phone n' are matched.
+
+2017-12-28 11:40:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/span_Please enter your phone n' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/018_signup_wrongpwformat" classname="Test Cases/018_signup_wrongpwformat" status="PASSED">
+         <system-out><![CDATA[2017-12-28 11:40:21 - [TEST_CASE][PASSED] - Test Cases/018_signup_wrongpwformat: Test Cases/018_signup_wrongpwformat
+
+2017-12-28 11:40:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-28 11:40:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-28 11:40:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:40:25 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:40:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:40:26 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:40:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:40:27 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:40:27 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/SignUp/input_email'
+
+2017-12-28 11:40:28 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/SignUp/input_email'
+
+2017-12-28 11:40:28 - [TEST_STEP][PASSED] - setText: Text 'Oddle' is set on object 'Object Repository/SignUp/input_firstName'
+
+2017-12-28 11:40:28 - [MESSAGE][PASSED] - Text 'Oddle' is set on object 'Object Repository/SignUp/input_firstName'
+
+2017-12-28 11:40:28 - [TEST_STEP][PASSED] - setText: Text 'Automation' is set on object 'Object Repository/SignUp/input_lastName'
+
+2017-12-28 11:40:29 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/SignUp/input_lastName'
+
+2017-12-28 11:40:29 - [TEST_STEP][PASSED] - setText: Text '91234567' is set on object 'Object Repository/SignUp/input_phone'
+
+2017-12-28 11:40:29 - [MESSAGE][PASSED] - Text '91234567' is set on object 'Object Repository/SignUp/input_phone'
+
+2017-12-28 11:40:29 - [TEST_STEP][PASSED] - setText: Text 'wrongpw' is set on object 'Object Repository/SignUp/input_password'
+
+2017-12-28 11:40:29 - [MESSAGE][PASSED] - Text 'wrongpw' is set on object 'Object Repository/SignUp/input_password'
+
+2017-12-28 11:40:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/button_Sign Up' is clicked on
+
+2017-12-28 11:40:29 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/button_Sign Up' is clicked on
+
+2017-12-28 11:40:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-28 11:40:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-28 11:40:30 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/SignUp/span_Password should be at lea' are matched.
+
+2017-12-28 11:40:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/span_Password should be at lea' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/019_signup_alttab" classname="Test Cases/019_signup_alttab" status="PASSED">
+         <system-out><![CDATA[2017-12-28 11:40:31 - [TEST_CASE][PASSED] - Test Cases/019_signup_alttab: Test Cases/019_signup_alttab
+
+2017-12-28 11:40:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-28 11:40:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-28 11:40:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:40:35 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:40:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:40:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:40:37 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:40:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/span_Login' is clicked on
+
+2017-12-28 11:40:37 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/span_Login' is clicked on
+
+2017-12-28 11:40:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:40:38 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:40:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/span_Login' is clicked on
+
+2017-12-28 11:40:38 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/span_Login' is clicked on
+
+2017-12-28 11:40:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/svg_close window' is clicked on
+
+2017-12-28 11:40:38 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/svg_close window' is clicked on
+
+2017-12-28 11:40:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-28 11:40:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-28 11:40:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/div_Log in' are matched.
+
+2017-12-28 11:40:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/div_Log in' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/020_signup_terms" classname="Test Cases/020_signup_terms" status="PASSED">
+         <system-out><![CDATA[2017-12-28 11:40:40 - [TEST_CASE][PASSED] - Test Cases/020_signup_terms: Test Cases/020_signup_terms
+
+2017-12-28 11:40:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-28 11:40:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-28 11:40:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:40:45 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co/en_SG' successfully
+
+2017-12-28 11:40:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Log in' is clicked on
+
+2017-12-28 11:40:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:40:47 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/a_ Sign up' is clicked on
+
+2017-12-28 11:40:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-28 11:40:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-28 11:40:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SignUp/u_Terms and Conditions' is clicked on
+
+2017-12-28 11:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/u_Terms and Conditions' is clicked on
+
+2017-12-28 11:40:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-28 11:40:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-28 11:40:51 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2017-12-28 11:40:51 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2017-12-28 11:40:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SignUp/h1_Terms and Conditions' is present
+
+2017-12-28 11:40:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-28 11:40:52 - [MESSAGE][PASSED] - Object 'Object Repository/SignUp/h1_Terms and Conditions' is present
+
+2017-12-28 11:40:52 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/SignUp/h1_Terms and Conditions' are matched.
+
+2017-12-28 11:40:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/h1_Terms and Conditions' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-28 11:38:39 - [TEST_SUITE][PASSED] - signup: Test Cases/020_signup_terms]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

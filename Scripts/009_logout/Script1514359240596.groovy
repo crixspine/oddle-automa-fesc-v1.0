@@ -23,17 +23,17 @@ WebUI.callTestCase(findTestCase('001_login_email_successful'), [:], FailureHandl
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('div_Hi John'))
+WebUI.click(findTestObject('LogIn/div_Hi John'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('a_Sign out'))
+WebUI.click(findTestObject('LogIn/a_Sign out'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('button_Sign Out'))
+WebUI.click(findTestObject('Account/button_Sign Out'))
 
 WebUI.delay(1)
 
-WebUI.verifyElementText(findTestObject('div_Log in'), 'Log in')
+WebUI.verifyElementPresent(findTestObject('LogIn/div_Log in'), 0)
 

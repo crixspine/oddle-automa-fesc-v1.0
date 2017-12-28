@@ -22,17 +22,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://mcdonaldstest.staging.oddle.co/en_SG')
+WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.click(findTestObject('div_Log in'))
+WebUI.click(findTestObject('LogIn/div_Log in'))
 
-WebUI.setText(findTestObject('input_email'), 'kevin.ang@oddle.me')
+WebUI.setText(findTestObject('LogIn/input_email'), GlobalVariable.email)
 
-WebUI.setText(findTestObject('input_password'), '0ddleatw')
+WebUI.setText(findTestObject('LogIn/input_password'), GlobalVariable.password)
 
-WebUI.click(findTestObject('button_Login'))
+WebUI.click(findTestObject('LogIn/button_Login'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementText(findTestObject('div_Hi John'), 'Hi, John')
+WebUI.verifyElementNotPresent(findTestObject('LogIn/div_Log in'), 0)
 

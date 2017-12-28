@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_logo</name>
+   <tag></tag>
+   <elementGuidId>9bf4ca44-2e41-4a3e-85a6-5d5d315a2b33</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>s10pj5eg-1 gaYYvS</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://s3-ap-southeast-1.amazonaws.com/v3-beta.image.oddle.me/logo/menu_logo_mcdonaldstest4fe1e4.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>mcdonaldstest</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>35</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>35</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[1]/div[1]/div[@class=&quot;s111nt22-0 isjfum&quot;]/div[@class=&quot;e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp&quot;]/div[@class=&quot;s1ikpaay-0 DWEVL&quot;]/div[@class=&quot;s1ikpaay-1 ebgyAt&quot;]/div[@class=&quot;b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp&quot;]/div[@class=&quot;s1ikpaay-4 drrHoE&quot;]/div[@class=&quot;s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp&quot;]/div[@class=&quot;s19enx61-1 eUtrjX&quot;]/div[@class=&quot;e2lxka-3 idLvhV&quot;]/a[@class=&quot;s1nouw8s-0 wpWGV&quot;]/div[@class=&quot;e9phw6-1-sc-bdVaJa bYlqBK e9phw6-0 jaALZg&quot;]/figure[@class=&quot;s1nouw8s-1 eescHu s10pj5eg-0 cFpRPK&quot;]/img[@class=&quot;s10pj5eg-1 gaYYvS&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

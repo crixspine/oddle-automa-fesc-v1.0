@@ -21,13 +21,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://mcdonaldstest.staging.oddle.co/en_SG')
+WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.click(findTestObject('div_Log in'))
+WebUI.click(findTestObject('LogIn/div_Log in'))
 
 WebUI.click(findTestObject('SignUp/a_ Sign up'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('SignUp/input_email'), 'kevin.ang@oddle.me')
+WebUI.setText(findTestObject('SignUp/input_email'), GlobalVariable.email)
 
 WebUI.setText(findTestObject('SignUp/input_firstName'), 'Oddle')
 
@@ -41,5 +41,5 @@ WebUI.click(findTestObject('SignUp/button_Sign Up'))
 
 WebUI.delay(1)
 
-WebUI.verifyElementText(findTestObject('SignUp/div_email_in_use'), 'email_in_use')
+WebUI.verifyElementPresent(findTestObject('SignUp/div_email_in_use'), 0)
 

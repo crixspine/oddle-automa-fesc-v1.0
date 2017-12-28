@@ -19,3 +19,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.url)
+
+WebUI.click(findTestObject('LogIn/div_Log in'))
+
+WebUI.click(findTestObject('SignUp/a_ Sign up'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('SignUp/u_Terms and Conditions'))
+
+WebUI.delay(3)
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.verifyElementPresent(findTestObject('SignUp/h1_Terms and Conditions'), 0)
+

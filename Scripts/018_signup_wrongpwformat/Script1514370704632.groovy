@@ -21,9 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://mcdonaldstest.staging.oddle.co/en_SG')
+WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.click(findTestObject('div_Log in'))
+WebUI.click(findTestObject('LogIn/div_Log in'))
 
 WebUI.click(findTestObject('SignUp/a_ Sign up'), FailureHandling.STOP_ON_FAILURE)
 
@@ -35,11 +35,11 @@ WebUI.setText(findTestObject('SignUp/input_lastName'), 'Automation')
 
 WebUI.setText(findTestObject('SignUp/input_phone'), '91234567')
 
-WebUI.setText(findTestObject('SignUp/input_password'), 'wrongpw')
+WebUI.setText(findTestObject('SignUp/input_password'), 'wrongft')
 
 WebUI.click(findTestObject('SignUp/button_Sign Up'))
 
 WebUI.delay(1)
 
-WebUI.verifyElementText(findTestObject('SignUp/span_Password should be at lea'), 'Password should be at least 8 characters long.')
+WebUI.verifyElementPresent(findTestObject('SignUp/span_Password should be at lea'), 0)
 
