@@ -19,29 +19,33 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('001_login_email_successful'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.click(findTestObject('LogIn/div_Hi user'))
 
-WebUI.click(findTestObject('LogIn/div_Log in'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('SignUp/a_ Sign up'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Account/a_Account Details'))
 
-WebUI.click(findTestObject('SignUp/div_id fbSign up'))
+WebUI.setText(findTestObject('Account/input_firstname'), 'wrongfname1')
 
-WebUI.delay(3)
-
-WebUI.switchToWindowTitle('Facebook', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('LogIn/input_email_fb'), GlobalVariable.email_fb)
-
-WebUI.setText(findTestObject('LogIn/input_pass_fb'), GlobalVariable.password_fb)
-
-WebUI.click(findTestObject('LogIn/label_loginbutton'))
+WebUI.click(findTestObject('Account/button_Save'))
 
 WebUI.delay(3)
 
-WebUI.switchToDefaultContent()
+WebUI.verifyElementText(findTestObject('Account/div_error_message'), 'first_name_invalid')
 
-CustomKeywords.'autoKeywords.verifyLoggedIn.verifyLogged'()
+WebUI.click(findTestObject('HomePage/a_Home'))
+
+WebUI.click(findTestObject('LogIn/div_Hi user'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Account/a_Account Details'))
+
+WebUI.delay(1)
+
+newFname = WebUI.getAttribute(findTestObject('Account/input_firstname'), 'value')
+
+WebUI.verifyNotMatch('wrongfname1', newFname, false)
 

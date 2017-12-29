@@ -58,7 +58,7 @@ WebUI.click(findTestObject('Account/button_Sign Out'))
 
 WebUI.delay(1)
 
-WebUI.verifyElementText(findTestObject('LogIn/div_Log in'), 'Log in')
+CustomKeywords.'autoKeywords.verifyLoggedOut.verifyNotLogged'()
 
 WebUI.click(findTestObject('LogIn/div_Log in'))
 
@@ -70,5 +70,5 @@ WebUI.click(findTestObject('LogIn/button_Login'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('SignUp/div_Hi Oddle'), 0)
+CustomKeywords.'autoKeywords.verifyLoggedIn.verifyLogged'()
 

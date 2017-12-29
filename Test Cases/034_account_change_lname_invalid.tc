@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>034_account_change_lname_invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c28d0347-271e-4dd6-8795-3b8e6da00dc2</testCaseGuid>
+</TestCaseEntity>

@@ -34,5 +34,5 @@ WebUI.click(findTestObject('LogIn/button_Login'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementNotPresent(findTestObject('LogIn/div_Log in'), 0)
+CustomKeywords.'autoKeywords.verifyLoggedIn.verifyLogged'()
 

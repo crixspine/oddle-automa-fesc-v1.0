@@ -46,7 +46,5 @@ WebUI.click(findTestObject('SignUp/button_Sign Up'))
 'Delay for signup success notification (WIP)'
 WebUI.delay(3)
 
-WebUI.verifyElementNotPresent(findTestObject('LogIn/div_Log in'), 0)
-
-WebUI.verifyElementPresent(findTestObject('SignUp/div_Hi Oddle'), 0)
+CustomKeywords.'autoKeywords.verifyLoggedIn.verifyLogged'()
 

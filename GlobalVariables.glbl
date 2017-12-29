@@ -32,4 +32,24 @@
       <initValue>'unusedemail@changethis.ifused'</initValue>
       <name>email_placeholder</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>alternate registered user email for customer login</description>
+      <initValue>'test@oddle.me'</initValue>
+      <name>email_regd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default phone number </description>
+      <initValue>'91111111'</initValue>
+      <name>phone</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default company</description>
+      <initValue>'The Oddle Company'</initValue>
+      <name>company</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>placeholder password in valid format</description>
+      <initValue>'newpassword'</initValue>
+      <name>password_placeholder</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

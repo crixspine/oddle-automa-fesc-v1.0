@@ -23,25 +23,5 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.click(findTestObject('LogIn/div_Log in'))
-
-WebUI.click(findTestObject('SignUp/a_ Sign up'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('SignUp/div_id fbSign up'))
-
-WebUI.delay(3)
-
-WebUI.switchToWindowTitle('Facebook', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('LogIn/input_email_fb'), GlobalVariable.email_fb)
-
-WebUI.setText(findTestObject('LogIn/input_pass_fb'), GlobalVariable.password_fb)
-
-WebUI.click(findTestObject('LogIn/label_loginbutton'))
-
-WebUI.delay(3)
-
-WebUI.switchToDefaultContent()
-
-CustomKeywords.'autoKeywords.verifyLoggedIn.verifyLogged'()
+CustomKeywords.'autoKeywords.verifyLoggedOut.verifyNotLogged'()
 

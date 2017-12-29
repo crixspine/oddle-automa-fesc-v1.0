@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('001_login_email_successful'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('LogIn/div_Hi John'))
+WebUI.click(findTestObject('LogIn/div_Hi user'))
 
 WebUI.delay(1)
 
@@ -33,13 +33,13 @@ WebUI.click(findTestObject('Account/button_Save'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementNotPresent(findTestObject('Account/div_error_message'), 0)
+WebUI.verifyElementNotHasAttribute(findTestObject('Account/div_error_message'), 'text', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('Account/input_email'), 'value', GlobalVariable.email_placeholder, 0)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('LogIn/div_Hi John'))
+WebUI.click(findTestObject('LogIn/div_Hi user'))
 
 WebUI.delay(1)
 
@@ -51,7 +51,7 @@ WebUI.click(findTestObject('Account/button_Sign Out'))
 
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('LogIn/div_Log in'), 0)
+CustomKeywords.'autoKeywords.verifyLoggedOut.verifyNotLogged'()
 
 WebUI.click(findTestObject('LogIn/div_Log in'))
 
@@ -63,9 +63,9 @@ WebUI.click(findTestObject('LogIn/button_Login'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementNotPresent(findTestObject('LogIn/div_Log in'), 0)
+CustomKeywords.'autoKeywords.verifyLoggedIn.verifyLogged'()
 
-WebUI.click(findTestObject('LogIn/div_Hi John'))
+WebUI.click(findTestObject('LogIn/div_Hi user'))
 
 WebUI.delay(1)
 
@@ -78,7 +78,7 @@ WebUI.click(findTestObject('Account/button_Save'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementNotPresent(findTestObject('Account/div_error_message'), 0)
+WebUI.verifyElementNotHasAttribute(findTestObject('Account/div_error_message'), 'text', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('Account/input_email'), 'value', GlobalVariable.email, 0)
 

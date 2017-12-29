@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('001_login_email_successful'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('LogIn/div_Hi John'))
+WebUI.click(findTestObject('LogIn/div_Hi user'))
 
 WebUI.delay(1)
 

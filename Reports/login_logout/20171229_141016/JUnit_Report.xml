@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login_logout" time="128" tests="9" failures="0" errors="0">
+   <testsuite name="login_logout" tests="9" failures="0" errors="0" time="128" timestamp="2017-12-29 14:10:24" hostname="Ang - DESKTOP-JMN7MR3" id="Test Suites/login_logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ang\\git\\oddle-automa\\Reports\\login_logout\\20171229_141016"/>
+         <property name="logFiles" value="C:\\Users\\Ang\\git\\oddle-automa\\Reports\\login_logout\\20171229_141016\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ang - DESKTOP-JMN7MR3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.84"/>
+         <property name="hostAddress" value="192.168.126.1"/>
+         <property name="sessionId" value="f10463a26d563f7816fe39e25bb52eaa"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/001_login_email_successful" classname="Test Cases/001_login_email_successful" status="PASSED">
+         <system-out><![CDATA[2017-12-29 14:10:24 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2017-12-29 14:10:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-29 14:10:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-29 14:10:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2017-12-29 14:10:32 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2017-12-29 14:10:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2017-12-29 14:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2017-12-29 14:10:32 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2017-12-29 14:10:34 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2017-12-29 14:10:34 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2017-12-29 14:10:34 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2017-12-29 14:10:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2017-12-29 14:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2017-12-29 14:10:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-29 14:10:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-29 14:10:37 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/LogIn/div_Log in' located by 'By.xpath: //div[count(. | //*[@class = 's3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD']) = count(//*[@class = 's3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD'])][count(. | //*[@role = 'button']) = count(//*[@role = 'button'])][count(. | //*[text() = 'Log in']) = count(//*[text() = 'Log in'])][count(. | id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-0 DWEVL"]/div[@class="s1ikpaay-1 ebgyAt"]/div[@class="b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-4 drrHoE"]/div[@class="s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp"]/div[@class="s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp"]/div[@class="e2lxka-3 idLvhV"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/a[@class="s1nouw8s-2 gsOhjW"]/div[@class="s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD"]) = count(id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-0 DWEVL"]/div[@class="s1ikpaay-1 ebgyAt"]/div[@class="b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-4 drrHoE"]/div[@class="s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp"]/div[@class="s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp"]/div[@class="e2lxka-3 idLvhV"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/a[@class="s1nouw8s-2 gsOhjW"]/div[@class="s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD"])]' is not present after '5' second(s)
+
+2017-12-29 14:10:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-29 14:10:38 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LogIn/div_Log in' located by 'By.xpath: //div[count(. | //*[@class = 's3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD']) = count(//*[@class = 's3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD'])][count(. | //*[@role = 'button']) = count(//*[@role = 'button'])][count(. | //*[text() = 'Log in']) = count(//*[text() = 'Log in'])][count(. | id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-0 DWEVL"]/div[@class="s1ikpaay-1 ebgyAt"]/div[@class="b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-4 drrHoE"]/div[@class="s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp"]/div[@class="s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp"]/div[@class="e2lxka-3 idLvhV"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/a[@class="s1nouw8s-2 gsOhjW"]/div[@class="s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD"]) = count(id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-0 DWEVL"]/div[@class="s1ikpaay-1 ebgyAt"]/div[@class="b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-4 drrHoE"]/div[@class="s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp"]/div[@class="s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp"]/div[@class="e2lxka-3 idLvhV"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/a[@class="s1nouw8s-2 gsOhjW"]/div[@class="s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD"])]' is not present after '5' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_login_email_wrongpw" classname="Test Cases/002_login_email_wrongpw" status="PASSED">
+         <system-out><![CDATA[2017-12-29 14:10:38 - [TEST_CASE][PASSED] - Test Cases/002_login_email_wrongpw: Test Cases/002_login_email_wrongpw
+
+2017-12-29 14:10:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-29 14:10:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-29 14:10:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2017-12-29 14:10:43 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2017-12-29 14:10:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2017-12-29 14:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2017-12-29 14:10:43 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2017-12-29 14:10:45 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2017-12-29 14:10:45 - [TEST_STEP][PASSED] - setText: Text 'wrongpassword' is set on object 'Object Repository/LogIn/input_password'
+
+2017-12-29 14:10:45 - [MESSAGE][PASSED] - Text 'wrongpassword' is set on object 'Object Repository/LogIn/input_password'
+
+2017-12-29 14:10:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2017-12-29 14:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2017-12-29 14:10:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-29 14:10:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-29 14:10:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LogIn/div_login_credentials_invalid' is present
+
+2017-12-29 14:10:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-29 14:10:48 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_login_credentials_invalid' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/003_login_email_wrongpwformat" classname="Test Cases/003_login_email_wrongpwformat" status="PASSED">
+         <system-out><![CDATA[2017-12-29 14:10:49 - [TEST_CASE][PASSED] - Test Cases/003_login_email_wrongpwformat: Test Cases/003_login_email_wrongpwformat
+
+2017-12-29 14:10:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-29 14:10:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-29 14:10:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2017-12-29 14:10:54 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2017-12-29 14:10:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2017-12-29 14:10:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2017-12-29 14:10:54 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2017-12-29 14:10:55 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2017-12-29 14:10:55 - [TEST_STEP][PASSED] - setText: Text 'wrongft' is set on object 'Object Repository/LogIn/input_password'
+
+2017-12-29 14:10:56 - [MESSAGE][PASSED] - Text 'wrongft' is set on object 'Object Repository/LogIn/input_password'
+
+2017-12-29 14:10:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2017-12-29 14:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2017-12-29 14:10:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-29 14:10:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-29 14:10:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LogIn/span_Password should be at lea' is present
+
+2017-12-29 14:10:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-29 14:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/span_Password should be at lea' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/004_login_email_wrongemail" classname="Test Cases/004_login_email_wrongemail" status="PASSED">
+         <system-out><![CDATA[2017-12-29 14:11:00 - [TEST_CASE][PASSED] - Test Cases/004_login_email_wrongemail: Test Cases/004_login_email_wrongemail
+
+2017-12-29 14:11:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-29 14:11:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-29 14:11:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2017-12-29 14:11:04 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2017-12-29 14:11:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2017-12-29 14:11:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2017-12-29 14:11:04 - [TEST_STEP][PASSED] - setText: Text 'unusedemail@changethis.ifused' is set on object 'Object Repository/LogIn/input_email'
+
+2017-12-29 14:11:06 - [MESSAGE][PASSED] - Text 'unusedemail@changethis.ifused' is set on object 'Object Repository/LogIn/input_email'
+
+2017-12-29 14:11:06 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2017-12-29 14:11:06 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2017-12-29 14:11:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2017-12-29 14:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2017-12-29 14:11:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-29 14:11:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-29 14:11:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LogIn/div_login_credentials_invalid' is present
+
+2017-12-29 14:11:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-29 14:11:10 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_login_credentials_invalid' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/005_login_email_wrongemailformat" classname="Test Cases/005_login_email_wrongemailformat" status="PASSED">
+         <system-out><![CDATA[2017-12-29 14:11:11 - [TEST_CASE][PASSED] - Test Cases/005_login_email_wrongemailformat: Test Cases/005_login_email_wrongemailformat
+
+2017-12-29 14:11:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-29 14:11:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-29 14:11:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2017-12-29 14:11:15 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2017-12-29 14:11:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2017-12-29 14:11:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2017-12-29 14:11:15 - [TEST_STEP][PASSED] - setText: Text 'wrongemailformat' is set on object 'Object Repository/LogIn/input_email'
+
+2017-12-29 14:11:17 - [MESSAGE][PASSED] - Text 'wrongemailformat' is set on object 'Object Repository/LogIn/input_email'
+
+2017-12-29 14:11:17 - [TEST_STEP][PASSED] - setText: Text 'notimportant' is set on object 'Object Repository/LogIn/input_password'
+
+2017-12-29 14:11:17 - [MESSAGE][PASSED] - Text 'notimportant' is set on object 'Object Repository/LogIn/input_password'
+
+2017-12-29 14:11:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2017-12-29 14:11:17 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2017-12-29 14:11:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-29 14:11:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-29 14:11:20 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LogIn/span_Please enter correct emai' is present
+
+2017-12-29 14:11:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-29 14:11:20 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/span_Please enter correct emai' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/006_login_fb_loggedin" classname="Test Cases/006_login_fb_loggedin" status="PASSED">
+         <system-out><![CDATA[2017-12-29 14:11:21 - [TEST_CASE][PASSED] - Test Cases/006_login_fb_loggedin: Test Cases/006_login_fb_loggedin
+
+2017-12-29 14:11:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-29 14:11:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-29 14:11:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.facebook.com/' successfully
+
+2017-12-29 14:11:25 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2017-12-29 14:11:25 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email_fbpage'
+
+2017-12-29 14:11:25 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email_fbpage'
+
+2017-12-29 14:11:25 - [TEST_STEP][PASSED] - setText: Text 'puToNtaB_1' is set on object 'Object Repository/LogIn/input_pass_fbpage'
+
+2017-12-29 14:11:25 - [MESSAGE][PASSED] - Text 'puToNtaB_1' is set on object 'Object Repository/LogIn/input_pass_fbpage'
+
+2017-12-29 14:11:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/input_login_fbpage' is clicked on
+
+2017-12-29 14:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/input_login_fbpage' is clicked on
+
+2017-12-29 14:11:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-29 14:11:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-29 14:11:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2017-12-29 14:11:35 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2017-12-29 14:11:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2017-12-29 14:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2017-12-29 14:11:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-29 14:11:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-29 14:11:38 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/LogIn/span_Login with Facebook' successfully
+
+2017-12-29 14:11:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-29 14:11:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LogIn/span_Login with Facebook' successfully
+
+2017-12-29 14:11:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/span_Login with Facebook' is clicked on
+
+2017-12-29 14:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/span_Login with Facebook' is clicked on
+
+2017-12-29 14:11:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-29 14:11:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-29 14:11:42 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/LogIn/div_Log in' located by 'By.xpath: //div[count(. | //*[@class = 's3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD']) = count(//*[@class = 's3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD'])][count(. | //*[@role = 'button']) = count(//*[@role = 'button'])][count(. | //*[text() = 'Log in']) = count(//*[text() = 'Log in'])][count(. | id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-0 DWEVL"]/div[@class="s1ikpaay-1 ebgyAt"]/div[@class="b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-4 drrHoE"]/div[@class="s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp"]/div[@class="s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp"]/div[@class="e2lxka-3 idLvhV"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/a[@class="s1nouw8s-2 gsOhjW"]/div[@class="s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD"]) = count(id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-0 DWEVL"]/div[@class="s1ikpaay-1 ebgyAt"]/div[@class="b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-4 drrHoE"]/div[@class="s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp"]/div[@class="s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp"]/div[@class="e2lxka-3 idLvhV"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/a[@class="s1nouw8s-2 gsOhjW"]/div[@class="s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD"])]' is not present after '5' second(s)
+
+2017-12-29 14:11:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-29 14:11:42 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LogIn/div_Log in' located by 'By.xpath: //div[count(. | //*[@class = 's3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD']) = count(//*[@class = 's3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD'])][count(. | //*[@role = 'button']) = count(//*[@role = 'button'])][count(. | //*[text() = 'Log in']) = count(//*[text() = 'Log in'])][count(. | id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-0 DWEVL"]/div[@class="s1ikpaay-1 ebgyAt"]/div[@class="b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-4 drrHoE"]/div[@class="s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp"]/div[@class="s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp"]/div[@class="e2lxka-3 idLvhV"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/a[@class="s1nouw8s-2 gsOhjW"]/div[@class="s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD"]) = count(id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-0 DWEVL"]/div[@class="s1ikpaay-1 ebgyAt"]/div[@class="b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-4 drrHoE"]/div[@class="s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp"]/div[@class="s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp"]/div[@class="e2lxka-3 idLvhV"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/a[@class="s1nouw8s-2 gsOhjW"]/div[@class="s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD"])]' is not present after '5' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/007_login_fb_notloggedin" classname="Test Cases/007_login_fb_notloggedin" status="PASSED">
+         <system-out><![CDATA[2017-12-29 14:11:43 - [TEST_CASE][PASSED] - Test Cases/007_login_fb_notloggedin: Test Cases/007_login_fb_notloggedin
+
+2017-12-29 14:11:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-29 14:11:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-29 14:11:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2017-12-29 14:11:47 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2017-12-29 14:11:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2017-12-29 14:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2017-12-29 14:11:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-29 14:11:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-29 14:11:50 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/LogIn/span_Login with Facebook' successfully
+
+2017-12-29 14:11:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-29 14:11:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LogIn/span_Login with Facebook' successfully
+
+2017-12-29 14:11:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/span_Login with Facebook' is clicked on
+
+2017-12-29 14:11:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/span_Login with Facebook' is clicked on
+
+2017-12-29 14:11:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-29 14:11:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-29 14:11:54 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Facebook'
+
+2017-12-29 14:11:55 - [MESSAGE][PASSED] - Switched to window with title: 'Facebook'
+
+2017-12-29 14:11:55 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email_fb'
+
+2017-12-29 14:11:55 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email_fb'
+
+2017-12-29 14:11:55 - [TEST_STEP][PASSED] - setText: Text 'puToNtaB_1' is set on object 'Object Repository/LogIn/input_pass_fb'
+
+2017-12-29 14:11:55 - [MESSAGE][PASSED] - Text 'puToNtaB_1' is set on object 'Object Repository/LogIn/input_pass_fb'
+
+2017-12-29 14:11:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/label_loginbutton' is clicked on
+
+2017-12-29 14:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/label_loginbutton' is clicked on
+
+2017-12-29 14:11:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-29 14:11:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-29 14:11:59 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2017-12-29 14:12:00 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/LogIn/div_Log in' located by 'By.xpath: //div[count(. | //*[@class = 's3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD']) = count(//*[@class = 's3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD'])][count(. | //*[@role = 'button']) = count(//*[@role = 'button'])][count(. | //*[text() = 'Log in']) = count(//*[text() = 'Log in'])][count(. | id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-0 DWEVL"]/div[@class="s1ikpaay-1 ebgyAt"]/div[@class="b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-4 drrHoE"]/div[@class="s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp"]/div[@class="s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp"]/div[@class="e2lxka-3 idLvhV"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/a[@class="s1nouw8s-2 gsOhjW"]/div[@class="s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD"]) = count(id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-0 DWEVL"]/div[@class="s1ikpaay-1 ebgyAt"]/div[@class="b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-4 drrHoE"]/div[@class="s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp"]/div[@class="s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp"]/div[@class="e2lxka-3 idLvhV"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/a[@class="s1nouw8s-2 gsOhjW"]/div[@class="s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD"])]' is not present after '5' second(s)
+
+2017-12-29 14:12:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-29 14:12:00 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LogIn/div_Log in' located by 'By.xpath: //div[count(. | //*[@class = 's3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD']) = count(//*[@class = 's3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD'])][count(. | //*[@role = 'button']) = count(//*[@role = 'button'])][count(. | //*[text() = 'Log in']) = count(//*[text() = 'Log in'])][count(. | id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-0 DWEVL"]/div[@class="s1ikpaay-1 ebgyAt"]/div[@class="b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-4 drrHoE"]/div[@class="s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp"]/div[@class="s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp"]/div[@class="e2lxka-3 idLvhV"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/a[@class="s1nouw8s-2 gsOhjW"]/div[@class="s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD"]) = count(id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-0 DWEVL"]/div[@class="s1ikpaay-1 ebgyAt"]/div[@class="b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-4 drrHoE"]/div[@class="s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp"]/div[@class="s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp"]/div[@class="e2lxka-3 idLvhV"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/a[@class="s1nouw8s-2 gsOhjW"]/div[@class="s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD"])]' is not present after '5' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/008_login_fb_wrongpw" classname="Test Cases/008_login_fb_wrongpw" status="PASSED">
+         <system-out><![CDATA[2017-12-29 14:12:01 - [TEST_CASE][PASSED] - Test Cases/008_login_fb_wrongpw: Test Cases/008_login_fb_wrongpw
+
+2017-12-29 14:12:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-29 14:12:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-29 14:12:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2017-12-29 14:12:05 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2017-12-29 14:12:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2017-12-29 14:12:06 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2017-12-29 14:12:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-29 14:12:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-29 14:12:09 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/LogIn/span_Login with Facebook' successfully
+
+2017-12-29 14:12:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-29 14:12:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LogIn/span_Login with Facebook' successfully
+
+2017-12-29 14:12:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/span_Login with Facebook' is clicked on
+
+2017-12-29 14:12:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/span_Login with Facebook' is clicked on
+
+2017-12-29 14:12:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-29 14:12:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-29 14:12:12 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Facebook'
+
+2017-12-29 14:12:13 - [MESSAGE][PASSED] - Switched to window with title: 'Facebook'
+
+2017-12-29 14:12:13 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email_fb'
+
+2017-12-29 14:12:13 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email_fb'
+
+2017-12-29 14:12:13 - [TEST_STEP][PASSED] - setText: Text 'wrongpassword' is set on object 'Object Repository/LogIn/input_pass_fb'
+
+2017-12-29 14:12:13 - [MESSAGE][PASSED] - Text 'wrongpassword' is set on object 'Object Repository/LogIn/input_pass_fb'
+
+2017-12-29 14:12:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/label_loginbutton' is clicked on
+
+2017-12-29 14:12:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/label_loginbutton' is clicked on
+
+2017-12-29 14:12:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-29 14:12:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-29 14:12:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LogIn/div_error_box' is present
+
+2017-12-29 14:12:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-29 14:12:16 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_error_box' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/009_logout" classname="Test Cases/009_logout" status="PASSED">
+         <system-out><![CDATA[2017-12-29 14:12:17 - [TEST_CASE][PASSED] - Test Cases/009_logout: Test Cases/009_logout
+
+2017-12-29 14:12:17 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2017-12-29 14:12:17 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2017-12-29 14:12:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-29 14:12:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-29 14:12:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2017-12-29 14:12:21 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2017-12-29 14:12:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2017-12-29 14:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2017-12-29 14:12:22 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2017-12-29 14:12:23 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2017-12-29 14:12:23 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2017-12-29 14:12:23 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2017-12-29 14:12:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2017-12-29 14:12:23 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2017-12-29 14:12:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-29 14:12:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-29 14:12:26 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/LogIn/div_Log in' located by 'By.xpath: //div[count(. | //*[@class = 's3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD']) = count(//*[@class = 's3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD'])][count(. | //*[@role = 'button']) = count(//*[@role = 'button'])][count(. | //*[text() = 'Log in']) = count(//*[text() = 'Log in'])][count(. | id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-0 DWEVL"]/div[@class="s1ikpaay-1 ebgyAt"]/div[@class="b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-4 drrHoE"]/div[@class="s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp"]/div[@class="s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp"]/div[@class="e2lxka-3 idLvhV"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/a[@class="s1nouw8s-2 gsOhjW"]/div[@class="s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD"]) = count(id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-0 DWEVL"]/div[@class="s1ikpaay-1 ebgyAt"]/div[@class="b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-4 drrHoE"]/div[@class="s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp"]/div[@class="s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp"]/div[@class="e2lxka-3 idLvhV"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/a[@class="s1nouw8s-2 gsOhjW"]/div[@class="s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD"])]' is not present after '5' second(s)
+
+2017-12-29 14:12:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-29 14:12:27 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LogIn/div_Log in' located by 'By.xpath: //div[count(. | //*[@class = 's3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD']) = count(//*[@class = 's3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD'])][count(. | //*[@role = 'button']) = count(//*[@role = 'button'])][count(. | //*[text() = 'Log in']) = count(//*[text() = 'Log in'])][count(. | id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-0 DWEVL"]/div[@class="s1ikpaay-1 ebgyAt"]/div[@class="b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-4 drrHoE"]/div[@class="s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp"]/div[@class="s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp"]/div[@class="e2lxka-3 idLvhV"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/a[@class="s1nouw8s-2 gsOhjW"]/div[@class="s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD"]) = count(id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-0 DWEVL"]/div[@class="s1ikpaay-1 ebgyAt"]/div[@class="b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-4 drrHoE"]/div[@class="s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp"]/div[@class="s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp"]/div[@class="e2lxka-3 idLvhV"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/a[@class="s1nouw8s-2 gsOhjW"]/div[@class="s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD"])]' is not present after '5' second(s)
+
+2017-12-29 14:12:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2017-12-29 14:12:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-29 14:12:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-29 14:12:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi John' is clicked on
+
+2017-12-29 14:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi John' is clicked on
+
+2017-12-29 14:12:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-29 14:12:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-29 14:12:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/a_Sign out' is clicked on
+
+2017-12-29 14:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/a_Sign out' is clicked on
+
+2017-12-29 14:12:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-29 14:12:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-29 14:12:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Sign Out' is clicked on
+
+2017-12-29 14:12:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Sign Out' is clicked on
+
+2017-12-29 14:12:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-29 14:12:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-29 14:12:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LogIn/div_Log in' is present
+
+2017-12-29 14:12:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2017-12-29 14:12:31 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_Log in' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-29 14:10:24 - [TEST_SUITE][PASSED] - login_logout: Test Cases/009_logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

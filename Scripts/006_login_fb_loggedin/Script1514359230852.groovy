@@ -43,5 +43,5 @@ WebUI.click(findTestObject('LogIn/span_Login with Facebook'), FailureHandling.ST
 
 WebUI.delay(3)
 
-WebUI.verifyElementNotPresent(findTestObject('LogIn/div_Log in'), 0)
+CustomKeywords.'autoKeywords.verifyLoggedIn.verifyLogged'()
 

@@ -19,3 +19,52 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('001_login_email_successful'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('LogIn/div_Hi user'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Account/a_Account Details'))
+
+WebUI.setText(findTestObject('Account/input_company'), 'Some Company')
+
+WebUI.click(findTestObject('Account/button_Save'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementNotHasAttribute(findTestObject('Account/div_error_message'), 'text', 0)
+
+WebUI.click(findTestObject('HomePage/a_Home'))
+
+WebUI.click(findTestObject('LogIn/div_Hi user'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Account/a_Account Details'))
+
+WebUI.delay(1)
+
+WebUI.verifyElementAttributeValue(findTestObject('Account/input_company'), 'value', 'Some Company', 0)
+
+'Set back to default phone\r\n'
+WebUI.setText(findTestObject('Account/input_company'), GlobalVariable.company)
+
+WebUI.click(findTestObject('Account/button_Save'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementNotHasAttribute(findTestObject('Account/div_error_message'), 'text', 0)
+
+WebUI.click(findTestObject('HomePage/a_Home'))
+
+WebUI.click(findTestObject('LogIn/div_Hi user'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Account/a_Account Details'))
+
+WebUI.delay(1)
+
+WebUI.verifyElementAttributeValue(findTestObject('Account/input_company'), 'value', GlobalVariable.company, 0)
+

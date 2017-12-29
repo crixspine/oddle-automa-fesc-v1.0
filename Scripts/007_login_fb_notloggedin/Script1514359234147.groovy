@@ -45,5 +45,5 @@ WebUI.delay(3)
 
 WebUI.switchToDefaultContent()
 
-WebUI.verifyElementNotPresent(findTestObject('LogIn/div_Log in'), 0)
+CustomKeywords.'autoKeywords.verifyLoggedIn.verifyLogged'()
 

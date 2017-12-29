@@ -19,29 +19,57 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('001_login_email_successful'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.click(findTestObject('LogIn/div_Hi user'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Account/a_Account Details'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Account/a_ Password tab'))
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Account/input_password'), GlobalVariable.password)
+
+WebUI.setText(findTestObject('Account/input_newpassword'), 'wrongft')
+
+WebUI.setText(findTestObject('Account/input_renewpassword'), 'wrongft')
+
+WebUI.click(findTestObject('Account/button_Save password'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Account/span_Ensure it contains at lea'), 0)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('LogIn/div_Hi user'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('LogIn/a_Sign out'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Account/button_Sign Out'))
+
+WebUI.delay(1)
+
+CustomKeywords.'autoKeywords.verifyLoggedOut.verifyNotLogged'()
 
 WebUI.click(findTestObject('LogIn/div_Log in'))
 
-WebUI.click(findTestObject('SignUp/a_ Sign up'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('LogIn/input_email'), GlobalVariable.email)
 
-WebUI.click(findTestObject('SignUp/div_id fbSign up'))
+WebUI.setText(findTestObject('LogIn/input_password'), 'wrongft')
 
-WebUI.delay(3)
-
-WebUI.switchToWindowTitle('Facebook', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('LogIn/input_email_fb'), GlobalVariable.email_fb)
-
-WebUI.setText(findTestObject('LogIn/input_pass_fb'), GlobalVariable.password_fb)
-
-WebUI.click(findTestObject('LogIn/label_loginbutton'))
+WebUI.click(findTestObject('LogIn/button_Login'))
 
 WebUI.delay(3)
 
-WebUI.switchToDefaultContent()
-
-CustomKeywords.'autoKeywords.verifyLoggedIn.verifyLogged'()
+CustomKeywords.'autoKeywords.verifyLoggedOut.verifyNotLogged'()
 

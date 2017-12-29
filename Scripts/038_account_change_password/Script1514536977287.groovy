@@ -21,6 +21,30 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('001_login_email_successful'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('LogIn/div_Hi user'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Account/a_Account Details'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Account/a_ Password tab'))
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Account/input_password'), GlobalVariable.password)
+
+WebUI.setText(findTestObject('Account/input_newpassword'), GlobalVariable.password_placeholder)
+
+WebUI.setText(findTestObject('Account/input_renewpassword'), GlobalVariable.password_placeholder)
+
+WebUI.click(findTestObject('Account/button_Save password'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementNotHasAttribute(findTestObject('Account/div_passwords error'), 'text', 0)
+
 WebUI.delay(1)
 
 WebUI.click(findTestObject('LogIn/div_Hi user'))
@@ -36,4 +60,41 @@ WebUI.click(findTestObject('Account/button_Sign Out'))
 WebUI.delay(1)
 
 CustomKeywords.'autoKeywords.verifyLoggedOut.verifyNotLogged'()
+
+WebUI.click(findTestObject('LogIn/div_Log in'))
+
+WebUI.setText(findTestObject('LogIn/input_email'), GlobalVariable.email)
+
+WebUI.setText(findTestObject('LogIn/input_password'), GlobalVariable.password_placeholder)
+
+WebUI.click(findTestObject('LogIn/button_Login'))
+
+WebUI.delay(3)
+
+CustomKeywords.'autoKeywords.verifyLoggedIn.verifyLogged'()
+
+WebUI.click(findTestObject('LogIn/div_Hi user'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Account/a_Account Details'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Account/a_ Password tab'))
+
+WebUI.delay(1)
+
+'Change back to original password\r\n'
+WebUI.setText(findTestObject('Account/input_password'), GlobalVariable.password_placeholder)
+
+WebUI.setText(findTestObject('Account/input_newpassword'), GlobalVariable.password)
+
+WebUI.setText(findTestObject('Account/input_renewpassword'), GlobalVariable.password)
+
+WebUI.click(findTestObject('Account/button_Save password'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementNotHasAttribute(findTestObject('Account/div_passwords error'), 'text', 0)
 

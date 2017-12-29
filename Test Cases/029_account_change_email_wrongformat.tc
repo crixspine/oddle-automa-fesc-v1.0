@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>029_account_change_email_wrongformat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>049b7bc6-a7d7-42e4-a53a-31db20e61a2c</testCaseGuid>
+</TestCaseEntity>
