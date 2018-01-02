@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>044_account_address_add_wrongpostalcode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e09419c6-35c0-4e05-a81e-c52d85a7e78f</testCaseGuid>
+</TestCaseEntity>

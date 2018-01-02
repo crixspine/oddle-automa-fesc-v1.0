@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>043_account_address_add_nopostalcode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8c1ce6c9-3fae-409a-ba55-209f117b4d3e</testCaseGuid>
+</TestCaseEntity>

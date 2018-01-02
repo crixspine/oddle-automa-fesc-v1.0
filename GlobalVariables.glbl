@@ -52,4 +52,19 @@
       <initValue>'newpassword'</initValue>
       <name>password_placeholder</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default postal code</description>
+      <initValue>'139951'</initValue>
+      <name>postalcode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default unit number</description>
+      <initValue>'01-23'</initValue>
+      <name>unit</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default address</description>
+      <initValue>'71 Ayer Rajah Crescent'</initValue>
+      <name>address</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
