@@ -67,4 +67,9 @@
       <initValue>'71 Ayer Rajah Crescent'</initValue>
       <name>address</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>postal code outside of delivery zone</description>
+      <initValue>'627865'</initValue>
+      <name>postalcode_out</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -35,10 +35,6 @@ WebUI.click(findTestObject('Account/button_Order Details'))
 
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Account/b_ordernumber'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Account/div_ordernumber header'), 0)
-
 WebUI.click(findTestObject('Account/svg_close order'))
 
 WebUI.delay(1)

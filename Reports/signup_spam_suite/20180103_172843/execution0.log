@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-01-03T17:29:19</date>
+  <millis>1514971759476</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : signup_spam_suite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">signup_spam_suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/signup_spam_suite</property>
+</record>
+<record>
+  <date>2018-01-03T17:29:19</date>
+  <millis>1514971759679</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;Ang - DESKTOP-JMN7MR3&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Ang - DESKTOP-JMN7MR3</property>
+</record>
+<record>
+  <date>2018-01-03T17:29:19</date>
+  <millis>1514971759711</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 10 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2018-01-03T17:29:19</date>
+  <millis>1514971759712</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;192.168.126.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.126.1</property>
+</record>
+<record>
+  <date>2018-01-03T17:29:19</date>
+  <millis>1514971759713</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.2.0.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.2.0.1</property>
+</record>
+<record>
+  <date>2018-01-03T17:29:20</date>
+  <millis>1514971760571</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/010_signup_success</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/010_signup_success</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/010_signup_success</property>
+  <property name="source">C:\\Users\\Ang\\git\\oddle-automaTest Cases\\010_signup_success.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-01-03T17:29:20</date>
+  <millis>1514971760975</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-01-03T17:29:21</date>
+  <millis>1514971761607</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-01-03T17:29:22</date>
+  <millis>1514971762406</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-01-03T17:29:22</date>
+  <millis>1514971762417</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-01-03T17:29:22</date>
+  <millis>1514971762478</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-01-03T17:29:41</date>
+  <millis>1514971781783</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;b24600e8160eb6f2f9fe0bf4417974b2&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">b24600e8160eb6f2f9fe0bf4417974b2</property>
+</record>
+<record>
+  <date>2018-01-03T17:29:41</date>
+  <millis>1514971781826</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;browser&amp;apos; with value &amp;apos;Chrome 63.0.3239.84&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 63.0.3239.84</property>
+</record>
+<record>
+  <date>2018-01-03T17:29:41</date>
+  <millis>1514971781827</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;platform&amp;apos; with value &amp;apos;Windows 10&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2018-01-03T17:29:41</date>
+  <millis>1514971781829</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;seleniumVersion&amp;apos; with value &amp;apos;3.7.1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2018-01-03T17:29:41</date>
+  <millis>1514971781831</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;proxyInformation&amp;apos; with value &amp;apos;ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2018-01-03T17:29:41</date>
+  <millis>1514971781832</millis>
+  <sequence>17</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-01-03T17:29:41</date>
+  <millis>1514971781832</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-01-03T17:29:41</date>
+  <millis>1514971781833</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-01-03T17:29:41</date>
+  <millis>1514971781861</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking url</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-01-03T17:29:41</date>
+  <millis>1514971781862</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigating to &amp;apos;http://mcdonaldstest.staging.oddle.co&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-01-03T17:30:15</date>
+  <millis>1514971815907</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://mcdonaldstest.staging.oddle.co&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-01-03T17:30:15</date>
+  <millis>1514971815908</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-01-03T17:30:15</date>
+  <millis>1514971815909</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-01-03T17:30:15</date>
+  <millis>1514971815917</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/LogIn/div_Log in&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-01-03T17:30:15</date>
+  <millis>1514971815944</millis>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-01-03T17:30:15</date>
+  <millis>1514971815945</millis>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-01-03T17:30:15</date>
+  <millis>1514971815954</millis>
+  <sequence>28</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/LogIn/div_Log in&amp;apos; located by &amp;apos;By.xpath: //div[count(. | //*[@class = &amp;apos;s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD&amp;apos;]) = count(//*[@class = &amp;apos;s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD&amp;apos;])][count(. | //*[@role = &amp;apos;button&amp;apos;]) = count(//*[@role = &amp;apos;button&amp;apos;])][count(. | //*[text() = &amp;apos;Log in&amp;apos;]) = count(//*[text() = &amp;apos;Log in&amp;apos;])][count(. | id(\&amp;quot;__next\&amp;quot;)/div[1]/div[1]/div[@class=\&amp;quot;s111nt22-0 isjfum\&amp;quot;]/div[@class=\&amp;quot;e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;s1ikpaay-0 DWEVL\&amp;quot;]/div[@class=\&amp;quot;s1ikpaay-1 ebgyAt\&amp;quot;]/div[@class=\&amp;quot;b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;s1ikpaay-4 drrHoE\&amp;quot;]/div[@class=\&amp;quot;s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;e2lxka-3 idLvhV\&amp;quot;]/div[@class=\&amp;quot;e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp\&amp;quot;]/a[@class=\&amp;quot;s1nouw8s-2 gsOhjW\&amp;quot;]/div[@class=\&amp;quot;s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD\&amp;quot;]) = count(id(\&amp;quot;__next\&amp;quot;)/div[1]/div[1]/div[@class=\&amp;quot;s111nt22-0 isjfum\&amp;quot;]/div[@class=\&amp;quot;e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;s1ikpaay-0 DWEVL\&amp;quot;]/div[@class=\&amp;quot;s1ikpaay-1 ebgyAt\&amp;quot;]/div[@class=\&amp;quot;b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;s1ikpaay-4 drrHoE\&amp;quot;]/div[@class=\&amp;quot;s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;e2lxka-3 idLvhV\&amp;quot;]/div[@class=\&amp;quot;e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp\&amp;quot;]/a[@class=\&amp;quot;s1nouw8s-2 gsOhjW\&amp;quot;]/div[@class=\&amp;quot;s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD\&amp;quot;])]&amp;apos; in &amp;apos;5&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-01-03T17:30:24</date>
+  <millis>1514971824702</millis>
+  <sequence>29</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to click on object &amp;apos;Object Repository/LogIn/div_Log in&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/LogIn/div_Log in&amp;apos; located by &amp;apos;By.xpath: //div[count(. | //*[@class = &amp;apos;s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD&amp;apos;]) = count(//*[@class = &amp;apos;s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD&amp;apos;])][count(. | //*[@role = &amp;apos;button&amp;apos;]) = count(//*[@role = &amp;apos;button&amp;apos;])][count(. | //*[text() = &amp;apos;Log in&amp;apos;]) = count(//*[text() = &amp;apos;Log in&amp;apos;])][count(. | id(\&amp;quot;__next\&amp;quot;)/div[1]/div[1]/div[@class=\&amp;quot;s111nt22-0 isjfum\&amp;quot;]/div[@class=\&amp;quot;e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;s1ikpaay-0 DWEVL\&amp;quot;]/div[@class=\&amp;quot;s1ikpaay-1 ebgyAt\&amp;quot;]/div[@class=\&amp;quot;b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;s1ikpaay-4 drrHoE\&amp;quot;]/div[@class=\&amp;quot;s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;e2lxka-3 idLvhV\&amp;quot;]/div[@class=\&amp;quot;e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp\&amp;quot;]/a[@class=\&amp;quot;s1nouw8s-2 gsOhjW\&amp;quot;]/div[@class=\&amp;quot;s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD\&amp;quot;]) = count(id(\&amp;quot;__next\&amp;quot;)/div[1]/div[1]/div[@class=\&amp;quot;s111nt22-0 isjfum\&amp;quot;]/div[@class=\&amp;quot;e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;s1ikpaay-0 DWEVL\&amp;quot;]/div[@class=\&amp;quot;s1ikpaay-1 ebgyAt\&amp;quot;]/div[@class=\&amp;quot;b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;s1ikpaay-4 drrHoE\&amp;quot;]/div[@class=\&amp;quot;s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;e2lxka-3 idLvhV\&amp;quot;]/div[@class=\&amp;quot;e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp\&amp;quot;]/a[@class=\&amp;quot;s1nouw8s-2 gsOhjW\&amp;quot;]/div[@class=\&amp;quot;s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD\&amp;quot;])]&amp;apos; not found)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">1514971823945.png</property>
+</record>
+<record>
+  <date>2018-01-03T17:30:24</date>
+  <millis>1514971824704</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-01-03T17:30:24</date>
+  <millis>1514971824705</millis>
+  <sequence>31</sequence>
+  <logger>com.kms.katalon.core.logging.KeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/010_signup_success FAILED because (of) Unable to click on object &amp;apos;Object Repository/LogIn/div_Log in&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/LogIn/div_Log in&amp;apos; located by &amp;apos;By.xpath: //div[count(. | //*[@class = &amp;apos;s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD&amp;apos;]) = count(//*[@class = &amp;apos;s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD&amp;apos;])][count(. | //*[@role = &amp;apos;button&amp;apos;]) = count(//*[@role = &amp;apos;button&amp;apos;])][count(. | //*[text() = &amp;apos;Log in&amp;apos;]) = count(//*[text() = &amp;apos;Log in&amp;apos;])][count(. | id(\&amp;quot;__next\&amp;quot;)/div[1]/div[1]/div[@class=\&amp;quot;s111nt22-0 isjfum\&amp;quot;]/div[@class=\&amp;quot;e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;s1ikpaay-0 DWEVL\&amp;quot;]/div[@class=\&amp;quot;s1ikpaay-1 ebgyAt\&amp;quot;]/div[@class=\&amp;quot;b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;s1ikpaay-4 drrHoE\&amp;quot;]/div[@class=\&amp;quot;s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;e2lxka-3 idLvhV\&amp;quot;]/div[@class=\&amp;quot;e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp\&amp;quot;]/a[@class=\&amp;quot;s1nouw8s-2 gsOhjW\&amp;quot;]/div[@class=\&amp;quot;s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD\&amp;quot;]) = count(id(\&amp;quot;__next\&amp;quot;)/div[1]/div[1]/div[@class=\&amp;quot;s111nt22-0 isjfum\&amp;quot;]/div[@class=\&amp;quot;e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;s1ikpaay-0 DWEVL\&amp;quot;]/div[@class=\&amp;quot;s1ikpaay-1 ebgyAt\&amp;quot;]/div[@class=\&amp;quot;b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;s1ikpaay-4 drrHoE\&amp;quot;]/div[@class=\&amp;quot;s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp\&amp;quot;]/div[@class=\&amp;quot;e2lxka-3 idLvhV\&amp;quot;]/div[@class=\&amp;quot;e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp\&amp;quot;]/a[@class=\&amp;quot;s1nouw8s-2 gsOhjW\&amp;quot;]/div[@class=\&amp;quot;s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD\&amp;quot;])]&amp;apos; not found)</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/LogIn/div_Log in' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LogIn/div_Log in' located by 'By.xpath: //div[count(. | //*[@class = 's3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD']) = count(//*[@class = 's3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD'])][count(. | //*[@role = 'button']) = count(//*[@role = 'button'])][count(. | //*[text() = 'Log in']) = count(//*[text() = 'Log in'])][count(. | id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-0 DWEVL"]/div[@class="s1ikpaay-1 ebgyAt"]/div[@class="b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-4 drrHoE"]/div[@class="s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp"]/div[@class="s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp"]/div[@class="e2lxka-3 idLvhV"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/a[@class="s1nouw8s-2 gsOhjW"]/div[@class="s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD"]) = count(id("__next")/div[1]/div[1]/div[@class="s111nt22-0 isjfum"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-0 DWEVL"]/div[@class="s1ikpaay-1 ebgyAt"]/div[@class="b95ya3-0 lopHMx e9phw6-1-sc-bdVaJa jUFEmu e9phw6-0 jBJmyp"]/div[@class="s1ikpaay-4 drrHoE"]/div[@class="s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp"]/div[@class="s19enx61-3-sc-jlyJG hNZsXk e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp"]/div[@class="e2lxka-3 idLvhV"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/a[@class="s1nouw8s-2 gsOhjW"]/div[@class="s3mrp9-1-sc-iRbamj itgTmG s3mrp9-0-div lklLAD"])]' not found)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>49</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.ClickKeyword</class>
+      <method>click</method>
+      <line>86</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.ClickKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>click</method>
+      <line>616</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.CallSiteArray</class>
+      <method>defaultCall</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>125</line>
+    </frame>
+    <frame>
+      <class>Script1514359245695</class>
+      <method>run</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>183</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>108</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>241</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>211</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>203</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>185</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>runTestCase</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$runTestCase$1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.CallSiteArray</class>
+      <method>defaultCall</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>141</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1514971727797</class>
+      <method>runTestCase_0</method>
+      <line>18</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.reflection.CachedMethod</class>
+      <method>invoke</method>
+      <line>93</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.MetaMethod</class>
+      <method>doMethodInvoke</method>
+      <line>325</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.metaclass.ClosureMetaClass</class>
+      <method>invokeMethod</method>
+      <line>384</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.ScriptBytecodeAdapter</class>
+      <method>invokeMethodOnCurrentN</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.ScriptBytecodeAdapter</class>
+      <method>invokeMethodOnCurrent0</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1514971727797$_run_closure1</class>
+      <method>doCall</method>
+      <line>47</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.reflection.CachedMethod</class>
+      <method>invoke</method>
+      <line>93</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.MetaMethod</class>
+      <method>doMethodInvoke</method>
+      <line>325</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.metaclass.ClosureMetaClass</class>
+      <method>invokeMethod</method>
+      <line>294</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.MetaClassImpl</class>
+      <method>invokeMethod</method>
+      <line>1024</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.Closure</class>
+      <method>call</method>
+      <line>414</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.Closure</class>
+      <method>call</method>
+      <line>430</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.DefaultGroovyMethods</class>
+      <method>each</method>
+      <line>2030</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.DefaultGroovyMethods</class>
+      <method>each</method>
+      <line>2015</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.DefaultGroovyMethods</class>
+      <method>each</method>
+      <line>2056</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.dgm$162</class>
+      <method>invoke</method>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce</class>
+      <method>invoke</method>
+      <line>274</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite</class>
+      <method>call</method>
+      <line>56</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.CallSiteArray</class>
+      <method>defaultCall</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>125</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1514971727797</class>
+      <method>run</method>
+      <line>46</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>runScriptOrMainOrTestOrRunnable</method>
+      <line>263</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>518</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>507</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processOnce</method>
+      <line>653</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>run</method>
+      <line>384</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>process</method>
+      <line>370</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processArgs</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>main</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>rootLoader</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>main</method>
+      <line>131</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-01-03T17:30:24</date>
+  <millis>1514971824712</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/010_signup_success</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-01-03T17:30:31</date>
+  <millis>1514971831352</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : signup_spam_suite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

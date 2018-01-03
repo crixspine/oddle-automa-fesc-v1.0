@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="account_settings" time="114" tests="3" failures="2" errors="0">
+   <testsuite name="account_settings" tests="3" failures="2" errors="0" time="114" timestamp="2018-01-03 18:38:49" hostname="Ang - DESKTOP-JMN7MR3" id="Test Suites/account_settings">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180103_183841"/>
+         <property name="logFiles" value="C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180103_183841\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180103_183841\\1514975957247.png, C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180103_183841\\1514975957519.png, C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180103_183841\\1514976000814.png, C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180103_183841\\1514976001069.png"/>
+         <property name="hostName" value="Ang - DESKTOP-JMN7MR3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.84"/>
+         <property name="hostAddress" value="192.168.126.1"/>
+         <property name="sessionId" value="deb062f4556c046d09ded91408eda661"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/042_account_address_add" classname="Test Cases/042_account_address_add" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Account/div_new address added' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/div_new address added' located by 'By.xpath: //div[count(. | id(&quot;body&quot;)/div[@class=&quot;s134bqp5-1 cNgNgb&quot;]/div[@class=&quot;s1ikpaay-4 dAQshL&quot;]/div[@class=&quot;m7p8f0-0 fUTidt&quot;]/div[@class=&quot;e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp&quot;]/div[@class=&quot;cmag0j-1-sc-gipzik dkuDum&quot;]/div[@class=&quot;m7p8f0-0 fUTidt&quot;]/div[1]/div[@class=&quot;e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf&quot;]/div[1]/div[@class=&quot;s85dwy8-0 kqgYzi&quot;]/div[@class=&quot;s85dwy8-1 iLFtXI e9phw6-0 jBJmyp&quot;]) = count(id(&quot;body&quot;)/div[@class=&quot;s134bqp5-1 cNgNgb&quot;]/div[@class=&quot;s1ikpaay-4 dAQshL&quot;]/div[@class=&quot;m7p8f0-0 fUTidt&quot;]/div[@class=&quot;e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp&quot;]/div[@class=&quot;cmag0j-1-sc-gipzik dkuDum&quot;]/div[@class=&quot;m7p8f0-0 fUTidt&quot;]/div[1]/div[@class=&quot;e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf&quot;]/div[1]/div[@class=&quot;s85dwy8-0 kqgYzi&quot;]/div[@class=&quot;s85dwy8-1 iLFtXI e9phw6-0 jBJmyp&quot;])]' not found)"/>
+         <system-out><![CDATA[2018-01-03 18:38:49 - [TEST_CASE][FAILED] - Test Cases/042_account_address_add: Test Cases/042_account_address_add FAILED because (of) Unable to verify object 'Object Repository/Account/div_new address added' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/div_new address added' located by 'By.xpath: //div[count(. | id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"]) = count(id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"])]' not found)
+
+2018-01-03 18:38:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-03 18:38:50 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-03 18:38:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-03 18:38:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-03 18:38:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-03 18:38:55 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-03 18:38:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-03 18:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-03 18:38:56 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-03 18:38:57 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-03 18:38:57 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-03 18:38:58 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-03 18:38:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-03 18:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-03 18:38:58 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-03 18:39:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-03 18:39:01 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-03 18:39:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-03 18:39:01 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-03 18:39:01 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-03 18:39:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-03 18:39:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-03 18:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-03 18:39:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-03 18:39:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-03 18:39:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-03 18:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-03 18:39:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Add Address' is clicked on
+
+2018-01-03 18:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Add Address' is clicked on
+
+2018-01-03 18:39:03 - [TEST_STEP][PASSED] - setText: Text '139951' is set on object 'Object Repository/Account/input_deliveryAddressPostal'
+
+2018-01-03 18:39:03 - [MESSAGE][PASSED] - Text '139951' is set on object 'Object Repository/Account/input_deliveryAddressPostal'
+
+2018-01-03 18:39:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-03 18:39:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-03 18:39:06 - [TEST_STEP][PASSED] - setText: Text '01-23' is set on object 'Object Repository/Account/input_deliveryAddressTwo'
+
+2018-01-03 18:39:06 - [MESSAGE][PASSED] - Text '01-23' is set on object 'Object Repository/Account/input_deliveryAddressTwo'
+
+2018-01-03 18:39:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-03 18:39:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-03 18:39:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-03 18:39:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-03 18:39:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-03 18:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-03 18:39:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-03 18:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-03 18:39:09 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-03 18:39:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-03 18:39:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-03 18:39:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-03 18:39:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-03 18:39:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-03 18:39:12 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Account/div_new address added' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/div_new address added' located by 'By.xpath: //div[count(. | id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"]) = count(id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"])]' not found)
+
+2018-01-03 18:39:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-03 18:39:17 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/div_new address added' located by 'By.xpath: //div[count(. | id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"]) = count(id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"])]' not found
+[[ATTACHMENT|C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180103_183841\\1514975957247.png]]
+
+2018-01-03 18:39:17 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Account/div_new address added' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/div_new address added' located by 'By.xpath: //div[count(. | id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"]) = count(id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"])]' not found)
+[[ATTACHMENT|C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180103_183841\\1514975957519.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-03 18:38:49 - [TEST_CASE][FAILED] - Test Cases/042_account_address_add: Test Cases/042_account_address_add FAILED because (of) Unable to verify object 'Object Repository/Account/div_new address added' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/div_new address added' located by 'By.xpath: //div[count(. | id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"]) = count(id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/045_account_address_delete" classname="Test Cases/045_account_address_delete" status="PASSED">
+         <system-out><![CDATA[2018-01-03 18:39:18 - [TEST_CASE][PASSED] - Test Cases/045_account_address_delete: Test Cases/045_account_address_delete
+
+2018-01-03 18:39:18 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-03 18:39:18 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-03 18:39:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-03 18:39:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-03 18:39:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-03 18:39:22 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-03 18:39:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-03 18:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-03 18:39:23 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-03 18:39:24 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-03 18:39:24 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-03 18:39:24 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-03 18:39:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-03 18:39:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-03 18:39:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-03 18:39:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-03 18:39:28 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-03 18:39:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-03 18:39:28 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-03 18:39:28 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-03 18:39:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-03 18:39:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-03 18:39:28 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-03 18:39:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-03 18:39:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-03 18:39:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-03 18:39:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-03 18:39:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_delete address' is clicked on
+
+2018-01-03 18:39:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_delete address' is clicked on
+
+2018-01-03 18:39:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-03 18:39:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-03 18:39:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Confirm' is clicked on
+
+2018-01-03 18:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Confirm' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/043_account_address_add_nopostalcode" classname="Test Cases/043_account_address_add_nopostalcode" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Account/div_new address added' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/div_new address added' located by 'By.xpath: //div[count(. | id(&quot;body&quot;)/div[@class=&quot;s134bqp5-1 cNgNgb&quot;]/div[@class=&quot;s1ikpaay-4 dAQshL&quot;]/div[@class=&quot;m7p8f0-0 fUTidt&quot;]/div[@class=&quot;e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp&quot;]/div[@class=&quot;cmag0j-1-sc-gipzik dkuDum&quot;]/div[@class=&quot;m7p8f0-0 fUTidt&quot;]/div[1]/div[@class=&quot;e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf&quot;]/div[1]/div[@class=&quot;s85dwy8-0 kqgYzi&quot;]/div[@class=&quot;s85dwy8-1 iLFtXI e9phw6-0 jBJmyp&quot;]) = count(id(&quot;body&quot;)/div[@class=&quot;s134bqp5-1 cNgNgb&quot;]/div[@class=&quot;s1ikpaay-4 dAQshL&quot;]/div[@class=&quot;m7p8f0-0 fUTidt&quot;]/div[@class=&quot;e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp&quot;]/div[@class=&quot;cmag0j-1-sc-gipzik dkuDum&quot;]/div[@class=&quot;m7p8f0-0 fUTidt&quot;]/div[1]/div[@class=&quot;e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf&quot;]/div[1]/div[@class=&quot;s85dwy8-0 kqgYzi&quot;]/div[@class=&quot;s85dwy8-1 iLFtXI e9phw6-0 jBJmyp&quot;])]' not found)"/>
+         <system-out><![CDATA[2018-01-03 18:39:31 - [TEST_CASE][FAILED] - Test Cases/043_account_address_add_nopostalcode: Test Cases/043_account_address_add_nopostalcode FAILED because (of) Unable to verify object 'Object Repository/Account/div_new address added' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/div_new address added' located by 'By.xpath: //div[count(. | id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"]) = count(id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"])]' not found)
+
+2018-01-03 18:39:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-03 18:39:31 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-03 18:39:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-03 18:39:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-03 18:39:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-03 18:39:36 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-03 18:39:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-03 18:39:36 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-03 18:39:36 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-03 18:39:37 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-03 18:39:37 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-03 18:39:38 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-03 18:39:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-03 18:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-03 18:39:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-03 18:39:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-03 18:39:41 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-03 18:39:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-03 18:39:41 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-03 18:39:41 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-03 18:39:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-03 18:39:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-03 18:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-03 18:39:41 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-03 18:39:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-03 18:39:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-03 18:39:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-03 18:39:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Add Address' is clicked on
+
+2018-01-03 18:39:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Add Address' is clicked on
+
+2018-01-03 18:39:43 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/Account/input_deliveryAddressPostal'
+
+2018-01-03 18:39:43 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Account/input_deliveryAddressPostal'
+
+2018-01-03 18:39:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-03 18:39:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-03 18:39:46 - [TEST_STEP][PASSED] - setText: Text '01-23' is set on object 'Object Repository/Account/input_deliveryAddressTwo'
+
+2018-01-03 18:39:46 - [MESSAGE][PASSED] - Text '01-23' is set on object 'Object Repository/Account/input_deliveryAddressTwo'
+
+2018-01-03 18:39:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-03 18:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-03 18:39:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-03 18:39:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-03 18:39:49 - [TEST_STEP][PASSED] - setText: Text '71 Ayer Rajah Crescent' is set on object 'Object Repository/Account/input_deliveryAddressOne'
+
+2018-01-03 18:39:50 - [MESSAGE][PASSED] - Text '71 Ayer Rajah Crescent' is set on object 'Object Repository/Account/input_deliveryAddressOne'
+
+2018-01-03 18:39:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-03 18:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-03 18:39:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-03 18:39:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-03 18:39:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-03 18:39:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-03 18:39:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-03 18:39:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-03 18:39:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-03 18:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-03 18:39:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-03 18:39:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-03 18:39:55 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Account/div_new address added' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/div_new address added' located by 'By.xpath: //div[count(. | id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"]) = count(id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"])]' not found)
+
+2018-01-03 18:39:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-03 18:40:01 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/div_new address added' located by 'By.xpath: //div[count(. | id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"]) = count(id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"])]' not found
+[[ATTACHMENT|C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180103_183841\\1514976000814.png]]
+
+2018-01-03 18:40:01 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Account/div_new address added' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/div_new address added' located by 'By.xpath: //div[count(. | id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"]) = count(id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"])]' not found)
+[[ATTACHMENT|C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180103_183841\\1514976001069.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-03 18:39:31 - [TEST_CASE][FAILED] - Test Cases/043_account_address_add_nopostalcode: Test Cases/043_account_address_add_nopostalcode FAILED because (of) Unable to verify object 'Object Repository/Account/div_new address added' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/div_new address added' located by 'By.xpath: //div[count(. | id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"]) = count(id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/044_account_address_add_wrongpostalcode" classname="Test Cases/044_account_address_add_wrongpostalcode" status="PASSED">
+         <system-out><![CDATA[2018-01-03 18:40:02 - [TEST_CASE][PASSED] - Test Cases/044_account_address_add_wrongpostalcode: Test Cases/044_account_address_add_wrongpostalcode
+
+2018-01-03 18:40:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-03 18:40:02 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-03 18:40:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-03 18:40:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-03 18:40:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-03 18:40:06 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-03 18:40:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-03 18:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-03 18:40:07 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-03 18:40:08 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-03 18:40:08 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-03 18:40:08 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-03 18:40:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-03 18:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-03 18:40:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-03 18:40:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-03 18:40:12 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-03 18:40:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-03 18:40:12 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-03 18:40:12 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-03 18:40:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-03 18:40:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-03 18:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-03 18:40:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-03 18:40:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-03 18:40:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-03 18:40:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-03 18:40:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Add Address' is clicked on
+
+2018-01-03 18:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Add Address' is clicked on
+
+2018-01-03 18:40:14 - [TEST_STEP][PASSED] - setText: Text 'wrongpostalformat' is set on object 'Object Repository/Account/input_deliveryAddressPostal'
+
+2018-01-03 18:40:14 - [MESSAGE][PASSED] - Text 'wrongpostalformat' is set on object 'Object Repository/Account/input_deliveryAddressPostal'
+
+2018-01-03 18:40:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-03 18:40:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-03 18:40:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-03 18:40:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-03 18:40:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-03 18:40:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-03 18:40:20 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/button_Save Address' is present
+
+2018-01-03 18:40:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-03 18:40:20 - [MESSAGE][PASSED] - Object 'Object Repository/Account/button_Save Address' is present
+
+2018-01-03 18:40:20 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Account/input_deliveryAddressPostal' has attribute 'value' with value 'wrongpostalformat'
+
+2018-01-03 18:40:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-03 18:40:20 - [MESSAGE][PASSED] - Object 'Object Repository/Account/input_deliveryAddressPostal' has attribute 'value' with value 'wrongpostalformat']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/046_account_address_edit" classname="Test Cases/046_account_address_edit" status="PASSED">
+         <system-out><![CDATA[2018-01-03 18:40:21 - [TEST_CASE][PASSED] - Test Cases/046_account_address_edit: Test Cases/046_account_address_edit
+
+2018-01-03 18:40:21 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-03 18:40:21 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-03 18:40:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-03 18:40:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-03 18:40:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-03 18:40:26 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-03 18:40:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-03 18:40:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-03 18:40:26 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-03 18:40:28 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-03 18:40:28 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-03 18:40:28 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-03 18:40:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-03 18:40:28 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-03 18:40:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-03 18:40:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-03 18:40:31 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-03 18:40:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-03 18:40:31 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-03 18:40:31 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-03 18:40:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-03 18:40:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-03 18:40:31 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-03 18:40:31 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-03 18:40:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-03 18:40:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-03 18:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-03 18:40:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_edit address' is clicked on
+
+2018-01-03 18:40:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_edit address' is clicked on
+
+2018-01-03 18:40:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-03 18:40:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-03 18:40:34 - [TEST_STEP][PASSED] - setText: Text '139951' is set on object 'Object Repository/Account/input_deliveryAddressPostal'
+
+2018-01-03 18:40:34 - [MESSAGE][PASSED] - Text '139951' is set on object 'Object Repository/Account/input_deliveryAddressPostal'
+
+2018-01-03 18:40:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-03 18:40:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-03 18:40:37 - [TEST_STEP][PASSED] - setText: Text '01-23' is set on object 'Object Repository/Account/input_deliveryAddressTwo'
+
+2018-01-03 18:40:37 - [MESSAGE][PASSED] - Text '01-23' is set on object 'Object Repository/Account/input_deliveryAddressTwo'
+
+2018-01-03 18:40:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-03 18:40:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-03 18:40:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-03 18:40:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-03 18:40:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-03 18:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-03 18:40:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-03 18:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-03 18:40:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-03 18:40:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-03 18:40:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-03 18:40:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-03 18:40:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-03 18:40:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-03 18:40:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/span_address 1 postcode' is present
+
+2018-01-03 18:40:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-03 18:40:43 - [MESSAGE][PASSED] - Object 'Object Repository/Account/span_address 1 postcode' is present
+
+2018-01-03 18:40:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/h4_address 1' is present
+
+2018-01-03 18:40:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-03 18:40:43 - [MESSAGE][PASSED] - Object 'Object Repository/Account/h4_address 1' is present
+
+2018-01-03 18:40:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Account/span_address 1 postcode' are matched.
+
+2018-01-03 18:40:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Account/span_address 1 postcode' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-03 18:38:49 - [TEST_SUITE][FAILED] - account_settings: Test Cases/042_account_address_add FAILED because (of) Unable to verify object 'Object Repository/Account/div_new address added' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/div_new address added' located by 'By.xpath: //div[count(. | id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"]) = count(id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-01-03 18:38:49 - [TEST_SUITE][FAILED] - account_settings: Test Cases/042_account_address_add FAILED because (of) Unable to verify object 'Object Repository/Account/div_new address added' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/div_new address added' located by 'By.xpath: //div[count(. | id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"]) = count(id("body")/div[@class="s134bqp5-1 cNgNgb"]/div[@class="s1ikpaay-4 dAQshL"]/div[@class="m7p8f0-0 fUTidt"]/div[@class="e9phw6-1-sc-bdVaJa iriZUy e9phw6-0 jBJmyp"]/div[@class="cmag0j-1-sc-gipzik dkuDum"]/div[@class="m7p8f0-0 fUTidt"]/div[1]/div[@class="e9phw6-1-sc-kAzzGY JbQyp e9phw6-0 gUkenf"]/div[1]/div[@class="s85dwy8-0 kqgYzi"]/div[@class="s85dwy8-1 iLFtXI e9phw6-0 jBJmyp"])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

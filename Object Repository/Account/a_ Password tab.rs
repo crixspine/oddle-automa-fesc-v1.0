@@ -4,6 +4,16 @@
    <name>a_ Password tab</name>
    <tag></tag>
    <elementGuidId>8e90459a-da89-4b4a-8a2b-52effeba0c23</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[count(. | //*[@href = '/en_SG/account/password']) = count(//*[@href = '/en_SG/account/password'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

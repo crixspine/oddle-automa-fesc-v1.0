@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+signup_spam_suite,Chrome 63.0.3239.84,,2018-01-03 17:29:31,2018-01-03 17:30:45,1m - 14.188s,FAILED
+,,,,,,
+Test Cases/010_signup_success,Chrome 63.0.3239.84,,2018-01-03 17:29:32,2018-01-03 17:30:39,1m - 7.547s,FAILED
+openBrowser,Chrome 63.0.3239.84,,2018-01-03 17:29:33,2018-01-03 17:29:46,13.546s,PASSED
+navigateToUrl,Chrome 63.0.3239.84,,2018-01-03 17:29:46,2018-01-03 17:30:28,41.715s,PASSED
+click,Chrome 63.0.3239.84,,2018-01-03 17:30:28,2018-01-03 17:30:39,11.094s,FAILED

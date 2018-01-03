@@ -3,7 +3,7 @@
    <description></description>
    <name>iframe</name>
    <tag></tag>
-   <elementGuidId>e6b58029-7000-4d62-834b-f2aa0adb4eb4</elementGuidId>
+   <elementGuidId>02696c1c-d1dd-4589-b72e-35db2aa01129</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +14,7 @@
       <value>iframe</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>frameborder</name>
       <type>Main</type>
@@ -28,10 +28,10 @@
       <value>http://oddlefacebooklogindomain.staging.oddle.co/en_SG/facebook/149784952181218/login</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[1]/div[1]/div[@class=&quot;s111nt22-0 isjfum&quot;]/div[3]/div[3]/div[@class=&quot;wuzp1o-0 cCUvkJ&quot;]/div[@class=&quot;wuzp1o-2 gfSaCZ&quot;]/div[@class=&quot;wuzp1o-5 eezkNJ&quot;]/div[@class=&quot;eslncg-2 bKwwBK&quot;]/div[@class=&quot;eslncg-3 kImoTU&quot;]/div[@class=&quot;eslncg-4 gugdEn&quot;]/div[@class=&quot;qxyyek-0 gDhhcJ e9phw6-1-sc-bdVaJa cjHrgj e9phw6-0 jBJmyp&quot;]/div[@class=&quot;sc-bRBYWo cdRCbH e9phw6-0 jBJmyp&quot;]/form[1]/div[@class=&quot;s5csc7v-1 gBEfBY&quot;]/iframe[1]</value>
+      <value>id(&quot;__next&quot;)/div[1]/div[1]/div[@class=&quot;s111nt22-0 isjfum&quot;]/div[3]/div[3]/div[@class=&quot;wuzp1o-0 cCUvkJ&quot;]/div[@class=&quot;wuzp1o-2 gfSaCZ&quot;]/div[@class=&quot;wuzp1o-5 eezkNJ&quot;]/div[@class=&quot;eslncg-2 bKwwBK&quot;]/div[@class=&quot;eslncg-3 kImoTU&quot;]/div[@class=&quot;eslncg-4 gugdEn&quot;]/div[@class=&quot;qxyyek-0 gDhhcJ e9phw6-1-sc-kAzzGY ljqJca e9phw6-0 jBJmyp&quot;]/div[@class=&quot;sc-jhAzac ecuTah e9phw6-0 jBJmyp&quot;]/form[1]/div[@class=&quot;e2gy8a-1 fSvmRe&quot;]/iframe[1]</value>
    </webElementProperties>
 </WebElementEntity>

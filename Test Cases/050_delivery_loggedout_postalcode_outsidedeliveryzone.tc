@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>050_delivery_loggedout_postalcode_outsidedeliveryzone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7066d20-98a1-45ab-ab40-8fba3c17b6aa</testCaseGuid>
+</TestCaseEntity>

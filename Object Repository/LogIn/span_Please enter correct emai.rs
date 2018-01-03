@@ -14,7 +14,7 @@
          <value>//*[@id=&quot;__next&quot;]/div/div/div/div[3]/div[3]/div/div[2]/div[2]/div/div/div[2]/div/div[2]/form/div[1]/div[1]/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -32,6 +32,8 @@ WebUI.delay(1)
 
 WebUI.setText(findTestObject('SetDeliveryInfo/input_deliveryAddressTwo'), GlobalVariable.unit)
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('SetDeliveryInfo/button_Continue to Date  Time'))
 
 WebUI.delay(1)
