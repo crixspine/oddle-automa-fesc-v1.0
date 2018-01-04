@@ -33,7 +33,3 @@ WebUI.click(findTestObject('SetDeliveryInfo/button_Set Delivery Date  Time'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementHasAttribute(findTestObject('SetDeliveryInfo/span_address'), 'value', 0)
-
-WebUI.verifyElementHasAttribute(findTestObject('SetDeliveryInfo/span_timeslot'), 'text', 0)
-
