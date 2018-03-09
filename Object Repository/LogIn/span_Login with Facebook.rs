@@ -4,7 +4,17 @@
    <name>span_Login with Facebook</name>
    <tag></tag>
    <elementGuidId>0f819be8-4143-46fc-abe2-5a34ca4c3fa8</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;__next&quot;)/div[1]/div[@class=&quot;s111nt22-0 isjfum&quot;]/div[@class=&quot;e2gy8a-0 fMYChR s3mrp9-1-sc-kGXeez lonNzU s3mrp9-0-div juKvbt&quot;]/div[@class=&quot;e9phw6-1-sc-bdVaJa bYlqBK e9phw6-0 jBJmyp&quot;]/span[@class=&quot;s1b664we-1 doLYqo&quot;][count(. | //span[(text() = 'Login with Facebook' or . = 'Login with Facebook') and @ref_element = 'Object Repository/LogIn/iframe']) = count(//span[(text() = 'Login with Facebook' or . = 'Login with Facebook') and @ref_element = 'Object Repository/LogIn/iframe'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;__next&quot;]/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +38,7 @@
       <value>Login with Facebook</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

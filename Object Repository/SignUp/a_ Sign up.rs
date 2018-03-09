@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[count(. | id(&quot;__next&quot;)/div[1]/div[1]/div[@class=&quot;s111nt22-0 isjfum&quot;]/div[3]/div[3]/div[@class=&quot;wuzp1o-0 cCUvkJ&quot;]/div[@class=&quot;wuzp1o-2 gfSaCZ&quot;]/div[@class=&quot;wuzp1o-3 cupqRf s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp&quot;]/div[@class=&quot;wuzp1o-4 htmgTW s19enx61-3 ituTQK e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp&quot;]/div[@class=&quot;eslncg-2 bKwwBK&quot;]/div[@class=&quot;eslncg-3 iNeBZk&quot;]/div[@class=&quot;eslncg-4 gugdEn&quot;]/ul[@class=&quot;eslncg-0 ljMkGO&quot;]/li[@class=&quot;eslncg-1 IKIQU&quot;]/a[1]) = count(id(&quot;__next&quot;)/div[1]/div[1]/div[@class=&quot;s111nt22-0 isjfum&quot;]/div[3]/div[3]/div[@class=&quot;wuzp1o-0 cCUvkJ&quot;]/div[@class=&quot;wuzp1o-2 gfSaCZ&quot;]/div[@class=&quot;wuzp1o-3 cupqRf s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp&quot;]/div[@class=&quot;wuzp1o-4 htmgTW s19enx61-3 ituTQK e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp&quot;]/div[@class=&quot;eslncg-2 bKwwBK&quot;]/div[@class=&quot;eslncg-3 iNeBZk&quot;]/div[@class=&quot;eslncg-4 gugdEn&quot;]/ul[@class=&quot;eslncg-0 ljMkGO&quot;]/li[@class=&quot;eslncg-1 IKIQU&quot;]/a[1])]</value>
+         <value>//a[@href = '/en_SG?auth=signup']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;__next&quot;]/div/div/div/div[3]/div[3]/div/div[2]/div[1]/div[1]/div/div/div[1]/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,17 +24,17 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/en_SG?auth=signup</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[1]/div[1]/div[@class=&quot;s111nt22-0 isjfum&quot;]/div[3]/div[3]/div[@class=&quot;wuzp1o-0 cCUvkJ&quot;]/div[@class=&quot;wuzp1o-2 gfSaCZ&quot;]/div[@class=&quot;wuzp1o-3 cupqRf s19enx61-0 eexayc e9phw6-1-sc-bdVaJa QPZnU e9phw6-0 jBJmyp&quot;]/div[@class=&quot;wuzp1o-4 htmgTW s19enx61-3 ituTQK e9phw6-1-sc-bdVaJa gamxMN e9phw6-0 jBJmyp&quot;]/div[@class=&quot;eslncg-2 bKwwBK&quot;]/div[@class=&quot;eslncg-3 iNeBZk&quot;]/div[@class=&quot;eslncg-4 gugdEn&quot;]/ul[@class=&quot;eslncg-0 ljMkGO&quot;]/li[@class=&quot;eslncg-1 IKIQU&quot;]/a[1]</value>
+      <value>//*[@id=&quot;__next&quot;]/div/div/div/div[3]/div[3]/div/div[2]/div[1]/div[1]/div/div/div[1]/ul/li[2]/a</value>
    </webElementProperties>
 </WebElementEntity>

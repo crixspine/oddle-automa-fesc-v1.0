@@ -6,15 +6,15 @@
    <elementGuidId>441164cf-55e1-4d21-b817-f5880a72f4a8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'email' and @name = 'email' and @id = 'email']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;email&quot;]</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[count(. | //*[@type = 'email']) = count(//*[@type = 'email'])][count(. | //*[@class = 'inputtext']) = count(//*[@class = 'inputtext'])][count(. | //*[@name = 'email']) = count(//*[@name = 'email'])][count(. | //*[@id = 'email']) = count(//*[@id = 'email'])][count(. | //*[@tabindex = '1']) = count(//*[@tabindex = '1'])][count(. | //*[@data-testid = 'royal_email']) = count(//*[@data-testid = 'royal_email'])][count(. | id(&quot;email&quot;)) = count(id(&quot;email&quot;))]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <value>email</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -52,21 +52,21 @@
       <value>email</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
       <value>royal_email</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

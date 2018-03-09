@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('001_login_email_successful'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('login_email_successful'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('LogIn/div_Hi user'))
+WebUI.click(findTestObject('LogIn/div_Hi user-XPATH'))
 
 WebUI.delay(1)
 
@@ -47,7 +47,7 @@ WebUI.verifyElementPresent(findTestObject('Account/span_Ensure it contains at le
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('LogIn/div_Hi user'))
+WebUI.click(findTestObject('LogIn/div_Hi user-XPATH'))
 
 WebUI.delay(1)
 
@@ -63,11 +63,11 @@ CustomKeywords.'autoKeywords.verifyLoggedOut.verifyNotLogged'()
 
 WebUI.click(findTestObject('LogIn/div_Log in'))
 
-WebUI.setText(findTestObject('LogIn/input_email'), GlobalVariable.email)
+WebUI.setText(findTestObject('LogIn/input_email-XPATH'), GlobalVariable.email)
 
-WebUI.setText(findTestObject('LogIn/input_password'), 'wrongft')
+WebUI.setText(findTestObject('LogIn/input_password-XPATH'), 'wrongft')
 
-WebUI.click(findTestObject('LogIn/button_Login'))
+WebUI.click(findTestObject('LogIn/button_Log in-XPATH'))
 
 WebUI.delay(3)
 

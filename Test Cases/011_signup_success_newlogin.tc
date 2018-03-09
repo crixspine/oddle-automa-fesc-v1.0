@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>011_signup_success_newlogin</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>3606a3a7-495c-4d84-8e40-fe0174d3e806</testCaseGuid>
-</TestCaseEntity>

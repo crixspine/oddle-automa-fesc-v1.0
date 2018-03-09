@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('001_login_email_successful'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('login_email_successful'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('LogIn/div_Hi user'))
+WebUI.click(findTestObject('LogIn/div_Hi user-XPATH'))
 
 WebUI.delay(1)
 
@@ -37,7 +37,7 @@ WebUI.verifyElementNotHasAttribute(findTestObject('Account/div_error_message'), 
 
 WebUI.click(findTestObject('HomePage/a_Home'))
 
-WebUI.click(findTestObject('LogIn/div_Hi user'))
+WebUI.click(findTestObject('LogIn/div_Hi user-XPATH'))
 
 WebUI.delay(1)
 

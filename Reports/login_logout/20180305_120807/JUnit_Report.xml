@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login_logout" time="130" tests="7" failures="1" errors="1">
+   <testsuite name="login_logout" tests="7" failures="1" errors="1" time="130" timestamp="2018-03-05 12:08:14" hostname="Ang - DESKTOP-JMN7MR3" id="Test Suites/login_logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ang\\Katalon Studio\\oddle-automa-fesc-v3.1\\Reports\\login_logout\\20180305_120807"/>
+         <property name="logFiles" value="C:\\Users\\Ang\\Katalon Studio\\oddle-automa-fesc-v3.1\\Reports\\login_logout\\20180305_120807\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Ang\\Katalon Studio\\oddle-automa-fesc-v3.1\\Reports\\login_logout\\20180305_120807\\1520223024037.png"/>
+         <property name="hostName" value="Ang - DESKTOP-JMN7MR3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="192.168.126.1"/>
+         <property name="sessionId" value="a7ee5433fef8bc6cc9146793e8d522e2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login_email_successful" classname="Test Cases/login_email_successful" status="PASSED">
+         <system-out><![CDATA[2018-03-05 12:08:14 - [TEST_CASE][PASSED] - Test Cases/login_email_successful: Test Cases/login_email_successful
+
+2018-03-05 12:08:15 - [TEST_STEP][PASSED] - autoKeywords.GoToHomepageMax.goToHomepage: autoKeywords.GoToHomepageMax.goToHomepage is PASSED
+
+2018-03-05 12:08:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-05 12:08:19 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-05 12:08:21 - [MESSAGE][PASSED] - Navigate to 'http://oddleautomate.staging.oddle.co' successfully
+
+2018-03-05 12:08:21 - [MESSAGE][PASSED] - autoKeywords.GoToHomepageMax.goToHomepage is PASSED
+
+2018-03-05 12:08:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/div_Log in-XPATH' is visible
+
+2018-03-05 12:08:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:08:21 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_Log in-XPATH' is visible
+
+2018-03-05 12:08:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in-XPATH' is clicked on
+
+2018-03-05 12:08:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in-XPATH' is clicked on
+
+2018-03-05 12:08:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/input_email-XPATH' is visible
+
+2018-03-05 12:08:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:08:22 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/input_email-XPATH' is visible
+
+2018-03-05 12:08:22 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/LogIn/input_email-XPATH'
+
+2018-03-05 12:08:23 - [MESSAGE][PASSED] - Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/LogIn/input_email-XPATH'
+
+2018-03-05 12:08:23 - [TEST_STEP][PASSED] - setText: Text 'password' is set on object 'Object Repository/LogIn/input_password-XPATH'
+
+2018-03-05 12:08:23 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/LogIn/input_password-XPATH'
+
+2018-03-05 12:08:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login-XPATH' is clicked on
+
+2018-03-05 12:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login-XPATH' is clicked on
+
+2018-03-05 12:08:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-05 12:08:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-05 12:08:26 - [TEST_STEP][PASSED] - autoKeywords.VerifyLoginStatus.verifyLoggedIn: autoKeywords.VerifyLoginStatus.verifyLoggedIn is PASSED
+
+2018-03-05 12:08:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user-XPATH' is: 'Hi, kevin'
+
+2018-03-05 12:08:26 - [MESSAGE][PASSED] - Actual text 'Hi, kevin' and expected text 'Hi, kevin' are matched 
+
+2018-03-05 12:08:26 - [MESSAGE][PASSED] - autoKeywords.VerifyLoginStatus.verifyLoggedIn is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login_email_wrongpw" classname="Test Cases/login_email_wrongpw" status="PASSED">
+         <system-out><![CDATA[2018-03-05 12:08:26 - [TEST_CASE][PASSED] - Test Cases/login_email_wrongpw: Test Cases/login_email_wrongpw
+
+2018-03-05 12:08:27 - [TEST_STEP][PASSED] - autoKeywords.GoToHomepageMax.goToHomepage: autoKeywords.GoToHomepageMax.goToHomepage is PASSED
+
+2018-03-05 12:08:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-05 12:08:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-05 12:08:30 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-05 12:08:32 - [MESSAGE][PASSED] - Navigate to 'http://oddleautomate.staging.oddle.co' successfully
+
+2018-03-05 12:08:32 - [MESSAGE][PASSED] - autoKeywords.GoToHomepageMax.goToHomepage is PASSED
+
+2018-03-05 12:08:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/div_Log in-XPATH' is visible
+
+2018-03-05 12:08:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:08:32 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_Log in-XPATH' is visible
+
+2018-03-05 12:08:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in-XPATH' is clicked on
+
+2018-03-05 12:08:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in-XPATH' is clicked on
+
+2018-03-05 12:08:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/input_email-XPATH' is visible
+
+2018-03-05 12:08:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:08:33 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/input_email-XPATH' is visible
+
+2018-03-05 12:08:33 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/LogIn/input_email-XPATH'
+
+2018-03-05 12:08:34 - [MESSAGE][PASSED] - Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/LogIn/input_email-XPATH'
+
+2018-03-05 12:08:34 - [TEST_STEP][PASSED] - setText: Text 'wrongpassword' is set on object 'Object Repository/LogIn/input_password-XPATH'
+
+2018-03-05 12:08:35 - [MESSAGE][PASSED] - Text 'wrongpassword' is set on object 'Object Repository/LogIn/input_password-XPATH'
+
+2018-03-05 12:08:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login-XPATH' is clicked on
+
+2018-03-05 12:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login-XPATH' is clicked on
+
+2018-03-05 12:08:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LogIn/div_login_credentials_invalid-XPATH' is present
+
+2018-03-05 12:08:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:08:35 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_login_credentials_invalid-XPATH' is present
+
+2018-03-05 12:08:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/svg_close window-XPATH' is visible
+
+2018-03-05 12:08:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:08:35 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/svg_close window-XPATH' is visible
+
+2018-03-05 12:08:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/svg_close window-XPATH' is clicked on
+
+2018-03-05 12:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/svg_close window-XPATH' is clicked on
+
+2018-03-05 12:08:35 - [TEST_STEP][PASSED] - autoKeywords.VerifyLoginStatus.verifyLoggedOut: autoKeywords.VerifyLoginStatus.verifyLoggedOut is PASSED
+
+2018-03-05 12:08:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Log in-XPATH' is: 'Log in'
+
+2018-03-05 12:08:35 - [MESSAGE][PASSED] - Actual text 'Log in' and expected text 'Log in' are matched 
+
+2018-03-05 12:08:35 - [MESSAGE][PASSED] - autoKeywords.VerifyLoginStatus.verifyLoggedOut is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login_email_wrongpwformat" classname="Test Cases/login_email_wrongpwformat" status="PASSED">
+         <system-out><![CDATA[2018-03-05 12:08:35 - [TEST_CASE][PASSED] - Test Cases/login_email_wrongpwformat: Test Cases/login_email_wrongpwformat
+
+2018-03-05 12:08:36 - [TEST_STEP][PASSED] - autoKeywords.GoToHomepageMax.goToHomepage: autoKeywords.GoToHomepageMax.goToHomepage is PASSED
+
+2018-03-05 12:08:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-05 12:08:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-05 12:08:40 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-05 12:08:42 - [MESSAGE][PASSED] - Navigate to 'http://oddleautomate.staging.oddle.co' successfully
+
+2018-03-05 12:08:42 - [MESSAGE][PASSED] - autoKeywords.GoToHomepageMax.goToHomepage is PASSED
+
+2018-03-05 12:08:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/div_Log in-XPATH' is visible
+
+2018-03-05 12:08:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:08:42 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_Log in-XPATH' is visible
+
+2018-03-05 12:08:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in-XPATH' is clicked on
+
+2018-03-05 12:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in-XPATH' is clicked on
+
+2018-03-05 12:08:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/input_email-XPATH' is visible
+
+2018-03-05 12:08:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:08:43 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/input_email-XPATH' is visible
+
+2018-03-05 12:08:43 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/LogIn/input_email-XPATH'
+
+2018-03-05 12:08:43 - [MESSAGE][PASSED] - Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/LogIn/input_email-XPATH'
+
+2018-03-05 12:08:43 - [TEST_STEP][PASSED] - setText: Text 'wrongft' is set on object 'Object Repository/LogIn/input_password-XPATH'
+
+2018-03-05 12:08:44 - [MESSAGE][PASSED] - Text 'wrongft' is set on object 'Object Repository/LogIn/input_password-XPATH'
+
+2018-03-05 12:08:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login-XPATH' is clicked on
+
+2018-03-05 12:08:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login-XPATH' is clicked on
+
+2018-03-05 12:08:44 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LogIn/div_login_credentials_invalid-XPATH' is present
+
+2018-03-05 12:08:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:08:44 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_login_credentials_invalid-XPATH' is present
+
+2018-03-05 12:08:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/svg_close window-XPATH' is visible
+
+2018-03-05 12:08:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:08:44 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/svg_close window-XPATH' is visible
+
+2018-03-05 12:08:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/svg_close window-XPATH' is clicked on
+
+2018-03-05 12:08:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/svg_close window-XPATH' is clicked on
+
+2018-03-05 12:08:44 - [TEST_STEP][PASSED] - autoKeywords.VerifyLoginStatus.verifyLoggedOut: autoKeywords.VerifyLoginStatus.verifyLoggedOut is PASSED
+
+2018-03-05 12:08:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Log in-XPATH' is: 'Log in'
+
+2018-03-05 12:08:44 - [MESSAGE][PASSED] - Actual text 'Log in' and expected text 'Log in' are matched 
+
+2018-03-05 12:08:44 - [MESSAGE][PASSED] - autoKeywords.VerifyLoginStatus.verifyLoggedOut is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login_email_wrongemail" classname="Test Cases/login_email_wrongemail" status="PASSED">
+         <system-out><![CDATA[2018-03-05 12:08:44 - [TEST_CASE][PASSED] - Test Cases/login_email_wrongemail: Test Cases/login_email_wrongemail
+
+2018-03-05 12:08:44 - [TEST_STEP][PASSED] - autoKeywords.GoToHomepageMax.goToHomepage: autoKeywords.GoToHomepageMax.goToHomepage is PASSED
+
+2018-03-05 12:08:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-05 12:08:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-05 12:08:49 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-05 12:08:51 - [MESSAGE][PASSED] - Navigate to 'http://oddleautomate.staging.oddle.co' successfully
+
+2018-03-05 12:08:51 - [MESSAGE][PASSED] - autoKeywords.GoToHomepageMax.goToHomepage is PASSED
+
+2018-03-05 12:08:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/div_Log in-XPATH' is visible
+
+2018-03-05 12:08:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:08:51 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_Log in-XPATH' is visible
+
+2018-03-05 12:08:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in-XPATH' is clicked on
+
+2018-03-05 12:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in-XPATH' is clicked on
+
+2018-03-05 12:08:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/input_email-XPATH' is visible
+
+2018-03-05 12:08:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:08:52 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/input_email-XPATH' is visible
+
+2018-03-05 12:08:52 - [TEST_STEP][PASSED] - setText: Text 'unusedemail@changethis.ifused' is set on object 'Object Repository/LogIn/input_email-XPATH'
+
+2018-03-05 12:08:53 - [MESSAGE][PASSED] - Text 'unusedemail@changethis.ifused' is set on object 'Object Repository/LogIn/input_email-XPATH'
+
+2018-03-05 12:08:53 - [TEST_STEP][PASSED] - setText: Text 'password' is set on object 'Object Repository/LogIn/input_password-XPATH'
+
+2018-03-05 12:08:53 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/LogIn/input_password-XPATH'
+
+2018-03-05 12:08:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login-XPATH' is clicked on
+
+2018-03-05 12:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login-XPATH' is clicked on
+
+2018-03-05 12:08:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LogIn/div_login_credentials_invalid-XPATH' is present
+
+2018-03-05 12:08:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:08:54 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_login_credentials_invalid-XPATH' is present
+
+2018-03-05 12:08:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/svg_close window-XPATH' is visible
+
+2018-03-05 12:08:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:08:54 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/svg_close window-XPATH' is visible
+
+2018-03-05 12:08:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/svg_close window-XPATH' is clicked on
+
+2018-03-05 12:08:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/svg_close window-XPATH' is clicked on
+
+2018-03-05 12:08:54 - [TEST_STEP][PASSED] - autoKeywords.VerifyLoginStatus.verifyLoggedOut: autoKeywords.VerifyLoginStatus.verifyLoggedOut is PASSED
+
+2018-03-05 12:08:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Log in-XPATH' is: 'Log in'
+
+2018-03-05 12:08:54 - [MESSAGE][PASSED] - Actual text 'Log in' and expected text 'Log in' are matched 
+
+2018-03-05 12:08:54 - [MESSAGE][PASSED] - autoKeywords.VerifyLoginStatus.verifyLoggedOut is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login_email_wrongemailformat" classname="Test Cases/login_email_wrongemailformat" status="PASSED">
+         <system-out><![CDATA[2018-03-05 12:08:54 - [TEST_CASE][PASSED] - Test Cases/login_email_wrongemailformat: Test Cases/login_email_wrongemailformat
+
+2018-03-05 12:08:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-05 12:08:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-05 12:08:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-05 12:08:57 - [TEST_STEP][PASSED] - autoKeywords.GoToHomepageMax.goToHomepage: autoKeywords.GoToHomepageMax.goToHomepage is PASSED
+
+2018-03-05 12:08:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-05 12:08:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-05 12:09:00 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-05 12:09:02 - [MESSAGE][PASSED] - Navigate to 'http://oddleautomate.staging.oddle.co' successfully
+
+2018-03-05 12:09:02 - [MESSAGE][PASSED] - autoKeywords.GoToHomepageMax.goToHomepage is PASSED
+
+2018-03-05 12:09:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/div_Log in-XPATH' is visible
+
+2018-03-05 12:09:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:09:03 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_Log in-XPATH' is visible
+
+2018-03-05 12:09:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in-XPATH' is clicked on
+
+2018-03-05 12:09:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in-XPATH' is clicked on
+
+2018-03-05 12:09:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/input_email-XPATH' is visible
+
+2018-03-05 12:09:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:09:04 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/input_email-XPATH' is visible
+
+2018-03-05 12:09:04 - [TEST_STEP][PASSED] - setText: Text 'wrongemailformat' is set on object 'Object Repository/LogIn/input_email-XPATH'
+
+2018-03-05 12:09:04 - [MESSAGE][PASSED] - Text 'wrongemailformat' is set on object 'Object Repository/LogIn/input_email-XPATH'
+
+2018-03-05 12:09:04 - [TEST_STEP][PASSED] - setText: Text 'password' is set on object 'Object Repository/LogIn/input_password-XPATH'
+
+2018-03-05 12:09:04 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/LogIn/input_password-XPATH'
+
+2018-03-05 12:09:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login-XPATH' is clicked on
+
+2018-03-05 12:09:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login-XPATH' is clicked on
+
+2018-03-05 12:09:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LogIn/div_login_credentials_invalid-XPATH' is present
+
+2018-03-05 12:09:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:09:04 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_login_credentials_invalid-XPATH' is present
+
+2018-03-05 12:09:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/svg_close window-XPATH' is visible
+
+2018-03-05 12:09:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:09:05 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/svg_close window-XPATH' is visible
+
+2018-03-05 12:09:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/svg_close window-XPATH' is clicked on
+
+2018-03-05 12:09:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/svg_close window-XPATH' is clicked on
+
+2018-03-05 12:09:05 - [TEST_STEP][PASSED] - autoKeywords.VerifyLoginStatus.verifyLoggedOut: autoKeywords.VerifyLoginStatus.verifyLoggedOut is PASSED
+
+2018-03-05 12:09:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Log in-XPATH' is: 'Log in'
+
+2018-03-05 12:09:05 - [MESSAGE][PASSED] - Actual text 'Log in' and expected text 'Log in' are matched 
+
+2018-03-05 12:09:05 - [MESSAGE][PASSED] - autoKeywords.VerifyLoginStatus.verifyLoggedOut is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/006_login_fb_loggedin" classname="Test Cases/006_login_fb_loggedin" status="PASSED">
+         <system-out><![CDATA[2018-03-05 12:09:05 - [TEST_CASE][PASSED] - Test Cases/006_login_fb_loggedin: Test Cases/006_login_fb_loggedin
+
+2018-03-05 12:09:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-05 12:09:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-05 12:09:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-05 12:09:08 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-05 12:09:09 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-05 12:09:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.facebook.com/' successfully
+
+2018-03-05 12:09:11 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2018-03-05 12:09:11 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/input_email_fbpage' is visible
+
+2018-03-05 12:09:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:09:11 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/input_email_fbpage' is visible
+
+2018-03-05 12:09:11 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/LogIn/input_email_fbpage'
+
+2018-03-05 12:09:11 - [MESSAGE][PASSED] - Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/LogIn/input_email_fbpage'
+
+2018-03-05 12:09:11 - [TEST_STEP][PASSED] - setText: Text 'puToNtaB_1' is set on object 'Object Repository/LogIn/input_pass_fbpage'
+
+2018-03-05 12:09:11 - [MESSAGE][PASSED] - Text 'puToNtaB_1' is set on object 'Object Repository/LogIn/input_pass_fbpage'
+
+2018-03-05 12:09:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/input_login_fbpage' is clicked on
+
+2018-03-05 12:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/input_login_fbpage' is clicked on
+
+2018-03-05 12:09:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-05 12:09:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-05 12:09:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://oddleautomate.staging.oddle.co' successfully
+
+2018-03-05 12:09:20 - [MESSAGE][PASSED] - Navigate to 'http://oddleautomate.staging.oddle.co' successfully
+
+2018-03-05 12:09:20 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/div_Log in-XPATH' is visible
+
+2018-03-05 12:09:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:09:20 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_Log in-XPATH' is visible
+
+2018-03-05 12:09:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in-XPATH' is clicked on
+
+2018-03-05 12:09:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in-XPATH' is clicked on
+
+2018-03-05 12:09:20 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/LogIn/span_Login with Facebook-XPATH' successfully
+
+2018-03-05 12:09:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:09:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LogIn/span_Login with Facebook-XPATH' successfully
+
+2018-03-05 12:09:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/span_Login with Facebook-XPATH' is visible
+
+2018-03-05 12:09:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:09:21 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/span_Login with Facebook-XPATH' is visible
+
+2018-03-05 12:09:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/span_Login with Facebook-XPATH' is clicked on
+
+2018-03-05 12:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/span_Login with Facebook-XPATH' is clicked on
+
+2018-03-05 12:09:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-05 12:09:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-05 12:09:24 - [TEST_STEP][PASSED] - autoKeywords.VerifyLoginStatus.verifyLoggedIn: autoKeywords.VerifyLoginStatus.verifyLoggedIn is PASSED
+
+2018-03-05 12:09:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user-XPATH' is: 'Hi, kevin'
+
+2018-03-05 12:09:24 - [MESSAGE][PASSED] - Actual text 'Hi, kevin' and expected text 'Hi, kevin' are matched 
+
+2018-03-05 12:09:24 - [MESSAGE][PASSED] - autoKeywords.VerifyLoginStatus.verifyLoggedIn is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/007_login_fb_notloggedin" classname="Test Cases/007_login_fb_notloggedin" status="ERROR">
+         <error type="ERROR" message="Test Cases/007_login_fb_notloggedin FAILED because (of) java.lang.ClassNotFoundException: autoKeywords.verifyLoggedIn"/>
+         <system-out><![CDATA[2018-03-05 12:09:24 - [TEST_CASE][ERROR] - Test Cases/007_login_fb_notloggedin: Test Cases/007_login_fb_notloggedin FAILED because (of) java.lang.ClassNotFoundException: autoKeywords.verifyLoggedIn
+
+2018-03-05 12:09:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-05 12:09:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-05 12:09:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-05 12:09:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://oddleautomate.staging.oddle.co' successfully
+
+2018-03-05 12:09:29 - [MESSAGE][PASSED] - Navigate to 'http://oddleautomate.staging.oddle.co' successfully
+
+2018-03-05 12:09:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in-XPATH' is clicked on
+
+2018-03-05 12:09:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in-XPATH' is clicked on
+
+2018-03-05 12:09:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-05 12:09:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-05 12:09:33 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/LogIn/span_Login with Facebook-XPATH' successfully
+
+2018-03-05 12:09:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:09:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LogIn/span_Login with Facebook-XPATH' successfully
+
+2018-03-05 12:09:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/span_Login with Facebook-XPATH' is clicked on
+
+2018-03-05 12:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/span_Login with Facebook-XPATH' is clicked on
+
+2018-03-05 12:09:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-05 12:09:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-05 12:09:36 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Facebook'
+
+2018-03-05 12:09:37 - [MESSAGE][PASSED] - Switched to window with title: 'Facebook'
+
+2018-03-05 12:09:37 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/LogIn/input_email_fb'
+
+2018-03-05 12:09:37 - [MESSAGE][PASSED] - Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/LogIn/input_email_fb'
+
+2018-03-05 12:09:37 - [TEST_STEP][PASSED] - setText: Text 'puToNtaB_1' is set on object 'Object Repository/LogIn/input_pass_fb'
+
+2018-03-05 12:09:37 - [MESSAGE][PASSED] - Text 'puToNtaB_1' is set on object 'Object Repository/LogIn/input_pass_fb'
+
+2018-03-05 12:09:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/label_loginbutton' is clicked on
+
+2018-03-05 12:09:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/label_loginbutton' is clicked on
+
+2018-03-05 12:09:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-05 12:09:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-05 12:09:42 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-03-05 12:09:43 - [TEST_STEP][ERROR] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn
+
+2018-03-05 12:09:43 - [MESSAGE][ERROR] - autoKeywords.verifyLoggedIn]]></system-out>
+         <system-err><![CDATA[2018-03-05 12:09:24 - [TEST_CASE][ERROR] - Test Cases/007_login_fb_notloggedin: Test Cases/007_login_fb_notloggedin FAILED because (of) java.lang.ClassNotFoundException: autoKeywords.verifyLoggedIn]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/008_login_fb_wrongpw" classname="Test Cases/008_login_fb_wrongpw" status="PASSED">
+         <system-out><![CDATA[2018-03-05 12:09:43 - [TEST_CASE][PASSED] - Test Cases/008_login_fb_wrongpw: Test Cases/008_login_fb_wrongpw
+
+2018-03-05 12:09:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-05 12:09:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-05 12:09:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-05 12:09:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://oddleautomate.staging.oddle.co' successfully
+
+2018-03-05 12:09:48 - [MESSAGE][PASSED] - Navigate to 'http://oddleautomate.staging.oddle.co' successfully
+
+2018-03-05 12:09:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in-XPATH' is clicked on
+
+2018-03-05 12:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in-XPATH' is clicked on
+
+2018-03-05 12:09:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-05 12:09:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-05 12:09:51 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/LogIn/span_Login with Facebook-XPATH' successfully
+
+2018-03-05 12:09:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:09:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LogIn/span_Login with Facebook-XPATH' successfully
+
+2018-03-05 12:09:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/span_Login with Facebook-XPATH' is clicked on
+
+2018-03-05 12:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/span_Login with Facebook-XPATH' is clicked on
+
+2018-03-05 12:09:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-05 12:09:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-05 12:09:54 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Facebook'
+
+2018-03-05 12:09:55 - [MESSAGE][PASSED] - Switched to window with title: 'Facebook'
+
+2018-03-05 12:09:55 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/LogIn/input_email_fb'
+
+2018-03-05 12:09:56 - [MESSAGE][PASSED] - Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/LogIn/input_email_fb'
+
+2018-03-05 12:09:56 - [TEST_STEP][PASSED] - setText: Text 'wrongpassword' is set on object 'Object Repository/LogIn/input_pass_fb'
+
+2018-03-05 12:09:56 - [MESSAGE][PASSED] - Text 'wrongpassword' is set on object 'Object Repository/LogIn/input_pass_fb'
+
+2018-03-05 12:09:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/label_loginbutton' is clicked on
+
+2018-03-05 12:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/label_loginbutton' is clicked on
+
+2018-03-05 12:09:58 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-05 12:09:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-05 12:09:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LogIn/div_error_box' is present
+
+2018-03-05 12:09:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:09:59 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_error_box' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login_logout" classname="Test Cases/login_logout" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Account/button_Sign Out' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/button_Sign Out' located by 'By.xpath: //button[(text() = 'Sign Out' or . = 'Sign Out')]' not found)"/>
+         <system-out><![CDATA[2018-03-05 12:09:59 - [TEST_CASE][FAILED] - Test Cases/login_logout: Test Cases/login_logout FAILED because (of) Unable to click on object 'Object Repository/Account/button_Sign Out' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/button_Sign Out' located by 'By.xpath: //button[(text() = 'Sign Out' or . = 'Sign Out')]' not found)
+
+2018-03-05 12:09:59 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/login_email_successful' successfully
+
+2018-03-05 12:09:59 - [TEST_CASE][PASSED] - Test Cases/login_email_successful: Test Cases/login_email_successful
+
+2018-03-05 12:09:59 - [TEST_STEP][PASSED] - autoKeywords.GoToHomepageMax.goToHomepage: autoKeywords.GoToHomepageMax.goToHomepage is PASSED
+
+2018-03-05 12:09:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-05 12:10:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-05 12:10:03 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-05 12:10:05 - [MESSAGE][PASSED] - Navigate to 'http://oddleautomate.staging.oddle.co' successfully
+
+2018-03-05 12:10:05 - [MESSAGE][PASSED] - autoKeywords.GoToHomepageMax.goToHomepage is PASSED
+
+2018-03-05 12:10:05 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/div_Log in-XPATH' is visible
+
+2018-03-05 12:10:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:10:05 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_Log in-XPATH' is visible
+
+2018-03-05 12:10:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in-XPATH' is clicked on
+
+2018-03-05 12:10:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in-XPATH' is clicked on
+
+2018-03-05 12:10:05 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/input_email-XPATH' is visible
+
+2018-03-05 12:10:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:10:06 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/input_email-XPATH' is visible
+
+2018-03-05 12:10:06 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/LogIn/input_email-XPATH'
+
+2018-03-05 12:10:07 - [MESSAGE][PASSED] - Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/LogIn/input_email-XPATH'
+
+2018-03-05 12:10:07 - [TEST_STEP][PASSED] - setText: Text 'password' is set on object 'Object Repository/LogIn/input_password-XPATH'
+
+2018-03-05 12:10:07 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/LogIn/input_password-XPATH'
+
+2018-03-05 12:10:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login-XPATH' is clicked on
+
+2018-03-05 12:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login-XPATH' is clicked on
+
+2018-03-05 12:10:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-05 12:10:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-05 12:10:10 - [TEST_STEP][PASSED] - autoKeywords.VerifyLoginStatus.verifyLoggedIn: autoKeywords.VerifyLoginStatus.verifyLoggedIn is PASSED
+
+2018-03-05 12:10:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user-XPATH' is: 'Hi, kevin'
+
+2018-03-05 12:10:10 - [MESSAGE][PASSED] - Actual text 'Hi, kevin' and expected text 'Hi, kevin' are matched 
+
+2018-03-05 12:10:10 - [MESSAGE][PASSED] - autoKeywords.VerifyLoginStatus.verifyLoggedIn is PASSED
+
+2018-03-05 12:10:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/login_email_successful' successfully
+
+2018-03-05 12:10:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-05 12:10:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-05 12:10:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/div_Hi user-XPATH' is visible
+
+2018-03-05 12:10:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:10:13 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_Hi user-XPATH' is visible
+
+2018-03-05 12:10:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user-XPATH' is clicked on
+
+2018-03-05 12:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user-XPATH' is clicked on
+
+2018-03-05 12:10:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LogIn/a_Sign out' is visible
+
+2018-03-05 12:10:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:10:13 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/a_Sign out' is visible
+
+2018-03-05 12:10:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/a_Sign out' is clicked on
+
+2018-03-05 12:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/a_Sign out' is clicked on
+
+2018-03-05 12:10:13 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/Account/button_Sign Out' located by 'By.xpath: //button[(text() = 'Sign Out' or . = 'Sign Out')]' not found
+
+2018-03-05 12:10:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-03-05 12:10:18 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Account/button_Sign Out' located by 'By.xpath: //button[(text() = 'Sign Out' or . = 'Sign Out')]' not found
+
+2018-03-05 12:10:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Account/button_Sign Out' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/button_Sign Out' located by 'By.xpath: //button[(text() = 'Sign Out' or . = 'Sign Out')]' not found)
+
+2018-03-05 12:10:24 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Account/button_Sign Out' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/button_Sign Out' located by 'By.xpath: //button[(text() = 'Sign Out' or . = 'Sign Out')]' not found)
+[[ATTACHMENT|C:\\Users\\Ang\\Katalon Studio\\oddle-automa-fesc-v3.1\\Reports\\login_logout\\20180305_120807\\1520223024037.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-05 12:09:59 - [TEST_CASE][FAILED] - Test Cases/login_logout: Test Cases/login_logout FAILED because (of) Unable to click on object 'Object Repository/Account/button_Sign Out' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Account/button_Sign Out' located by 'By.xpath: //button[(text() = 'Sign Out' or . = 'Sign Out')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-05 12:08:14 - [TEST_SUITE][ERROR] - login_logout: Test Cases/007_login_fb_notloggedin FAILED because (of) java.lang.ClassNotFoundException: autoKeywords.verifyLoggedIn]]></system-out>
+      <system-err><![CDATA[2018-03-05 12:08:14 - [TEST_SUITE][ERROR] - login_logout: Test Cases/007_login_fb_notloggedin FAILED because (of) java.lang.ClassNotFoundException: autoKeywords.verifyLoggedIn]]></system-err>
+   </testsuite>
+</testsuites>

@@ -27,9 +27,9 @@ WebUI.click(findTestObject('LogIn/div_Log in'))
 
 WebUI.delay(3)
 
-WebUI.scrollToElement(findTestObject('LogIn/span_Login with Facebook'), 0)
+WebUI.scrollToElement(findTestObject('LogIn/span_Login with Facebook-XPATH'), 0)
 
-WebUI.click(findTestObject('LogIn/span_Login with Facebook'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('LogIn/span_Login with Facebook-XPATH'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

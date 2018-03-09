@@ -19,11 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+CustomKeywords.'autoKeywords.GoToHomepageMax.goToHomepage'()
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.waitForElementVisible(findTestObject('LogIn/div_Log in'), 0)
 
 WebUI.click(findTestObject('LogIn/div_Log in'))
+
+WebUI.waitForElementVisible(findTestObject('SignUp/a_ Sign up'), 0)
 
 WebUI.click(findTestObject('SignUp/a_ Sign up'), FailureHandling.STOP_ON_FAILURE)
 
@@ -43,5 +45,5 @@ WebUI.delay(3)
 
 WebUI.switchToDefaultContent()
 
-CustomKeywords.'autoKeywords.verifyLoggedIn.verifyLogged'()
+CustomKeywords.'autoKeywords.VerifyLoginStatus.verifyLoggedOut'()
 

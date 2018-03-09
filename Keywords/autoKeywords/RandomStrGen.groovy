@@ -27,6 +27,7 @@ import WebUiBuiltInKeywords as WebUI
 
 public class RandomStrGen {
 	
+	//generates a random string for new email signups
 	@Keyword
 	def randomStr(String chars, int length) {
 		Random rand = new Random();

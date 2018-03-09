@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testing,,,2018-01-30 11:21:10,2018-01-30 11:21:13,2.511s,FAILED
+,,,,,,
+Test Cases/001_login_email_successful,,,2018-01-30 11:21:11,2018-01-30 11:21:13,1.876s,FAILED
+openBrowser,,,2018-01-30 11:21:11,2018-01-30 11:21:13,1.262s,FAILED

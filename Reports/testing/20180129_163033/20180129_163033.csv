@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testing,Chrome 63.0.3239.132,,2018-01-29 16:30:40,2018-01-29 16:30:50,9.837s,FAILED
+,,,,,,
+Test Cases/001_login_email_successful,Chrome 63.0.3239.132,,2018-01-29 16:30:40,2018-01-29 16:30:49,8.738s,FAILED
+openBrowser,Chrome 63.0.3239.132,,2018-01-29 16:30:41,2018-01-29 16:30:45,4.332s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-01-29 16:30:45,2018-01-29 16:30:48,2.996s,PASSED
+click,Chrome 63.0.3239.132,,2018-01-29 16:30:48,2018-01-29 16:30:49,0.784s,FAILED

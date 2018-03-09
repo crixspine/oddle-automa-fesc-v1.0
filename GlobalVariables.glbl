@@ -4,22 +4,22 @@
    <tag></tag>
    <GlobalVariableEntity>
       <description>v3.1 cart url</description>
-      <initValue>'http://mcdonaldstest.staging.oddle.co'</initValue>
+      <initValue>'http://oddleautomate.staging.oddle.co'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>email for customer login</description>
-      <initValue>'kevin.ang@oddle.me'</initValue>
+      <initValue>'kevin.ang+auto@oddle.me'</initValue>
       <name>email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>pass for customer login</description>
-      <initValue>'0ddleatw'</initValue>
+      <initValue>'password'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>email for fb login</description>
-      <initValue>'kevin.ang@oddle.me'</initValue>
+      <initValue>'kevin.ang+auto@oddle.me'</initValue>
       <name>email_fb</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -71,5 +71,20 @@
       <description>postal code outside of delivery zone</description>
       <initValue>'627865'</initValue>
       <name>postalcode_out</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default first name</description>
+      <initValue>'kevin'</initValue>
+      <name>fname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default last name</description>
+      <initValue>'test'</initValue>
+      <name>lname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default language parameter</description>
+      <initValue>'/en_SG'</initValue>
+      <name>lang_param</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

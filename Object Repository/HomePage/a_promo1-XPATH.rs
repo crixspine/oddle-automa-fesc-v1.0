@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_promo1-XPATH</name>
+   <tag></tag>
+   <elementGuidId>92835df7-6617-4a4c-900f-b535a89078aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;body&quot;]/div[1]/div[2]/div/div/div[2]/div[1]/ul/li[1]/div/div/a[count(. | //a[@href = '/en_SG/promotion/0']) = count(//a[@href = '/en_SG/promotion/0'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;body&quot;]/div[1]/div[2]/div/div/div[2]/div[1]/ul/li[1]/div/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/en_SG/promotion/0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;body&quot;]/div[1]/div[2]/div/div/div[2]/div[1]/ul/li[1]/div/div/a</value>
+   </webElementProperties>
+</WebElementEntity>

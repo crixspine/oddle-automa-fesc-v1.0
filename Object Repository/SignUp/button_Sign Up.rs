@@ -4,6 +4,12 @@
    <name>button_Sign Up</name>
    <tag></tag>
    <elementGuidId>138a22db-393a-4a88-b6b3-2fa93bdfab02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Sign up' or . = 'Sign up')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sign Up</value>
+      <value>Sign up</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

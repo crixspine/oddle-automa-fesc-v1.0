@@ -1,0 +1,2516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="account_settings" time="472" tests="16" failures="5" errors="0">
+   <testsuite name="account_settings" tests="16" failures="5" errors="0" time="472" timestamp="2018-01-25 17:33:45" hostname="Ang - DESKTOP-JMN7MR3" id="Test Suites/account_settings">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338"/>
+         <property name="logFiles" value="C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516872941884.png, C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516872942199.png, C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516872977213.png, C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516872977479.png, C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516873013170.png, C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516873013438.png, C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516873133727.png, C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516873134024.png, C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516873253062.png, C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516873253332.png"/>
+         <property name="hostName" value="Ang - DESKTOP-JMN7MR3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.126.1"/>
+         <property name="sessionId" value="12d55c630674fbcd04a9590336066ae7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/047_account_alttab" classname="Test Cases/047_account_alttab" status="PASSED">
+         <system-out><![CDATA[2018-01-25 17:33:46 - [TEST_CASE][PASSED] - Test Cases/047_account_alttab: Test Cases/047_account_alttab
+
+2018-01-25 17:33:47 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:33:47 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:33:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:33:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:33:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:33:56 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:33:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:33:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:33:57 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:33:59 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:33:59 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:33:59 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:33:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:33:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:33:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:34:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:34:02 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:34:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:34:03 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:34:03 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:34:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:34:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:34:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:34:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:34:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Order History' is clicked on
+
+2018-01-25 17:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Order History' is clicked on
+
+2018-01-25 17:34:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:34:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:34:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Account/h1_account header' are matched.
+
+2018-01-25 17:34:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Account/h1_account header' are matched.
+
+2018-01-25 17:34:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:34:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:34:05 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:34:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:34:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:34:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:34:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:34:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Account/h1_account header' are matched.
+
+2018-01-25 17:34:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Account/h1_account header' are matched.
+
+2018-01-25 17:34:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:34:08 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:34:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:34:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:34:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-25 17:34:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-25 17:34:09 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:34:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:34:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Account/h1_account header' are matched.
+
+2018-01-25 17:34:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Account/h1_account header' are matched.
+
+2018-01-25 17:34:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/span_Order History' is clicked on
+
+2018-01-25 17:34:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/span_Order History' is clicked on
+
+2018-01-25 17:34:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:34:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:34:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Account/h1_account header' are matched.
+
+2018-01-25 17:34:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Account/h1_account header' are matched.
+
+2018-01-25 17:34:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/span_Account Details' is clicked on
+
+2018-01-25 17:34:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/span_Account Details' is clicked on
+
+2018-01-25 17:34:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:34:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:34:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Account/h1_account header' are matched.
+
+2018-01-25 17:34:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Account/h1_account header' are matched.
+
+2018-01-25 17:34:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_ Password tab' is clicked on
+
+2018-01-25 17:34:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_ Password tab' is clicked on
+
+2018-01-25 17:34:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_ Personal Info tab' is clicked on
+
+2018-01-25 17:34:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_ Personal Info tab' is clicked on
+
+2018-01-25 17:34:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/span_Address Book' is clicked on
+
+2018-01-25 17:34:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/span_Address Book' is clicked on
+
+2018-01-25 17:34:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:34:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:34:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Account/h1_account header' are matched.
+
+2018-01-25 17:34:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Account/h1_account header' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/027_account_orderhistory" classname="Test Cases/027_account_orderhistory" status="PASSED">
+         <system-out><![CDATA[2018-01-25 17:34:17 - [TEST_CASE][PASSED] - Test Cases/027_account_orderhistory: Test Cases/027_account_orderhistory
+
+2018-01-25 17:34:17 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:34:17 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:34:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:34:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:34:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:34:22 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:34:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:34:22 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:34:24 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:34:24 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:34:24 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:34:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:34:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:34:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:34:27 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:34:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:34:27 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:34:27 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:34:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:34:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:34:27 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:34:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:34:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:34:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Order History' is clicked on
+
+2018-01-25 17:34:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Order History' is clicked on
+
+2018-01-25 17:34:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:34:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:34:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/h1_Order History' is present
+
+2018-01-25 17:34:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:34:30 - [MESSAGE][PASSED] - Object 'Object Repository/Account/h1_Order History' is present
+
+2018-01-25 17:34:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Order Details' is clicked on
+
+2018-01-25 17:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Order Details' is clicked on
+
+2018-01-25 17:34:31 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:34:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:34:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/svg_close order' is clicked on
+
+2018-01-25 17:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/svg_close order' is clicked on
+
+2018-01-25 17:34:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:34:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:34:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/h1_Order History' is present
+
+2018-01-25 17:34:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:34:34 - [MESSAGE][PASSED] - Object 'Object Repository/Account/h1_Order History' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/028_account_change_email" classname="Test Cases/028_account_change_email" status="PASSED">
+         <system-out><![CDATA[2018-01-25 17:34:34 - [TEST_CASE][PASSED] - Test Cases/028_account_change_email: Test Cases/028_account_change_email
+
+2018-01-25 17:34:35 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:34:35 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:34:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:34:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:34:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:34:39 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:34:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:34:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:34:40 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:34:41 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:34:41 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:34:42 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:34:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:34:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:34:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:34:45 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:34:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:34:45 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:34:45 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:34:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:34:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:34:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:34:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:34:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:34:46 - [TEST_STEP][PASSED] - setText: Text 'unusedemail@changethis.ifused' is set on object 'Object Repository/Account/input_email'
+
+2018-01-25 17:34:47 - [MESSAGE][PASSED] - Text 'unusedemail@changethis.ifused' is set on object 'Object Repository/Account/input_email'
+
+2018-01-25 17:34:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:34:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:34:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:34:50 - [TEST_STEP][PASSED] - verifyElementNotHasAttribute: Object 'Object Repository/Account/div_error_message' does not have attribute 'text'
+
+2018-01-25 17:34:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:34:50 - [MESSAGE][PASSED] - Object 'Object Repository/Account/div_error_message' does not have attribute 'text'
+
+2018-01-25 17:34:50 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Account/input_email' has attribute 'value' with value 'unusedemail@changethis.ifused'
+
+2018-01-25 17:34:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:34:50 - [MESSAGE][PASSED] - Object 'Object Repository/Account/input_email' has attribute 'value' with value 'unusedemail@changethis.ifused'
+
+2018-01-25 17:34:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:34:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:34:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:34:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:34:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:34:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/a_Sign out' is clicked on
+
+2018-01-25 17:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/a_Sign out' is clicked on
+
+2018-01-25 17:34:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:34:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:34:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Sign Out' is clicked on
+
+2018-01-25 17:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Sign Out' is clicked on
+
+2018-01-25 17:34:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:34:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:34:55 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedOut.verifyNotLogged: autoKeywords.verifyLoggedOut.verifyNotLogged is PASSED
+
+2018-01-25 17:34:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:34:55 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_Log in' is present
+
+2018-01-25 17:34:55 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedOut.verifyNotLogged is PASSED
+
+2018-01-25 17:34:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:34:55 - [TEST_STEP][PASSED] - setText: Text 'unusedemail@changethis.ifused' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:34:56 - [MESSAGE][PASSED] - Text 'unusedemail@changethis.ifused' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:34:56 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:34:56 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:34:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:34:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:34:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:34:59 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:34:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:34:59 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:34:59 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:34:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:34:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:34:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:35:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:35:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:35:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:35:01 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/Account/input_email'
+
+2018-01-25 17:35:01 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/Account/input_email'
+
+2018-01-25 17:35:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:35:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:35:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:35:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:35:04 - [TEST_STEP][PASSED] - verifyElementNotHasAttribute: Object 'Object Repository/Account/div_error_message' does not have attribute 'text'
+
+2018-01-25 17:35:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:35:04 - [MESSAGE][PASSED] - Object 'Object Repository/Account/div_error_message' does not have attribute 'text'
+
+2018-01-25 17:35:04 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Account/input_email' has attribute 'value' with value 'kevin.ang@oddle.me'
+
+2018-01-25 17:35:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:35:04 - [MESSAGE][PASSED] - Object 'Object Repository/Account/input_email' has attribute 'value' with value 'kevin.ang@oddle.me']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/029_account_change_email_wrongformat" classname="Test Cases/029_account_change_email_wrongformat" status="PASSED">
+         <system-out><![CDATA[2018-01-25 17:35:05 - [TEST_CASE][PASSED] - Test Cases/029_account_change_email_wrongformat: Test Cases/029_account_change_email_wrongformat
+
+2018-01-25 17:35:05 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:35:05 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:35:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:35:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:35:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:35:10 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:35:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:35:11 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:35:11 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:35:12 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:35:12 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:35:13 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:35:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:35:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:35:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:35:16 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:35:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:35:16 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:35:16 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:35:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:35:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:35:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:35:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:35:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:35:17 - [TEST_STEP][PASSED] - setText: Text 'wrongemailformat' is set on object 'Object Repository/Account/input_email'
+
+2018-01-25 17:35:18 - [MESSAGE][PASSED] - Text 'wrongemailformat' is set on object 'Object Repository/Account/input_email'
+
+2018-01-25 17:35:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:35:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:35:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:35:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-25 17:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-25 17:35:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:35:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:35:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:35:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:35:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:35:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:35:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:35:24 - [TEST_STEP][PASSED] - Statement - newEmail = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Account/input_email), "value"): Attribute 'value' of object 'Object Repository/Account/input_email' is: 'kevin.ang@oddle.me'
+
+2018-01-25 17:35:24 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Account/input_email' is: 'kevin.ang@oddle.me'
+
+2018-01-25 17:35:24 - [TEST_STEP][PASSED] - verifyNotMatch: Actual text 'wrongemailformat' and expected text 'kevin.ang@oddle.me' are not matched 
+
+2018-01-25 17:35:24 - [MESSAGE][PASSED] - Actual text 'wrongemailformat' and expected text 'kevin.ang@oddle.me' are not matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/030_account_change_email_emailregd" classname="Test Cases/030_account_change_email_emailregd" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Account/div_error_message' FAILED. (Root cause: Actual text 'Email cannot be updated. The email your are using is an existing user.' and expected text 'customer_email_duplicate' of test object 'Object Repository/Account/div_error_message' are NOT matched.)"/>
+         <system-out><![CDATA[2018-01-25 17:35:24 - [TEST_CASE][FAILED] - Test Cases/030_account_change_email_emailregd: Test Cases/030_account_change_email_emailregd FAILED because (of) Verify element text of test object 'Object Repository/Account/div_error_message' FAILED. (Root cause: Actual text 'Email cannot be updated. The email your are using is an existing user.' and expected text 'customer_email_duplicate' of test object 'Object Repository/Account/div_error_message' are NOT matched.)
+
+2018-01-25 17:35:25 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:35:25 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:35:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:35:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:35:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:35:30 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:35:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:35:31 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:35:31 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:35:33 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:35:33 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:35:33 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:35:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:35:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:35:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:35:36 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:35:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:35:36 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:35:36 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:35:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:35:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:35:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:35:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:35:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:35:37 - [TEST_STEP][PASSED] - setText: Text 'test@oddle.me' is set on object 'Object Repository/Account/input_email'
+
+2018-01-25 17:35:38 - [MESSAGE][PASSED] - Text 'test@oddle.me' is set on object 'Object Repository/Account/input_email'
+
+2018-01-25 17:35:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:35:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:35:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:35:41 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Account/div_error_message' FAILED. (Root cause: Actual text 'Email cannot be updated. The email your are using is an existing user.' and expected text 'customer_email_duplicate' of test object 'Object Repository/Account/div_error_message' are NOT matched.)
+
+2018-01-25 17:35:42 - [MESSAGE][FAILED] - Actual text 'Email cannot be updated. The email your are using is an existing user.' and expected text 'customer_email_duplicate' of test object 'Object Repository/Account/div_error_message' are NOT matched.
+[[ATTACHMENT|C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516872941884.png]]
+
+2018-01-25 17:35:42 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Account/div_error_message' FAILED. (Root cause: Actual text 'Email cannot be updated. The email your are using is an existing user.' and expected text 'customer_email_duplicate' of test object 'Object Repository/Account/div_error_message' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516872942199.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-25 17:35:24 - [TEST_CASE][FAILED] - Test Cases/030_account_change_email_emailregd: Test Cases/030_account_change_email_emailregd FAILED because (of) Verify element text of test object 'Object Repository/Account/div_error_message' FAILED. (Root cause: Actual text 'Email cannot be updated. The email your are using is an existing user.' and expected text 'customer_email_duplicate' of test object 'Object Repository/Account/div_error_message' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/031_account_change_fname" classname="Test Cases/031_account_change_fname" status="PASSED">
+         <system-out><![CDATA[2018-01-25 17:35:43 - [TEST_CASE][PASSED] - Test Cases/031_account_change_fname: Test Cases/031_account_change_fname
+
+2018-01-25 17:35:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:35:43 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:35:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:35:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:35:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:35:48 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:35:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:35:48 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:35:50 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:35:50 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:35:50 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:35:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:35:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:35:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:35:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:35:53 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:35:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:35:53 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:35:53 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:35:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:35:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:35:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:35:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:35:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:35:55 - [TEST_STEP][PASSED] - setText: Text 'John' is set on object 'Object Repository/Account/input_firstname'
+
+2018-01-25 17:35:55 - [MESSAGE][PASSED] - Text 'John' is set on object 'Object Repository/Account/input_firstname'
+
+2018-01-25 17:35:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:35:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:35:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:35:58 - [TEST_STEP][PASSED] - verifyElementNotHasAttribute: Object 'Object Repository/Account/div_error_message' does not have attribute 'text'
+
+2018-01-25 17:35:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:35:58 - [MESSAGE][PASSED] - Object 'Object Repository/Account/div_error_message' does not have attribute 'text'
+
+2018-01-25 17:35:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-25 17:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-25 17:35:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:35:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:36:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:36:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:36:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:36:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:36:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:36:01 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Account/input_firstname' has attribute 'value' with value 'John'
+
+2018-01-25 17:36:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:36:01 - [MESSAGE][PASSED] - Object 'Object Repository/Account/input_firstname' has attribute 'value' with value 'John']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/032_account_change_fname_invalid" classname="Test Cases/032_account_change_fname_invalid" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Account/div_error_message' FAILED. (Root cause: Actual text 'First name is invalid.' and expected text 'first_name_invalid' of test object 'Object Repository/Account/div_error_message' are NOT matched.)"/>
+         <system-out><![CDATA[2018-01-25 17:36:02 - [TEST_CASE][FAILED] - Test Cases/032_account_change_fname_invalid: Test Cases/032_account_change_fname_invalid FAILED because (of) Verify element text of test object 'Object Repository/Account/div_error_message' FAILED. (Root cause: Actual text 'First name is invalid.' and expected text 'first_name_invalid' of test object 'Object Repository/Account/div_error_message' are NOT matched.)
+
+2018-01-25 17:36:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:36:02 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:36:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:36:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:36:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:36:07 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:36:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:36:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:36:07 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:36:08 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:36:08 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:36:09 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:36:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:36:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:36:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:36:12 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:36:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:36:12 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:36:12 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:36:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:36:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:36:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:36:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:36:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:36:13 - [TEST_STEP][PASSED] - setText: Text 'wrongfname1' is set on object 'Object Repository/Account/input_firstname'
+
+2018-01-25 17:36:14 - [MESSAGE][PASSED] - Text 'wrongfname1' is set on object 'Object Repository/Account/input_firstname'
+
+2018-01-25 17:36:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:36:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:36:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:36:17 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Account/div_error_message' FAILED. (Root cause: Actual text 'First name is invalid.' and expected text 'first_name_invalid' of test object 'Object Repository/Account/div_error_message' are NOT matched.)
+
+2018-01-25 17:36:17 - [MESSAGE][FAILED] - Actual text 'First name is invalid.' and expected text 'first_name_invalid' of test object 'Object Repository/Account/div_error_message' are NOT matched.
+[[ATTACHMENT|C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516872977213.png]]
+
+2018-01-25 17:36:17 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Account/div_error_message' FAILED. (Root cause: Actual text 'First name is invalid.' and expected text 'first_name_invalid' of test object 'Object Repository/Account/div_error_message' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516872977479.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-25 17:36:02 - [TEST_CASE][FAILED] - Test Cases/032_account_change_fname_invalid: Test Cases/032_account_change_fname_invalid FAILED because (of) Verify element text of test object 'Object Repository/Account/div_error_message' FAILED. (Root cause: Actual text 'First name is invalid.' and expected text 'first_name_invalid' of test object 'Object Repository/Account/div_error_message' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/033_account_change_lname" classname="Test Cases/033_account_change_lname" status="PASSED">
+         <system-out><![CDATA[2018-01-25 17:36:18 - [TEST_CASE][PASSED] - Test Cases/033_account_change_lname: Test Cases/033_account_change_lname
+
+2018-01-25 17:36:18 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:36:18 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:36:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:36:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:36:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:36:23 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:36:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:36:23 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:36:23 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:36:25 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:36:25 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:36:25 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:36:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:36:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:36:26 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:36:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:36:29 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:36:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:36:29 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:36:29 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:36:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:36:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:36:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:36:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:36:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:36:30 - [TEST_STEP][PASSED] - setText: Text 'Tan' is set on object 'Object Repository/Account/input_lastname'
+
+2018-01-25 17:36:30 - [MESSAGE][PASSED] - Text 'Tan' is set on object 'Object Repository/Account/input_lastname'
+
+2018-01-25 17:36:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:36:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:36:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:36:33 - [TEST_STEP][PASSED] - verifyElementNotHasAttribute: Object 'Object Repository/Account/div_error_message' does not have attribute 'text'
+
+2018-01-25 17:36:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:36:33 - [MESSAGE][PASSED] - Object 'Object Repository/Account/div_error_message' does not have attribute 'text'
+
+2018-01-25 17:36:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-25 17:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-25 17:36:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:36:34 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:36:34 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:36:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:36:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:36:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:36:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:36:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:36:36 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Account/input_lastname' has attribute 'value' with value 'Tan'
+
+2018-01-25 17:36:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:36:36 - [MESSAGE][PASSED] - Object 'Object Repository/Account/input_lastname' has attribute 'value' with value 'Tan']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/034_account_change_lname_invalid" classname="Test Cases/034_account_change_lname_invalid" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Account/div_error_message' FAILED. (Root cause: Actual text 'Last name is invalid.' and expected text 'last_name_invalid' of test object 'Object Repository/Account/div_error_message' are NOT matched.)"/>
+         <system-out><![CDATA[2018-01-25 17:36:36 - [TEST_CASE][FAILED] - Test Cases/034_account_change_lname_invalid: Test Cases/034_account_change_lname_invalid FAILED because (of) Verify element text of test object 'Object Repository/Account/div_error_message' FAILED. (Root cause: Actual text 'Last name is invalid.' and expected text 'last_name_invalid' of test object 'Object Repository/Account/div_error_message' are NOT matched.)
+
+2018-01-25 17:36:37 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:36:37 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:36:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:36:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:36:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:36:42 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:36:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:36:43 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:36:44 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:36:44 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:36:45 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:36:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:36:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:36:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:36:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:36:48 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:36:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:36:48 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:36:48 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:36:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:36:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:36:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:36:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:36:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:36:49 - [TEST_STEP][PASSED] - setText: Text '@wronglname' is set on object 'Object Repository/Account/input_lastname'
+
+2018-01-25 17:36:49 - [MESSAGE][PASSED] - Text '@wronglname' is set on object 'Object Repository/Account/input_lastname'
+
+2018-01-25 17:36:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:36:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:36:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:36:53 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Account/div_error_message' FAILED. (Root cause: Actual text 'Last name is invalid.' and expected text 'last_name_invalid' of test object 'Object Repository/Account/div_error_message' are NOT matched.)
+
+2018-01-25 17:36:53 - [MESSAGE][FAILED] - Actual text 'Last name is invalid.' and expected text 'last_name_invalid' of test object 'Object Repository/Account/div_error_message' are NOT matched.
+[[ATTACHMENT|C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516873013170.png]]
+
+2018-01-25 17:36:53 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Account/div_error_message' FAILED. (Root cause: Actual text 'Last name is invalid.' and expected text 'last_name_invalid' of test object 'Object Repository/Account/div_error_message' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516873013438.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-25 17:36:36 - [TEST_CASE][FAILED] - Test Cases/034_account_change_lname_invalid: Test Cases/034_account_change_lname_invalid FAILED because (of) Verify element text of test object 'Object Repository/Account/div_error_message' FAILED. (Root cause: Actual text 'Last name is invalid.' and expected text 'last_name_invalid' of test object 'Object Repository/Account/div_error_message' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/035_account_change_phone" classname="Test Cases/035_account_change_phone" status="PASSED">
+         <system-out><![CDATA[2018-01-25 17:36:54 - [TEST_CASE][PASSED] - Test Cases/035_account_change_phone: Test Cases/035_account_change_phone
+
+2018-01-25 17:36:54 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:36:54 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:36:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:36:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:36:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:36:59 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:36:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:36:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:36:59 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:37:01 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:37:01 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:37:01 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:37:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:37:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:37:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:37:04 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:37:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:37:05 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:37:05 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:37:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:37:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:37:05 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:37:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:37:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:37:06 - [TEST_STEP][PASSED] - setText: Text '91234567' is set on object 'Object Repository/Account/input_phone'
+
+2018-01-25 17:37:07 - [MESSAGE][PASSED] - Text '91234567' is set on object 'Object Repository/Account/input_phone'
+
+2018-01-25 17:37:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:37:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:37:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:37:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:37:10 - [TEST_STEP][PASSED] - verifyElementNotHasAttribute: Object 'Object Repository/Account/div_error_message' does not have attribute 'text'
+
+2018-01-25 17:37:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:37:10 - [MESSAGE][PASSED] - Object 'Object Repository/Account/div_error_message' does not have attribute 'text'
+
+2018-01-25 17:37:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-25 17:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-25 17:37:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:37:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:37:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:37:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:37:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:37:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:37:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:37:12 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Account/input_phone' has attribute 'value' with value '91234567'
+
+2018-01-25 17:37:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/Account/input_phone' has attribute 'value' with value '91234567'
+
+2018-01-25 17:37:12 - [TEST_STEP][PASSED] - setText: Text '91111111' is set on object 'Object Repository/Account/input_phone'
+
+2018-01-25 17:37:12 - [MESSAGE][PASSED] - Text '91111111' is set on object 'Object Repository/Account/input_phone'
+
+2018-01-25 17:37:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:37:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:37:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:37:16 - [TEST_STEP][PASSED] - verifyElementNotHasAttribute: Object 'Object Repository/Account/div_error_message' does not have attribute 'text'
+
+2018-01-25 17:37:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/Account/div_error_message' does not have attribute 'text'
+
+2018-01-25 17:37:16 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Account/input_phone' has attribute 'value' with value '91111111'
+
+2018-01-25 17:37:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/Account/input_phone' has attribute 'value' with value '91111111']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/036_account_change_phone_invalid" classname="Test Cases/036_account_change_phone_invalid" status="PASSED">
+         <system-out><![CDATA[2018-01-25 17:37:16 - [TEST_CASE][PASSED] - Test Cases/036_account_change_phone_invalid: Test Cases/036_account_change_phone_invalid
+
+2018-01-25 17:37:16 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:37:17 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:37:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:37:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:37:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:37:21 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:37:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:37:22 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:37:23 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:37:23 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:37:24 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:37:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:37:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:37:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:37:27 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:37:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:37:27 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:37:27 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:37:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:37:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:37:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:37:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:37:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:37:28 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Account/input_phone'
+
+2018-01-25 17:37:28 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Account/input_phone'
+
+2018-01-25 17:37:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:37:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:37:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:37:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Account/div_error_message' are matched.
+
+2018-01-25 17:37:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Account/div_error_message' are matched.
+
+2018-01-25 17:37:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-25 17:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-25 17:37:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:37:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:37:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:37:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:37:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:37:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:37:34 - [TEST_STEP][PASSED] - Statement - newPhone = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Account/input_phone), "value"): Attribute 'value' of object 'Object Repository/Account/input_phone' is: '91111111'
+
+2018-01-25 17:37:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Account/input_phone' is: '91111111'
+
+2018-01-25 17:37:34 - [TEST_STEP][PASSED] - verifyNotMatch: Actual text '123456' and expected text '91111111' are not matched 
+
+2018-01-25 17:37:34 - [MESSAGE][PASSED] - Actual text '123456' and expected text '91111111' are not matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/037_account_change_company" classname="Test Cases/037_account_change_company" status="PASSED">
+         <system-out><![CDATA[2018-01-25 17:37:35 - [TEST_CASE][PASSED] - Test Cases/037_account_change_company: Test Cases/037_account_change_company
+
+2018-01-25 17:37:35 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:37:35 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:37:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:37:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:37:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:37:40 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:37:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:37:40 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:37:42 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:37:42 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:37:42 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:37:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:37:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:37:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:37:46 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:37:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:37:46 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:37:46 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:37:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:37:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:37:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:37:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:37:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:37:47 - [TEST_STEP][PASSED] - setText: Text 'Some Company' is set on object 'Object Repository/Account/input_company'
+
+2018-01-25 17:37:47 - [MESSAGE][PASSED] - Text 'Some Company' is set on object 'Object Repository/Account/input_company'
+
+2018-01-25 17:37:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:37:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:37:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:37:50 - [TEST_STEP][PASSED] - verifyElementNotHasAttribute: Object 'Object Repository/Account/div_error_message' does not have attribute 'text'
+
+2018-01-25 17:37:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:37:50 - [MESSAGE][PASSED] - Object 'Object Repository/Account/div_error_message' does not have attribute 'text'
+
+2018-01-25 17:37:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-25 17:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-25 17:37:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:37:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:37:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:37:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:37:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:37:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:37:53 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Account/input_company' has attribute 'value' with value 'Some Company'
+
+2018-01-25 17:37:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:37:53 - [MESSAGE][PASSED] - Object 'Object Repository/Account/input_company' has attribute 'value' with value 'Some Company'
+
+2018-01-25 17:37:53 - [TEST_STEP][PASSED] - setText: Text 'The Oddle Company' is set on object 'Object Repository/Account/input_company'
+
+2018-01-25 17:37:54 - [MESSAGE][PASSED] - Text 'The Oddle Company' is set on object 'Object Repository/Account/input_company'
+
+2018-01-25 17:37:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:37:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save' is clicked on
+
+2018-01-25 17:37:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:37:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:37:57 - [TEST_STEP][PASSED] - verifyElementNotHasAttribute: Object 'Object Repository/Account/div_error_message' does not have attribute 'text'
+
+2018-01-25 17:37:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:37:57 - [MESSAGE][PASSED] - Object 'Object Repository/Account/div_error_message' does not have attribute 'text'
+
+2018-01-25 17:37:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-25 17:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-25 17:37:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:37:57 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:37:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:37:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:37:58 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:37:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:37:59 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Account/input_company' has attribute 'value' with value 'The Oddle Company'
+
+2018-01-25 17:37:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:37:59 - [MESSAGE][PASSED] - Object 'Object Repository/Account/input_company' has attribute 'value' with value 'The Oddle Company']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/038_account_change_password" classname="Test Cases/038_account_change_password" status="PASSED">
+         <system-out><![CDATA[2018-01-25 17:38:00 - [TEST_CASE][PASSED] - Test Cases/038_account_change_password: Test Cases/038_account_change_password
+
+2018-01-25 17:38:00 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:38:00 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:38:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:38:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:38:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:38:06 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:38:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:38:06 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:38:06 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:38:08 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:38:08 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:38:09 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:38:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:38:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:38:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:38:12 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:38:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:38:12 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:38:12 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:38:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:38:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:38:12 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:38:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:38:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:38:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:38:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:38:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:38:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_ Password tab' is clicked on
+
+2018-01-25 17:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_ Password tab' is clicked on
+
+2018-01-25 17:38:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:38:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:38:15 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/Account/input_password'
+
+2018-01-25 17:38:15 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/Account/input_password'
+
+2018-01-25 17:38:15 - [TEST_STEP][PASSED] - setText: Text 'newpassword' is set on object 'Object Repository/Account/input_newpassword'
+
+2018-01-25 17:38:16 - [MESSAGE][PASSED] - Text 'newpassword' is set on object 'Object Repository/Account/input_newpassword'
+
+2018-01-25 17:38:16 - [TEST_STEP][PASSED] - setText: Text 'newpassword' is set on object 'Object Repository/Account/input_renewpassword'
+
+2018-01-25 17:38:16 - [MESSAGE][PASSED] - Text 'newpassword' is set on object 'Object Repository/Account/input_renewpassword'
+
+2018-01-25 17:38:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save password' is clicked on
+
+2018-01-25 17:38:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save password' is clicked on
+
+2018-01-25 17:38:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:38:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:38:19 - [TEST_STEP][PASSED] - verifyElementNotHasAttribute: Object 'Object Repository/Account/div_passwords error' does not have attribute 'text'
+
+2018-01-25 17:38:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:38:19 - [MESSAGE][PASSED] - Object 'Object Repository/Account/div_passwords error' does not have attribute 'text'
+
+2018-01-25 17:38:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:38:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:38:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:38:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:38:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:38:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/a_Sign out' is clicked on
+
+2018-01-25 17:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/a_Sign out' is clicked on
+
+2018-01-25 17:38:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:38:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:38:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Sign Out' is clicked on
+
+2018-01-25 17:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Sign Out' is clicked on
+
+2018-01-25 17:38:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:38:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:38:23 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedOut.verifyNotLogged: autoKeywords.verifyLoggedOut.verifyNotLogged is PASSED
+
+2018-01-25 17:38:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:38:23 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_Log in' is present
+
+2018-01-25 17:38:23 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedOut.verifyNotLogged is PASSED
+
+2018-01-25 17:38:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:38:24 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:38:24 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:38:24 - [TEST_STEP][PASSED] - setText: Text 'newpassword' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:38:25 - [MESSAGE][PASSED] - Text 'newpassword' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:38:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:38:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:38:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:38:28 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:38:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:38:28 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:38:28 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:38:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:38:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:38:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:38:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:38:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:38:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:38:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_ Password tab' is clicked on
+
+2018-01-25 17:38:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_ Password tab' is clicked on
+
+2018-01-25 17:38:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:38:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:38:31 - [TEST_STEP][PASSED] - setText: Text 'newpassword' is set on object 'Object Repository/Account/input_password'
+
+2018-01-25 17:38:31 - [MESSAGE][PASSED] - Text 'newpassword' is set on object 'Object Repository/Account/input_password'
+
+2018-01-25 17:38:31 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/Account/input_newpassword'
+
+2018-01-25 17:38:32 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/Account/input_newpassword'
+
+2018-01-25 17:38:32 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/Account/input_renewpassword'
+
+2018-01-25 17:38:32 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/Account/input_renewpassword'
+
+2018-01-25 17:38:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save password' is clicked on
+
+2018-01-25 17:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save password' is clicked on
+
+2018-01-25 17:38:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:38:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:38:35 - [TEST_STEP][PASSED] - verifyElementNotHasAttribute: Object 'Object Repository/Account/div_passwords error' does not have attribute 'text'
+
+2018-01-25 17:38:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:38:35 - [MESSAGE][PASSED] - Object 'Object Repository/Account/div_passwords error' does not have attribute 'text']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/039_account_change_password_wrong" classname="Test Cases/039_account_change_password_wrong" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Account/div_passwords error' FAILED. (Root cause: Actual text 'The current password provided is incorrect.' and expected text 'login_credentials_invalid' of test object 'Object Repository/Account/div_passwords error' are NOT matched.)"/>
+         <system-out><![CDATA[2018-01-25 17:38:36 - [TEST_CASE][FAILED] - Test Cases/039_account_change_password_wrong: Test Cases/039_account_change_password_wrong FAILED because (of) Verify element text of test object 'Object Repository/Account/div_passwords error' FAILED. (Root cause: Actual text 'The current password provided is incorrect.' and expected text 'login_credentials_invalid' of test object 'Object Repository/Account/div_passwords error' are NOT matched.)
+
+2018-01-25 17:38:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:38:36 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:38:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:38:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:38:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:38:40 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:38:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:38:41 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:38:41 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:38:42 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:38:42 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:38:43 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:38:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:38:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:38:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:38:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:38:46 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:38:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:38:46 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:38:46 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:38:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:38:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:38:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:38:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:38:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:38:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:38:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:38:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:38:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:38:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_ Password tab' is clicked on
+
+2018-01-25 17:38:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_ Password tab' is clicked on
+
+2018-01-25 17:38:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:38:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:38:49 - [TEST_STEP][PASSED] - setText: Text 'wrongpassword' is set on object 'Object Repository/Account/input_password'
+
+2018-01-25 17:38:50 - [MESSAGE][PASSED] - Text 'wrongpassword' is set on object 'Object Repository/Account/input_password'
+
+2018-01-25 17:38:50 - [TEST_STEP][PASSED] - setText: Text 'newpassword' is set on object 'Object Repository/Account/input_newpassword'
+
+2018-01-25 17:38:50 - [MESSAGE][PASSED] - Text 'newpassword' is set on object 'Object Repository/Account/input_newpassword'
+
+2018-01-25 17:38:50 - [TEST_STEP][PASSED] - setText: Text 'newpassword' is set on object 'Object Repository/Account/input_renewpassword'
+
+2018-01-25 17:38:50 - [MESSAGE][PASSED] - Text 'newpassword' is set on object 'Object Repository/Account/input_renewpassword'
+
+2018-01-25 17:38:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save password' is clicked on
+
+2018-01-25 17:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save password' is clicked on
+
+2018-01-25 17:38:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:38:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:38:53 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Account/div_passwords error' FAILED. (Root cause: Actual text 'The current password provided is incorrect.' and expected text 'login_credentials_invalid' of test object 'Object Repository/Account/div_passwords error' are NOT matched.)
+
+2018-01-25 17:38:54 - [MESSAGE][FAILED] - Actual text 'The current password provided is incorrect.' and expected text 'login_credentials_invalid' of test object 'Object Repository/Account/div_passwords error' are NOT matched.
+[[ATTACHMENT|C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516873133727.png]]
+
+2018-01-25 17:38:54 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Account/div_passwords error' FAILED. (Root cause: Actual text 'The current password provided is incorrect.' and expected text 'login_credentials_invalid' of test object 'Object Repository/Account/div_passwords error' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516873134024.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-25 17:38:36 - [TEST_CASE][FAILED] - Test Cases/039_account_change_password_wrong: Test Cases/039_account_change_password_wrong FAILED because (of) Verify element text of test object 'Object Repository/Account/div_passwords error' FAILED. (Root cause: Actual text 'The current password provided is incorrect.' and expected text 'login_credentials_invalid' of test object 'Object Repository/Account/div_passwords error' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/040_account_change_password_wongformat" classname="Test Cases/040_account_change_password_wongformat" status="PASSED">
+         <system-out><![CDATA[2018-01-25 17:38:55 - [TEST_CASE][PASSED] - Test Cases/040_account_change_password_wongformat: Test Cases/040_account_change_password_wongformat
+
+2018-01-25 17:38:55 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:38:55 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:38:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:38:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:38:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:39:03 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:39:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:39:03 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:39:05 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:39:05 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:39:05 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:39:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:39:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:39:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:39:08 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:39:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:39:08 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:39:08 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:39:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:39:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:39:08 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:39:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:39:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:39:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:39:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:39:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:39:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_ Password tab' is clicked on
+
+2018-01-25 17:39:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_ Password tab' is clicked on
+
+2018-01-25 17:39:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:39:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:39:12 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/Account/input_password'
+
+2018-01-25 17:39:12 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/Account/input_password'
+
+2018-01-25 17:39:12 - [TEST_STEP][PASSED] - setText: Text 'wrongft' is set on object 'Object Repository/Account/input_newpassword'
+
+2018-01-25 17:39:12 - [MESSAGE][PASSED] - Text 'wrongft' is set on object 'Object Repository/Account/input_newpassword'
+
+2018-01-25 17:39:12 - [TEST_STEP][PASSED] - setText: Text 'wrongft' is set on object 'Object Repository/Account/input_renewpassword'
+
+2018-01-25 17:39:12 - [MESSAGE][PASSED] - Text 'wrongft' is set on object 'Object Repository/Account/input_renewpassword'
+
+2018-01-25 17:39:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save password' is clicked on
+
+2018-01-25 17:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save password' is clicked on
+
+2018-01-25 17:39:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:39:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:39:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/span_Ensure it contains at lea' is present
+
+2018-01-25 17:39:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:39:16 - [MESSAGE][PASSED] - Object 'Object Repository/Account/span_Ensure it contains at lea' is present
+
+2018-01-25 17:39:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:39:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:39:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:39:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:39:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:39:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/a_Sign out' is clicked on
+
+2018-01-25 17:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/a_Sign out' is clicked on
+
+2018-01-25 17:39:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:39:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:39:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Sign Out' is clicked on
+
+2018-01-25 17:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Sign Out' is clicked on
+
+2018-01-25 17:39:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:39:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:39:20 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedOut.verifyNotLogged: autoKeywords.verifyLoggedOut.verifyNotLogged is PASSED
+
+2018-01-25 17:39:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:39:20 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_Log in' is present
+
+2018-01-25 17:39:20 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedOut.verifyNotLogged is PASSED
+
+2018-01-25 17:39:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:39:20 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:39:21 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:39:21 - [TEST_STEP][PASSED] - setText: Text 'wrongft' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:39:21 - [MESSAGE][PASSED] - Text 'wrongft' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:39:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:39:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:39:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:39:24 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedOut.verifyNotLogged: autoKeywords.verifyLoggedOut.verifyNotLogged is PASSED
+
+2018-01-25 17:39:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:39:24 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_Log in' is present
+
+2018-01-25 17:39:24 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedOut.verifyNotLogged is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/041_account_change_password_mismatch" classname="Test Cases/041_account_change_password_mismatch" status="PASSED">
+         <system-out><![CDATA[2018-01-25 17:39:25 - [TEST_CASE][PASSED] - Test Cases/041_account_change_password_mismatch: Test Cases/041_account_change_password_mismatch
+
+2018-01-25 17:39:25 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:39:25 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:39:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:39:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:39:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:39:30 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:39:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:39:30 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:39:32 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:39:32 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:39:32 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:39:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:39:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:39:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:39:35 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:39:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:39:35 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:39:35 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:39:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:39:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:39:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:39:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:39:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:39:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:39:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Account Details' is clicked on
+
+2018-01-25 17:39:37 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:39:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:39:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_ Password tab' is clicked on
+
+2018-01-25 17:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_ Password tab' is clicked on
+
+2018-01-25 17:39:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:39:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:39:39 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/Account/input_password'
+
+2018-01-25 17:39:39 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/Account/input_password'
+
+2018-01-25 17:39:39 - [TEST_STEP][PASSED] - setText: Text 'newpassword' is set on object 'Object Repository/Account/input_newpassword'
+
+2018-01-25 17:39:39 - [MESSAGE][PASSED] - Text 'newpassword' is set on object 'Object Repository/Account/input_newpassword'
+
+2018-01-25 17:39:39 - [TEST_STEP][PASSED] - setText: Text 'newpasswordmismatch' is set on object 'Object Repository/Account/input_renewpassword'
+
+2018-01-25 17:39:40 - [MESSAGE][PASSED] - Text 'newpasswordmismatch' is set on object 'Object Repository/Account/input_renewpassword'
+
+2018-01-25 17:39:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save password' is clicked on
+
+2018-01-25 17:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save password' is clicked on
+
+2018-01-25 17:39:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:39:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:39:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Account/div_passwords error' are matched.
+
+2018-01-25 17:39:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Account/div_passwords error' are matched.
+
+2018-01-25 17:39:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:39:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:39:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:39:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:39:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:39:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:39:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/a_Sign out' is clicked on
+
+2018-01-25 17:39:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/a_Sign out' is clicked on
+
+2018-01-25 17:39:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:39:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:39:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Sign Out' is clicked on
+
+2018-01-25 17:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Sign Out' is clicked on
+
+2018-01-25 17:39:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:39:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:39:47 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedOut.verifyNotLogged: autoKeywords.verifyLoggedOut.verifyNotLogged is PASSED
+
+2018-01-25 17:39:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:39:47 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_Log in' is present
+
+2018-01-25 17:39:47 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedOut.verifyNotLogged is PASSED
+
+2018-01-25 17:39:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:39:48 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:39:48 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:39:48 - [TEST_STEP][PASSED] - setText: Text 'newpassword' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:39:49 - [MESSAGE][PASSED] - Text 'newpassword' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:39:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:39:49 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:39:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:39:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:39:52 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedOut.verifyNotLogged: autoKeywords.verifyLoggedOut.verifyNotLogged is PASSED
+
+2018-01-25 17:39:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:39:52 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/div_Log in' is present
+
+2018-01-25 17:39:52 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedOut.verifyNotLogged is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/042_account_address_add" classname="Test Cases/042_account_address_add" status="PASSED">
+         <system-out><![CDATA[2018-01-25 17:39:53 - [TEST_CASE][PASSED] - Test Cases/042_account_address_add: Test Cases/042_account_address_add
+
+2018-01-25 17:39:53 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:39:53 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:39:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:39:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:39:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:39:58 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:39:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:39:58 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:39:58 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:40:00 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:40:00 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:40:00 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:40:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:40:00 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:40:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:40:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:40:03 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:40:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:40:03 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:40:03 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:40:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:40:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:40:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:40:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:40:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-25 17:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-25 17:40:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Add Address' is clicked on
+
+2018-01-25 17:40:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Add Address' is clicked on
+
+2018-01-25 17:40:05 - [TEST_STEP][PASSED] - setText: Text '139951' is set on object 'Object Repository/Account/input_deliveryAddressPostal'
+
+2018-01-25 17:40:05 - [MESSAGE][PASSED] - Text '139951' is set on object 'Object Repository/Account/input_deliveryAddressPostal'
+
+2018-01-25 17:40:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:40:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:40:08 - [TEST_STEP][PASSED] - setText: Text '01-23' is set on object 'Object Repository/Account/input_deliveryAddressTwo'
+
+2018-01-25 17:40:08 - [MESSAGE][PASSED] - Text '01-23' is set on object 'Object Repository/Account/input_deliveryAddressTwo'
+
+2018-01-25 17:40:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-25 17:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-25 17:40:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:40:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:40:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-25 17:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-25 17:40:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:40:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:40:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:40:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-25 17:40:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-25 17:40:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:40:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:40:14 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/div_new address added' is present
+
+2018-01-25 17:40:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/Account/div_new address added' is present
+
+2018-01-25 17:40:14 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/h4_new address header' is present
+
+2018-01-25 17:40:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/Account/h4_new address header' is present
+
+2018-01-25 17:40:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Account/span_new address postcode' are matched.
+
+2018-01-25 17:40:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Account/span_new address postcode' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/045_account_address_delete" classname="Test Cases/045_account_address_delete" status="PASSED">
+         <system-out><![CDATA[2018-01-25 17:40:15 - [TEST_CASE][PASSED] - Test Cases/045_account_address_delete: Test Cases/045_account_address_delete
+
+2018-01-25 17:40:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:40:15 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:40:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:40:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:40:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:40:20 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:40:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:40:20 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:40:22 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:40:22 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:40:22 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:40:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:40:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:40:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:40:25 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:40:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:40:25 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:40:25 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:40:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:40:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:40:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:40:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:40:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:40:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-25 17:40:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-25 17:40:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_delete address' is clicked on
+
+2018-01-25 17:40:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_delete address' is clicked on
+
+2018-01-25 17:40:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:40:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:40:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Confirm' is clicked on
+
+2018-01-25 17:40:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Confirm' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/043_account_address_add_nopostalcode" classname="Test Cases/043_account_address_add_nopostalcode" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Account/span_new address postcode' FAILED. (Root cause: Actual text 'Singapore 139951' and expected text '111111' of test object 'Object Repository/Account/span_new address postcode' are NOT matched.)"/>
+         <system-out><![CDATA[2018-01-25 17:40:29 - [TEST_CASE][FAILED] - Test Cases/043_account_address_add_nopostalcode: Test Cases/043_account_address_add_nopostalcode FAILED because (of) Verify element text of test object 'Object Repository/Account/span_new address postcode' FAILED. (Root cause: Actual text 'Singapore 139951' and expected text '111111' of test object 'Object Repository/Account/span_new address postcode' are NOT matched.)
+
+2018-01-25 17:40:29 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:40:29 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:40:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:40:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:40:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:40:33 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:40:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:40:33 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:40:33 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:40:35 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:40:35 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:40:35 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:40:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:40:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:40:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:40:38 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:40:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:40:38 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:40:38 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:40:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:40:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:40:38 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:40:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:40:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:40:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-25 17:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-25 17:40:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Add Address' is clicked on
+
+2018-01-25 17:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Add Address' is clicked on
+
+2018-01-25 17:40:40 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/Account/input_deliveryAddressPostal'
+
+2018-01-25 17:40:40 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Account/input_deliveryAddressPostal'
+
+2018-01-25 17:40:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:40:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:40:43 - [TEST_STEP][PASSED] - setText: Text '01-23' is set on object 'Object Repository/Account/input_deliveryAddressTwo'
+
+2018-01-25 17:40:43 - [MESSAGE][PASSED] - Text '01-23' is set on object 'Object Repository/Account/input_deliveryAddressTwo'
+
+2018-01-25 17:40:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-25 17:40:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-25 17:40:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:40:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:40:46 - [TEST_STEP][PASSED] - setText: Text '71 Ayer Rajah Crescent' is set on object 'Object Repository/Account/input_deliveryAddressOne'
+
+2018-01-25 17:40:47 - [MESSAGE][PASSED] - Text '71 Ayer Rajah Crescent' is set on object 'Object Repository/Account/input_deliveryAddressOne'
+
+2018-01-25 17:40:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-25 17:40:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-25 17:40:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:40:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:40:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:40:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:40:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:40:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-25 17:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-25 17:40:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:40:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:40:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/div_new address added' is present
+
+2018-01-25 17:40:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:40:53 - [MESSAGE][PASSED] - Object 'Object Repository/Account/div_new address added' is present
+
+2018-01-25 17:40:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/h4_new address header' is present
+
+2018-01-25 17:40:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:40:53 - [MESSAGE][PASSED] - Object 'Object Repository/Account/h4_new address header' is present
+
+2018-01-25 17:40:53 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Account/span_new address postcode' FAILED. (Root cause: Actual text 'Singapore 139951' and expected text '111111' of test object 'Object Repository/Account/span_new address postcode' are NOT matched.)
+
+2018-01-25 17:40:53 - [MESSAGE][FAILED] - Actual text 'Singapore 139951' and expected text '111111' of test object 'Object Repository/Account/span_new address postcode' are NOT matched.
+[[ATTACHMENT|C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516873253062.png]]
+
+2018-01-25 17:40:53 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Account/span_new address postcode' FAILED. (Root cause: Actual text 'Singapore 139951' and expected text '111111' of test object 'Object Repository/Account/span_new address postcode' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\Ang\\git\\oddle-automa\\Reports\\account_settings\\20180125_173338\\1516873253332.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-25 17:40:29 - [TEST_CASE][FAILED] - Test Cases/043_account_address_add_nopostalcode: Test Cases/043_account_address_add_nopostalcode FAILED because (of) Verify element text of test object 'Object Repository/Account/span_new address postcode' FAILED. (Root cause: Actual text 'Singapore 139951' and expected text '111111' of test object 'Object Repository/Account/span_new address postcode' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/044_account_address_add_wrongpostalcode" classname="Test Cases/044_account_address_add_wrongpostalcode" status="PASSED">
+         <system-out><![CDATA[2018-01-25 17:40:54 - [TEST_CASE][PASSED] - Test Cases/044_account_address_add_wrongpostalcode: Test Cases/044_account_address_add_wrongpostalcode
+
+2018-01-25 17:40:54 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:40:54 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:40:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:40:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:40:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:40:58 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:40:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:40:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:40:59 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:41:00 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:41:00 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:41:00 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:41:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:41:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:41:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:41:04 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:41:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:41:04 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:41:04 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:41:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:41:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:41:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:41:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:41:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-25 17:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-25 17:41:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Add Address' is clicked on
+
+2018-01-25 17:41:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Add Address' is clicked on
+
+2018-01-25 17:41:06 - [TEST_STEP][PASSED] - setText: Text 'wrongpostalformat' is set on object 'Object Repository/Account/input_deliveryAddressPostal'
+
+2018-01-25 17:41:06 - [MESSAGE][PASSED] - Text 'wrongpostalformat' is set on object 'Object Repository/Account/input_deliveryAddressPostal'
+
+2018-01-25 17:41:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:41:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:41:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-25 17:41:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-25 17:41:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:41:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:41:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/button_Save Address' is present
+
+2018-01-25 17:41:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:41:12 - [MESSAGE][PASSED] - Object 'Object Repository/Account/button_Save Address' is present
+
+2018-01-25 17:41:12 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Account/input_deliveryAddressPostal' has attribute 'value' with value 'wrongpostalformat'
+
+2018-01-25 17:41:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:41:12 - [MESSAGE][PASSED] - Object 'Object Repository/Account/input_deliveryAddressPostal' has attribute 'value' with value 'wrongpostalformat']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/046_account_address_edit" classname="Test Cases/046_account_address_edit" status="PASSED">
+         <system-out><![CDATA[2018-01-25 17:41:13 - [TEST_CASE][PASSED] - Test Cases/046_account_address_edit: Test Cases/046_account_address_edit
+
+2018-01-25 17:41:13 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:41:13 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-01-25 17:41:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 17:41:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 17:41:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:41:20 - [MESSAGE][PASSED] - Navigate to 'http://mcdonaldstest.staging.oddle.co' successfully
+
+2018-01-25 17:41:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Log in' is clicked on
+
+2018-01-25 17:41:20 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:41:21 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/LogIn/input_email'
+
+2018-01-25 17:41:21 - [TEST_STEP][PASSED] - setText: Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:41:22 - [MESSAGE][PASSED] - Text '0ddleatw' is set on object 'Object Repository/LogIn/input_password'
+
+2018-01-25 17:41:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/button_Login' is clicked on
+
+2018-01-25 17:41:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:41:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:41:25 - [TEST_STEP][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged: autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:41:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/LogIn/div_Hi user' is: 'Hi, John'
+
+2018-01-25 17:41:25 - [MESSAGE][PASSED] - Actual text 'Hi, John' and expected text 'Log In' are not matched 
+
+2018-01-25 17:41:25 - [MESSAGE][PASSED] - autoKeywords.verifyLoggedIn.verifyLogged is PASSED
+
+2018-01-25 17:41:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-01-25 17:41:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:41:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:41:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:41:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:41:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-25 17:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-25 17:41:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_edit address' is clicked on
+
+2018-01-25 17:41:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_edit address' is clicked on
+
+2018-01-25 17:41:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:41:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:41:28 - [TEST_STEP][PASSED] - setText: Text '139951' is set on object 'Object Repository/Account/input_deliveryAddressPostal'
+
+2018-01-25 17:41:28 - [MESSAGE][PASSED] - Text '139951' is set on object 'Object Repository/Account/input_deliveryAddressPostal'
+
+2018-01-25 17:41:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:41:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:41:31 - [TEST_STEP][PASSED] - setText: Text '01-23' is set on object 'Object Repository/Account/input_deliveryAddressTwo'
+
+2018-01-25 17:41:31 - [MESSAGE][PASSED] - Text '01-23' is set on object 'Object Repository/Account/input_deliveryAddressTwo'
+
+2018-01-25 17:41:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-25 17:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/button_Save Address' is clicked on
+
+2018-01-25 17:41:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-25 17:41:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-25 17:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-25 17:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/a_Home' is clicked on
+
+2018-01-25 17:41:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/div_Hi user' is clicked on
+
+2018-01-25 17:41:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:41:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:41:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-25 17:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/a_Address Book' is clicked on
+
+2018-01-25 17:41:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-25 17:41:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-25 17:41:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/span_address 1 postcode' is present
+
+2018-01-25 17:41:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:41:37 - [MESSAGE][PASSED] - Object 'Object Repository/Account/span_address 1 postcode' is present
+
+2018-01-25 17:41:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/h4_address 1' is present
+
+2018-01-25 17:41:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-01-25 17:41:37 - [MESSAGE][PASSED] - Object 'Object Repository/Account/h4_address 1' is present
+
+2018-01-25 17:41:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Account/span_address 1 postcode' are matched.
+
+2018-01-25 17:41:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Account/span_address 1 postcode' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-25 17:33:45 - [TEST_SUITE][FAILED] - account_settings: Test Cases/030_account_change_email_emailregd FAILED because (of) Verify element text of test object 'Object Repository/Account/div_error_message' FAILED. (Root cause: Actual text 'Email cannot be updated. The email your are using is an existing user.' and expected text 'customer_email_duplicate' of test object 'Object Repository/Account/div_error_message' are NOT matched.)]]></system-out>
+      <system-err><![CDATA[2018-01-25 17:33:45 - [TEST_SUITE][FAILED] - account_settings: Test Cases/030_account_change_email_emailregd FAILED because (of) Verify element text of test object 'Object Repository/Account/div_error_message' FAILED. (Root cause: Actual text 'Email cannot be updated. The email your are using is an existing user.' and expected text 'customer_email_duplicate' of test object 'Object Repository/Account/div_error_message' are NOT matched.)]]></system-err>
+   </testsuite>
+</testsuites>

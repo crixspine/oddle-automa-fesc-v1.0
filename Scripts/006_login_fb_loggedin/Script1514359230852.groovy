@@ -21,7 +21,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://www.facebook.com/')
+
+WebUI.waitForElementVisible(findTestObject('LogIn/input_email_fbpage'), 0)
 
 WebUI.setText(findTestObject('LogIn/input_email_fbpage'), GlobalVariable.email_fb)
 
@@ -33,15 +37,17 @@ WebUI.delay(3)
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
+WebUI.waitForElementVisible(findTestObject('LogIn/div_Log in'), 0)
+
 WebUI.click(findTestObject('LogIn/div_Log in'))
 
+WebUI.scrollToElement(findTestObject('LogIn/span_Login with Facebook-XPATH'), 0)
+
+WebUI.waitForElementVisible(findTestObject('LogIn/span_Login with Facebook-XPATH'), 0)
+
+WebUI.click(findTestObject('LogIn/span_Login with Facebook-XPATH'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.delay(3)
 
-WebUI.scrollToElement(findTestObject('LogIn/span_Login with Facebook'), 0)
-
-WebUI.click(findTestObject('LogIn/span_Login with Facebook'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
-
-CustomKeywords.'autoKeywords.verifyLoggedIn.verifyLogged'()
+CustomKeywords.'autoKeywords.VerifyLoginStatus.verifyLoggedIn'()
 

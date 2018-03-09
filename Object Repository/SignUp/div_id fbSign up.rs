@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[count(. | //*[@id = 'katalon-elementInfoDiv']) = count(//*[@id = 'katalon-elementInfoDiv'])][count(. | //*[text() = 'id(&quot;katalon-elementInfoDiv&quot;)']) = count(//*[text() = 'id(&quot;katalon-elementInfoDiv&quot;)'])][count(. | //*[@ref_element = 'Object Repository/SignUp/iframe']) = count(//*[@ref_element = 'Object Repository/SignUp/iframe'])]</value>
+         <value>//div[@id = 'katalon-elementInfoDiv' and (text() = 'id(&quot;katalon-elementInfoDiv&quot;)' or . = 'id(&quot;katalon-elementInfoDiv&quot;)') and @ref_element = 'Object Repository/SignUp/iframe']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;__next&quot;]/div/div/div/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -4,6 +4,12 @@
    <name>div_email_in_use</name>
    <tag></tag>
    <elementGuidId>930396b8-94a9-4ab4-9da2-4731f95e576f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Email provided is already in use. I think you have an existing account.' or . = 'Email provided is already in use. I think you have an existing account.')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>email_in_use</value>
+      <value>Email provided is already in use. I think you have an existing account.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

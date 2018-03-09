@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[count(. | //*[@href = '/en_SG?auth=logout']) = count(//*[@href = '/en_SG?auth=logout'])][count(. | //*[text() = 'Sign out']) = count(//*[text() = 'Sign out'])]</value>
+         <value>//a[@href = '/en_SG?auth=logout' and (text() = 'Sign Out' or . = 'Sign Out')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;__next&quot;]/div/div/div/div[3]/div[1]/div/div/nav/ul/li[4]/a</value>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sign out</value>
+      <value>Sign Out</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
