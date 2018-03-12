@@ -1,50 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>login_logout</name>
+   <name>menu_item</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-03-05T12:08:07</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>5</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>9ef37e19-df34-4dc7-b8db-547ef1ec14fe</testSuiteGuid>
+   <testSuiteGuid>dec32ccf-9ff3-41b0-b25d-c5aca2834c42</testSuiteGuid>
    <testCaseLink>
-      <guid>00ffd225-a0cd-46c0-9133-fc8dc86150fb</guid>
+      <guid>8fb3f92c-b88a-4cf7-8a31-b14a85ffe3ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/login_email_successful</testCaseId>
+      <testCaseId>Test Cases/menuitem_add_deliverynotset</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>75a3dfe1-9457-485b-9b79-656e388f2e80</guid>
+      <guid>5f57d08f-1ec7-4c0a-87fa-bd9b7ec971c7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/login_email_wrongpw</testCaseId>
+      <testCaseId>Test Cases/menuitem_add_options</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d9244ecd-caf7-4b4c-a4e1-319afabb084b</guid>
+      <guid>7ff8b495-7d40-416d-86e4-795cb46439dc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/login_email_wrongpwformat</testCaseId>
+      <testCaseId>Test Cases/menuitem_add_simple</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>83bd09e3-5576-4c5f-acea-f9ec21d7ac7a</guid>
+      <guid>5db4f359-c017-4995-a070-9180f83a57ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/login_email_wrongemail</testCaseId>
+      <testCaseId>Test Cases/menuitem_add_variants</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9cd9c3e7-8dbd-4abf-900c-6fff64cd6f7d</guid>
+      <guid>4f4a063c-cce2-4bef-b5d9-a162b26f7609</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/login_email_wrongemailformat</testCaseId>
+      <testCaseId>Test Cases/menuitem_add_variantsoptions</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3cf44b3c-2675-49b9-9241-89345560fa86</guid>
+      <guid>053f1e48-379a-44bd-a093-45a00a159613</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/login_logout</testCaseId>
+      <testCaseId>Test Cases/menuitem_openwindow</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

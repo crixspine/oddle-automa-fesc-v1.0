@@ -18,12 +18,6 @@
       <testCaseId>Test Cases/signup_success</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e58a1743-f3b9-4151-8730-04596d4a0a84</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/012_signup_success_fb</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>fb3404b2-26d3-4901-99ab-70996ea41322</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
