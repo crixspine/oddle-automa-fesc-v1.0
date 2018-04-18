@@ -28,7 +28,7 @@ WebUiBuiltInKeywords.click(findTestObject('Cart/button_Proceed to checkout Verif
 WebUiBuiltInKeywords.waitForElementVisible(findTestObject('Promotions/input_Promo Code-XPATH'), 0)
 
 'ensure promocode is available'
-WebUiBuiltInKeywords.setText(findTestObject('Promotions/input_Promo Code-XPATH'), 'Test_Promo_Code')
+WebUiBuiltInKeywords.setText(findTestObject('Promotions/input_Promo Code-XPATH'), GlobalVariable.promocode)
 
 WebUI.waitForElementVisible(findTestObject('Promotions/button_Apply'), 0)
 

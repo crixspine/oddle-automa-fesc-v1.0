@@ -87,4 +87,9 @@
       <initValue>'/en_SG'</initValue>
       <name>lang_param</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test promocode</description>
+      <initValue>'Test_Promo_Code'</initValue>
+      <name>promocode</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
